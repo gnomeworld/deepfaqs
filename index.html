@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DeepFaqs — Creatures of the Deep FAQ</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="#home"><img class="brand-shark" src="assets/deepfaqs-shark.png" alt=""><span><b>Deep<span>Faqs</span></b><small>Creatures of the Deep • Community Knowledge</small></span></a>
+  <nav><a href="#home">⌂ Home</a><a href="#categories">▦ Categories</a><a href="#popular">☆ Popular</a><a href="#resources">↗ Resources</a><a href="#submit-question">✉ Submit a Question</a></nav>
+</header>
+
+<main id="home">
+<section class="hero">
+ <div class="hero-inner">
+  <h1>Questions about Creatures of the Deep?<br><em>We've got answers.</em></h1>
+  <label class="search"><span>⌕</span><input id="searchInput" placeholder="What are you fishing for?" autocomplete="off"></label>
+  <div class="try">Try: <button>season reset</button><button>lure upgrade</button><button>clan battles</button><button>OOS</button><button>monster fish</button></div>
+ </div>
+</section>
+
+<section id="searchPanel" class="panel hidden">
+ <div class="heading"><div><h2>Search Results</h2><p id="resultCount"></p></div><button id="clearSearch">Clear</button></div>
+ <div id="results" class="faq-list"></div>
+</section>
+
+<section id="resources" class="panel resources">
+ <div class="resource-title"><h2>Explore the<br>CotD Community</h2><p>A few useful places worth a visit!</p></div>
+ <button class="arrow" id="prev">‹</button><div id="resourceCards" class="resource-cards"></div><button class="arrow" id="next">›</button>
+</section>
+
+<section id="categories" class="panel">
+ <div class="heading"><div><h2>Browse by Category</h2><p>Pick a topic and start exploring.</p></div></div>
+ <div id="categoryGrid" class="category-grid"></div>
+</section>
+
+<section id="categoryPanel" class="panel hidden">
+ <div class="heading"><div><h2 id="categoryTitle"></h2><p>Questions collected for DeepFaqs v0.1. Answers are coming as we add content.</p></div><button id="closeCategory">Close</button></div>
+ <div id="categoryQuestions" class="faq-list"></div>
+</section>
+
+<section id="popular" class="panel">
+ <div class="heading"><div><h2>Popular Questions</h2><p>A preview of the FAQ library.</p></div></div>
+ <div id="popularGrid" class="popular-grid"></div>
+</section>
+<section id="submit-question" class="panel submit-question">
+ <div class="submit-copy"><h2>Submit a Question</h2><p>Can't find what you're looking for? Send us your Creatures of the Deep question. No email address required.</p></div>
+ <a class="submit-button" href="https://docs.google.com/forms/d/e/1FAIpQLSfME7LRfwENeoawdsYtV3456_2HnVjpWzk8aNF5sAih8KR_NQ/viewform" target="_blank" rel="noopener noreferrer">Submit a Question ↗</a>
+</section>
+</main>
+
+<footer><b>Made for the CotD community 💙</b><span>Same game. More answers.</span></footer>
+<script src="data.js"></script><script src="app.js"></script>
+</body></html>
