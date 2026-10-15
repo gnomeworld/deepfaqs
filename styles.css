@@ -91,3 +91,22 @@ body{background:linear-gradient(155deg,#e5f5f4 0%,#e6f4f6 55%,#e7f5f0 100%);back
 .submit-button{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;border-radius:14px;padding:14px 22px;background:#087e88;color:white;text-decoration:none;font-weight:800;box-shadow:0 5px 15px #087e8825}
 .submit-button:hover,.submit-button:focus-visible{background:#05646e}
 @media(max-width:650px){.submit-question{flex-direction:column;align-items:stretch}.submit-button{width:100%}}
+
+/* v0.1.26 — privacy footer link and standalone policy page */
+footer a{color:#e6ffff;text-decoration:underline;text-underline-offset:3px;font-weight:700}
+footer a:hover,footer a:focus-visible{color:#fff}
+.privacy-main{width:min(880px,92%);margin:38px auto 55px;padding:0}
+.privacy-panel{background:#f0faf5;border:1px solid #b8decd;border-radius:18px;padding:clamp(22px,4vw,44px);box-shadow:0 9px 30px #0b718014}
+.privacy-panel h1{margin:0 0 8px;font-size:clamp(30px,4vw,42px)}
+.privacy-panel h2{font-size:20px;margin:28px 0 8px}
+.privacy-panel p,.privacy-panel li{line-height:1.7;color:#365a66}
+.privacy-panel a{color:#087e88;overflow-wrap:anywhere}
+.privacy-updated{font-size:14px;color:#66818b!important}
+.privacy-back{display:inline-block;margin-bottom:18px;color:#087e88;font-weight:800;text-decoration:none}
+@media(max-width:850px){footer{flex-wrap:wrap;gap:10px}}
+
+/* v0.1.27 — centered footer privacy link */
+footer{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;column-gap:20px}
+footer>a{justify-self:center;text-align:center}
+footer>span{justify-self:end;text-align:right}
+@media(max-width:650px){footer{display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px}footer>span{text-align:center}}

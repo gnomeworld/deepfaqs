@@ -110,32 +110,94 @@ window.DEEPFAQS_DATA = {
       "id": "q75",
       "category": "monsters",
       "question": "Can I catch a monster without bait?",
-      "answer": "",
-      "published": false,
+      "answer": "Yes. Cast and wait at the day’s monster spot. You can also wait for Coco’s “Patience” message. Catching monsters without bait usually takes longer than using bait.",
+      "published": true,
       "scope": "general"
     },
     {
       "id": "q76",
       "category": "monsters",
       "question": "Should I give my first monster to the NPC?",
-      "answer": "",
-      "published": false,
+      "answer": "When completing the NPC’s monster/story quest, catch two monsters. Keep the bigger one for your aquarium and give the smaller one to the NPC.",
+      "published": true,
       "scope": "general"
     },
     {
       "id": "q77",
       "category": "monsters",
       "question": "When do monsters change location?",
-      "answer": "",
-      "published": false,
+      "answer": "Monsters change location at the start of the in-game day, usually at 4 AM.",
+      "published": true,
       "scope": "general"
     },
     {
       "id": "q78",
       "category": "monsters",
-      "question": "Can I find monster locations myself?",
-      "answer": "",
-      "published": false,
+      "question": "Can I detect monster locations myself?",
+      "answer": "Yes. You can identify monster spots if you have Perception level 10.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "monster-5",
+      "category": "monsters",
+      "question": "What do I do with the crystal reward from an NPC for giving them a monster?",
+      "answer": "Place the crystal around the fountain on Home Island (Marina).",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "monster-6",
+      "category": "monsters",
+      "question": "Can I catch multiple monsters in one day?",
+      "answer": "Yes, you can.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "monster-7",
+      "category": "monsters",
+      "question": "What should I do when Coco says “Patience”?",
+      "answer": "Cast your rod within 3 seconds of Coco’s “Patience” message. Almost always, the next bite will be a monster.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "monster-8",
+      "category": "monsters",
+      "question": "Is there a limit on how many monsters I can catch every day?",
+      "answer": "There is no limit. However, after catching 3–4 monsters, they become harder to catch.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "monster-9",
+      "category": "monsters",
+      "question": "Are there tips for monster hunting?",
+      "answer": "Read this guide for tips on monster hunting.",
+      "published": true,
+      "scope": "general",
+      "links": [
+        {
+          "label": "Monster-hunting tips (Discord)",
+          "url": "https://discord.com/channels/1038075942460993606/1040334116270395484/1437126966485712947"
+        }
+      ]
+    },
+    {
+      "id": "monster-10",
+      "category": "monsters",
+      "question": "Are there particular times to catch monsters?",
+      "answer": "No. All monsters are now available 24 hours a day.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "monster-11",
+      "category": "monsters",
+      "question": "Why are there no bubbles even when I’m in the correct spot shown in the video guide?",
+      "answer": "The video guide shows the day’s main monster spot, but the bubble location within that area may vary between players. Spread bait around the area shown to find your bubbles. If you don’t find bubbles after 3–4 baits, exit the map or restart the game. If that still doesn’t work, try again on a different day.",
+      "published": true,
       "scope": "general"
     },
     {
@@ -2430,6 +2492,15 @@ window.DEEPFAQS_DATA = {
       "category": "npcs",
       "question": "Who is Yonek, and what does he want?",
       "answer": "Yonek is a developer at Infinite Dreams who occasionally appears on Home Island to ask players for feedback about the game.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "fish-fishing-19",
+      "category": "fish-fishing",
+      "question": "What is 50% casting distance?",
+      "answer": "When trying to catch a fish, monster, or creature with a moving-bar minigame, it is recommended to cast at 50–60% of the maximum casting distance. Casting closer or farther away makes the minigame much harder.",
       "links": [],
       "published": true,
       "scope": "general"
