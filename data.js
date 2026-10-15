@@ -11,6 +11,12 @@ window.DEEPFAQS_DATA = {
       "icon": "🐟"
     },
     {
+      "id": "equipment",
+      "name": "Equipment & Tools",
+      "icon": "🛠️",
+      "description": "Fishing rods, upgrades, sonar and other useful equipment."
+    },
+    {
       "id": "maps",
       "name": "Maps & Travel",
       "icon": "🗺️"
@@ -383,7 +389,7 @@ window.DEEPFAQS_DATA = {
     },
     {
       "id": "getting-started-6",
-      "category": "getting-started",
+      "category": "equipment",
       "question": "What are the different rods?",
       "answer": "There are several rods available throughout the game. The CotD Wiki has a detailed list of the different rods and their properties.",
       "links": [
@@ -397,7 +403,7 @@ window.DEEPFAQS_DATA = {
     },
     {
       "id": "getting-started-7",
-      "category": "getting-started",
+      "category": "equipment",
       "question": "What does the red/orange dot on my rod mean?",
       "answer": "It means your rod is close to breaking. At about 7 durability points remaining, a small orange dot appears on the bottom-right of the rod icon. At about 3 durability points remaining, it turns red, meaning only a few more items can be caught before the rod breaks. Coco will warn you when the rod enters this phase; this is around 2–3 points without the durability perk and 7 points with it.",
       "links": [
@@ -557,7 +563,7 @@ window.DEEPFAQS_DATA = {
     },
     {
       "id": "getting-started-22",
-      "category": "getting-started",
+      "category": "equipment",
       "question": "What is rod durability?",
       "answer": "Durability is the number of uses a rod has. Every rod has a durability rating, and catching or hooking fish reduces it. VIP maps halve a rod's life, while the Durability perk can double it.",
       "links": [
@@ -1320,7 +1326,10 @@ window.DEEPFAQS_DATA = {
       "answer": "Rod durability is halved in VIP maps, except for the Toxic Rod.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "equipment"
+      ]
     },
     {
       "id": "lures-baits-1",
@@ -2559,7 +2568,7 @@ window.DEEPFAQS_DATA = {
       "published": true,
       "scope": "general",
       "id": "fish-fishing-20",
-      "category": "fish-fishing",
+      "category": "equipment",
       "question": "How much do gem-based fish slot upgrades cost at the Rod Shop?",
       "answer": "The following fish slot upgrades can be purchased with gems at the Rod Shop. The total cost for slots 8–15 is 2,550 gems.",
       "table": {
@@ -2657,6 +2666,136 @@ window.DEEPFAQS_DATA = {
       "category": "buildings",
       "question": "What does the Recycling Center produce?",
       "answer": "Outfits and accessories for the player character. More details are available in the Recycle-O-Matic guide."
+    },
+    {
+      "id": "new-0133-01",
+      "category": "clans",
+      "question": "How can I change clans without a 24-hour lockout?",
+      "answer": "You can switch clans without triggering the 24-hour lockout during the final two days of a CotD season, after the Clan Battle season has ended. You can also switch during the break between daily Clan Battles.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "new-0133-02",
+      "category": "fish-fishing",
+      "question": "What are golden fish?",
+      "answer": "Golden fish are special fish that appear randomly as you catch more fish of a particular species. You can catch only one golden fish per species. Golden fish cannot be kept or stored; you must release them in exchange for XP, gold, or gems. Once caught, they appear in your Bestiary.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "new-0133-03",
+      "category": "fish-fishing",
+      "question": "How can I catch golden fish?",
+      "answer": "Keep catching fish of the same species. Golden fish appear randomly as you catch more of that species.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "new-0133-04",
+      "category": "fish-fishing",
+      "question": "Do I need to equip lures or clover to catch golden fish?",
+      "answer": "No. Golden fish can be caught without using lures or clover.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "new-0133-05",
+      "category": "equipment",
+      "question": "Does the Echosounder (Sonar) reveal hidden or special locations?",
+      "answer": "No. The locations detected by sonar are not special or exclusive. They are available to all players.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "new-0133-06",
+      "category": "equipment",
+      "question": "Is the Echosounder (Sonar) a one-time purchase?",
+      "answer": "No. First, you purchase the sonar modules separately for fish, creatures, trash, and monsters. After that, you must pay each time you use them.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "new-0133-07",
+      "category": "equipment",
+      "question": "Can I reduce the Echosounder (Sonar) usage cost?",
+      "answer": "Yes. At 75% completion of the NOAH/DNA Project, you can unlock the Amateur Hacker perk, which reduces sonar usage costs by 50%.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "new-0133-08",
+      "category": "equipment",
+      "question": "Can I use the Echosounder (Sonar) on VIP maps?",
+      "answer": "Yes. Sonar can also be used on VIP maps.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "new-0133-09",
+      "category": "equipment",
+      "question": "What does an Unidentified Signal on the Echosounder mean?",
+      "answer": "An Unidentified Signal indicates something you have not discovered yet.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "new-0133-10",
+      "category": "equipment",
+      "question": "How much does it cost to use the Echosounder (Sonar)?",
+      "answer": "Sonar usage costs vary by target. The currency and costs for Unidentified Signal and Monsters are still to be confirmed.",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "table": {
+        "headers": [
+          "Target",
+          "Common",
+          "Rare",
+          "Epic"
+        ],
+        "rows": [
+          [
+            "Fish",
+            "5",
+            "10",
+            "15"
+          ],
+          [
+            "Creatures",
+            "5",
+            "10",
+            "15"
+          ],
+          [
+            "Trash",
+            "5",
+            "—",
+            "—"
+          ],
+          [
+            "Monsters",
+            "TBD",
+            "—",
+            "—"
+          ],
+          [
+            "Unidentified Signal",
+            "TBD",
+            "—",
+            "—"
+          ]
+        ]
+      }
     }
   ],
   "resources": [

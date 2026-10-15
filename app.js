@@ -12,14 +12,14 @@ function faqHTML(f){
 
 function renderCategories(){
  $("#categoryGrid").innerHTML=D.categories.map(c=>{
-   const n=D.faqs.filter(f=>f.category===c.id).length;
+   const n=D.faqs.filter(f=>(f.category===c.id||(f.secondaryCategories||[]).includes(c.id))).length;
    return `<button class="cat" data-cat="${c.id}"><span class="ico">${c.icon}</span>${esc(c.name)}<small style="display:block;color:#8aa0a7;margin-top:5px">${n} questions</small></button>`
  }).join("");
  document.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>openCategory(b.dataset.cat));
 }
 function openCategory(id){
  const c=catMap[id]; $("#categoryTitle").textContent=`${c.icon} ${c.name}`;
- $("#categoryQuestions").innerHTML=D.faqs.filter(f=>f.category===id).map(faqHTML).join("");
+ $("#categoryQuestions").innerHTML=D.faqs.filter(f=>(f.category===id||(f.secondaryCategories||[]).includes(id))).map(faqHTML).join("");
  $("#categoryPanel").classList.remove("hidden"); $("#categoryPanel").scrollIntoView({behavior:"smooth",block:"start"});
 }
 $("#closeCategory").onclick=()=>$("#categoryPanel").classList.add("hidden");

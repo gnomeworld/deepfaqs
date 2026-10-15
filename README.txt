@@ -51,3 +51,7 @@ v0.1.26: Added privacy.html and a footer Privacy Policy link.
 Privacy operations: delete Google Form responses AND linked spreadsheet rows within 60 days of receipt. This requires manual or automated follow-through; the website itself cannot delete responses.
 
 v0.1.27: Centered Privacy Policy link in footer on desktop and mobile.
+
+DeepFaqs v0.1.33: Equipment & Tools category, sonar and golden fish FAQs, clan switching FAQ, balanced category grid. Sonar costs pending confirmation.
+
+DeepFaqs v0.1.34: Category cards use six columns on wide desktop, three on tablet, and two on mobile. Incomplete final rows are centered. No FAQ data changes.
