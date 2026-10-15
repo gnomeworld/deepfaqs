@@ -2553,6 +2553,110 @@ window.DEEPFAQS_DATA = {
       ],
       "published": true,
       "scope": "general"
+    },
+    {
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "id": "fish-fishing-20",
+      "category": "fish-fishing",
+      "question": "How much do gem-based fish slot upgrades cost at the Rod Shop?",
+      "answer": "The following fish slot upgrades can be purchased with gems at the Rod Shop. The total cost for slots 8–15 is 2,550 gems.",
+      "table": {
+        "headers": [
+          "Fish slot",
+          "Gem cost"
+        ],
+        "rows": [
+          [
+            "8",
+            "100"
+          ],
+          [
+            "9",
+            "200"
+          ],
+          [
+            "10",
+            "250"
+          ],
+          [
+            "11",
+            "300"
+          ],
+          [
+            "12",
+            "350"
+          ],
+          [
+            "13",
+            "400"
+          ],
+          [
+            "14",
+            "450"
+          ],
+          [
+            "15",
+            "500"
+          ]
+        ]
+      }
+    },
+    {
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "id": "vip-bermuda-riddle-1",
+      "category": "vip",
+      "question": "What is the Bermuda Triangle riddle?",
+      "answer": "This is a riddle found on the fourth VIP map, Bermuda Triangle. It is also known as the Octopus Riddle."
+    },
+    {
+      "links": [
+        {
+          "label": "Bermuda Triangle riddle guide",
+          "url": "https://discord.com/channels/1038075942460993606/1040335175067914430/1502382738983096580"
+        }
+      ],
+      "published": true,
+      "scope": "general",
+      "id": "vip-bermuda-riddle-2",
+      "category": "vip",
+      "question": "How do I solve the Bermuda Triangle riddle?",
+      "answer": "You can find a guide to solving the Bermuda Triangle riddle here."
+    },
+    {
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "id": "vip-bermuda-riddle-3",
+      "category": "vip",
+      "question": "What is the reward for solving the Bermuda Triangle riddle?",
+      "answer": "The direct reward is a diving suit. The indirect reward is access to the secret cave on Paradise Island, which only unlocks after you acquire the diving suit."
+    },
+    {
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "id": "buildings-recycling-1",
+      "category": "buildings",
+      "question": "What does the Recycling Center do?",
+      "answer": "Players can use the Recycle-O-Matic to recycle trash into outfits and accessories. Recycling also increases karma, counts toward the 50 pieces of trash needed to earn a clover, and is sometimes included in Seasonal Tasks."
+    },
+    {
+      "links": [
+        {
+          "label": "Recycle-O-Matic Wiki guide",
+          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Recycle-O-Matic_The_Great_Machine"
+        }
+      ],
+      "published": true,
+      "scope": "general",
+      "id": "buildings-recycling-2",
+      "category": "buildings",
+      "question": "What does the Recycling Center produce?",
+      "answer": "Outfits and accessories for the player character. More details are available in the Recycle-O-Matic guide."
     }
   ],
   "resources": [

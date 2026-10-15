@@ -114,3 +114,16 @@ footer>span{justify-self:end;text-align:right}
 /* v0.1.31 — quieter, centered privacy link */
 footer>a[href="privacy.html"]{font-size:12px;font-weight:400;color:#b8d5db;text-decoration-color:#9bbfc6;text-underline-offset:3px}
 footer>a[href="privacy.html"]:hover,footer>a[href="privacy.html"]:focus-visible{color:#ffffff}
+
+/* v0.1.32 — consistent resource carousel card dimensions */
+#resources .resource-cards{align-items:stretch}
+#resources .resource-card{height:104px;min-width:0;box-sizing:border-box;overflow-wrap:anywhere}
+#resources .resource-card>span:last-child{min-width:0}
+#resources .resource-card small{display:block;line-height:1.35}
+@media(max-width:850px){#resources .resource-card{height:112px}}
+@media(max-width:540px){#resources .resource-card{height:96px}}
+/* Compact structured price table inside FAQ answers */
+.faq-data-table{border-collapse:collapse;margin:12px 0 5px;max-width:390px;width:100%;font-size:14px}
+.faq-data-table th,.faq-data-table td{border:1px solid #c9e2df;padding:7px 12px;text-align:left}
+.faq-data-table th{background:#d8efea}
+.faq-data-table tr:nth-child(even){background:#f3faf8}

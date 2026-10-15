@@ -5,8 +5,9 @@ let resourceOffset=Math.floor(Math.random()*D.resources.length);
 
 function esc(s){return s.replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
 function faqHTML(f){
+ const table=f.table?`<table class="faq-data-table"><thead><tr>${f.table.headers.map(h=>`<th>${esc(String(h))}</th>`).join("")}</tr></thead><tbody>${f.table.rows.map(row=>`<tr>${row.map(cell=>`<td>${esc(String(cell))}</td>`).join("")}</tr>`).join("")}</tbody></table>`:"";
  const links=(f.links||[]).map(l=>`<a class="faq-link" href="${l.url}" target="_blank" rel="noopener">${esc(l.label)} ↗</a>`).join("");
- return `<div class="faq" id="faq-${esc(f.id)}"><b>${esc(f.question)}</b>${f.answer?`<p>${esc(f.answer)}</p>${links?`<div class="faq-links">${links}</div>`:""}`:`<span class="pending">${esc(catMap[f.category]?.name||"FAQ")} • Answer coming soon</span>`}</div>`
+ return `<div class="faq" id="faq-${esc(f.id)}"><b>${esc(f.question)}</b>${f.answer?`<p>${esc(f.answer)}</p>${table}${links?`<div class="faq-links">${links}</div>`:""}`:`<span class="pending">${esc(catMap[f.category]?.name||"FAQ")} • Answer coming soon</span>`}</div>`
 }
 
 function renderCategories(){
@@ -36,7 +37,7 @@ function search(q){
  const terms=q.split(/\s+/);
  const matches=D.faqs.filter(f=>{
    const c=catMap[f.category]?.name||"";
-   const hay=(f.question+" "+f.answer+" "+c).toLowerCase();
+   const hay=(f.question+" "+f.answer+" "+c+" "+(f.table?f.table.rows.flat().join(" "):"")).toLowerCase();
    return terms.every(t=>hay.includes(t));
  });
  $("#resultCount").textContent=`${matches.length} question${matches.length===1?"":"s"} found`;
