@@ -204,25 +204,33 @@ window.DEEPFAQS_DATA = {
       "id": "q80",
       "category": "help",
       "question": "Can I play the same account on two devices?",
-      "answer": "",
-      "published": false,
-      "scope": "general"
+      "answer": "Yes. You can use the same account on two devices if both are signed in to the same Game Center account (or Google Play account on Android). You cannot play simultaneously on both devices with the same account, but you can switch between them.",
+      "published": true,
+      "scope": "general",
+      "links": []
     },
     {
       "id": "q81",
       "category": "help",
       "question": "How do I restore my game progress?",
-      "answer": "",
-      "published": false,
-      "scope": "general"
+      "answer": "Log in using your original Game Center or Google Play account.",
+      "published": true,
+      "scope": "general",
+      "links": []
     },
     {
       "id": "q82",
       "category": "help",
       "question": "Where can I get game support?",
-      "answer": "",
-      "published": false,
-      "scope": "general"
+      "answer": "Contact Infinite Dreams at support@idreams.pl.",
+      "published": true,
+      "scope": "general",
+      "links": [
+        {
+          "label": "Email Infinite Dreams support",
+          "url": "mailto:support@idreams.pl"
+        }
+      ]
     },
     {
       "id": "skills-1",
@@ -2504,6 +2512,47 @@ window.DEEPFAQS_DATA = {
       "links": [],
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "game-settings-4",
+      "category": "help",
+      "question": "What is Game ID?",
+      "answer": "Game ID is the unique ID assigned to your game. You can find it in the bottom-left corner of the launch screen, or in the in-game phone menu under Settings (scroll to the bottom). Never share your Game ID publicly, as it is like a PIN.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "game-settings-5",
+      "category": "help",
+      "question": "Can I transfer my game when switching from iPhone to Android or vice versa?",
+      "answer": "Contact Infinite Dreams support at support@idreams.pl and include your Game ID in the email.",
+      "links": [
+        {
+          "label": "Email Infinite Dreams support",
+          "url": "mailto:support@idreams.pl"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "game-settings-6",
+      "category": "help",
+      "question": "How do I report bugs?",
+      "answer": "Report bugs and issues in the bug reports channel on the official CotD Discord, or email Infinite Dreams support at support@idreams.pl.",
+      "links": [
+        {
+          "label": "Official CotD Discord — Bug Reports",
+          "url": "https://discord.com/channels/1038075942460993606/1108848734118367294"
+        },
+        {
+          "label": "Email Infinite Dreams support",
+          "url": "mailto:support@idreams.pl"
+        }
+      ],
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -2524,12 +2573,6 @@ window.DEEPFAQS_DATA = {
       "description": "Guide & interactive wiki",
       "url": "https://cloversalad.com/",
       "icon": "🍀"
-    },
-    {
-      "name": "MonsterSpots",
-      "description": "Daily monster spots",
-      "url": "https://deepmonstersarchive.github.io/Jay/",
-      "icon": "🐙"
     },
     {
       "name": "DeepSweep",

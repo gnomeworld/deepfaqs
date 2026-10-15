@@ -110,3 +110,7 @@ footer{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;column
 footer>a{justify-self:center;text-align:center}
 footer>span{justify-self:end;text-align:right}
 @media(max-width:650px){footer{display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px}footer>span{text-align:center}}
+
+/* v0.1.31 — quieter, centered privacy link */
+footer>a[href="privacy.html"]{font-size:12px;font-weight:400;color:#b8d5db;text-decoration-color:#9bbfc6;text-underline-offset:3px}
+footer>a[href="privacy.html"]:hover,footer>a[href="privacy.html"]:focus-visible{color:#ffffff}
