@@ -58,3 +58,5 @@ DeepFaqs v0.1.34: Category cards use six columns on wide desktop, three on table
 
 
 v0.1.38: Added boat engine, Fate perks, and underwater shadows FAQs (256 total). Editorial cleanup: standard reference link presentation, long-answer paragraph spacing, and terminology consistency.
+
+DeepFaqs v0.1.39: 17 new FAQs; anchor scroll fixes; submission copy; question and answer editorial improvements; searchable coin-farming aliases.

@@ -764,7 +764,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "tournaments-1",
       "category": "tournaments",
-      "question": "How do you join tournaments?",
+      "question": "How do I join tournaments?",
       "answer": "You have to build the Big Fish Tournament building. Then, as you earn licenses by catching better fish, you can join tournaments.",
       "links": [],
       "published": true,
@@ -1318,7 +1318,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "vip-maps-5",
       "category": "vip",
-      "question": "How do you earn VIP tickets?",
+      "question": "How do I earn VIP tickets?",
       "answer": "The fastest way to acquire VIP tickets is to buy the biggest gem pack, which gives a bonus of 150 VIP tickets. The regular way is playing PvP Duels, which give VIP tickets as rewards at various stages. You can also get a few tickets as rewards from battles, seasonal tasks, cave chests, the Octopus Wheel, and other activities.",
       "links": [],
       "published": true,
@@ -1448,7 +1448,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "economy-1",
       "category": "economy",
-      "question": "How do I make money?",
+      "question": "How do I farm coins?",
       "answer": "With a Wooden Rod, catch common fish in Paradise Island and Great Lakes. With a Fiberglass Rod and Clover, catch White Tuna in Paradise Island, and Lake Sturgeon and Lake Trout in Great Lakes. Build the Aquarium because it generates passive income. Open slots in your bag as soon as possible. Do daily and seasonal tasks as much as possible. Optional: use the C2 perk to earn a sales bonus and the A3 perk to get extended rod life.",
       "links": [],
       "published": true,
@@ -1457,6 +1457,11 @@ window.DEEPFAQS_DATA = {
         "With a Wooden Rod, catch common fish in Paradise Island and Great Lakes. With a Fiberglass Rod and Clover, catch White Tuna in Paradise Island, and Lake Sturgeon and Lake Trout in Great Lakes.",
         "Build the Aquarium because it generates passive income. Open slots in your bag as soon as possible. Do daily and seasonal tasks as much as possible.",
         "Optional: use the C2 perk to earn a sales bonus and the A3 perk to get extended rod life."
+      ],
+      "searchAliases": [
+        "How do I make money?",
+        "How do I earn gold?",
+        "How do I earn coins?"
       ]
     },
     {
@@ -1940,7 +1945,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "dna-07",
       "category": "dna",
-      "question": "How do you activate shrines?",
+      "question": "How do I activate shrines?",
       "answer": "You can activate a shrine on each map by offering a tribute of five fish or creatures. Each shrine can be active for one hour per day.",
       "links": [],
       "published": true,
@@ -1985,7 +1990,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "dna-12",
       "category": "dna",
-      "question": "How do you open the DNA Cave?",
+      "question": "How do I open the DNA Cave?",
       "answer": "Collect crystals from the NPCs on all eight regular maps and place them around the fountain on Home Island (Marina) to unlock the main cave. Then turn the wheel at the gate. The gate opens when you have at least 1,000 karma points.",
       "links": [],
       "published": true,
@@ -2855,6 +2860,151 @@ window.DEEPFAQS_DATA = {
       ],
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v139-map-1",
+      "category": "equipment",
+      "question": "What are in-game maps?",
+      "answer": "In-game maps help players track and remember fishing locations. They cost 2 gems for Paradise Island, 40 gems for Great Lakes, and 80 gems for each subsequent location. There are currently no in-game maps for VIP locations.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v139-map-2",
+      "category": "equipment",
+      "question": "Are in-game maps worth buying?",
+      "answer": "Many players find in-game maps useful, but they aren't essential. Free community resources such as CloverSalad can also help you track fishing spots. In-game maps are convenient if you prefer tracking locations directly in the game.",
+      "published": true,
+      "scope": "general",
+      "links": [
+        {
+          "label": "CloverSalad",
+          "url": "https://cloversalad.com/"
+        }
+      ]
+    },
+    {
+      "id": "v139-map-3",
+      "category": "equipment",
+      "question": "I bought an in-game map. How do I view it?",
+      "answer": "You can only view a purchased map while visiting its corresponding location. Open it using the map control on the right side of the game screen.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v139-map-4",
+      "category": "equipment",
+      "question": "I bought an in-game map, but the fishing spots aren't showing. What should I do?",
+      "answer": "Maps fill in gradually as you explore. You must discover fishing spots and catch fish at those spots before their information appears on your map.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v139-fish-price",
+      "category": "economy",
+      "question": "What influences the price of a fish?",
+      "answer": "A fish's weight affects its selling price when comparing fish of the same species. Prices also vary between species and rarity levels.",
+      "published": true,
+      "scope": "general",
+      "secondaryCategories": [
+        "fish-fishing"
+      ]
+    },
+    {
+      "id": "v139-trader",
+      "category": "skills",
+      "question": "Do I need the Trader of the Year perk equipped while fishing or only when selling?",
+      "answer": "You only need to equip Trader of the Year when selling fish at the shop.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v139-greenbox",
+      "category": "skills",
+      "question": "Does the sales bonus perk affect fish prices in the green box?",
+      "answer": "No. The sales bonus perk does not affect fish prices in the green box.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v139-fourleaf",
+      "category": "skills",
+      "question": "What does the Four-leaf Power perk do?",
+      "answer": "Four-leaf Power gives you a second hour for each clover activated while the perk is equipped. Each clover effectively lasts 2 hours instead of 1.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v139-fourleaf-equip",
+      "category": "skills",
+      "question": "Do I need to keep the Four-leaf Power perk equipped after activating a clover?",
+      "answer": "No. You only need the perk equipped when activating the clover. You can unequip it afterward without losing the extended duration.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v139-viptransfer",
+      "category": "skills",
+      "question": "What does the VIP Transfer perk do?",
+      "answer": "VIP Transfer unlocks with Charisma 1 (C1). When equipped, it lets you return directly to Marina (Home Island) without first traveling to a helipad.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v139-vipreturn",
+      "category": "skills",
+      "question": "How do I return directly to Marina without using a helipad?",
+      "answer": "Equip the VIP Transfer perk, which requires Charisma 1 (C1). This gives you a Return to Marina option.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v139-durable",
+      "category": "skills",
+      "question": "How much durability does the Durable Gear perk add to a rod?",
+      "answer": "Durable Gear approximately doubles a rod's durability while equipped.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v139-exhaust",
+      "category": "fish-fishing",
+      "question": "If I catch and release something, does it count toward spot exhaustion?",
+      "answer": "Yes. A successful catch counts toward spot exhaustion even if you release it. If you hook something but fail the reeling minigame, it stays in the available catch pool.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v139-durability",
+      "category": "equipment",
+      "question": "When does rod durability decrease?",
+      "answer": "Rod durability decreases when you hook a fish, creature, or item. Letting something bite without hooking it does not reduce durability. Hooking something and then failing the reeling minigame still reduces durability.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v139-goldrod",
+      "category": "equipment",
+      "question": "What is the durability of a Gold rod?",
+      "answer": "A Gold rod can handle over 30,000 catches. How long it lasts depends on how frequently you play and the types of fish you catch. In general, players can use a Gold rod for many months.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v139-choose-rod",
+      "category": "equipment",
+      "question": "How do I choose the right rod for different purposes?",
+      "answer": "Visit the Rod Shop and select a rod to view its stats. Choose one based on what you're trying to catch. For example, for bigger fish, select a rod with higher weight luck.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v139-garbage",
+      "category": "equipment",
+      "question": "Why should I use a Garbage Grabber rod instead of a wooden rod?",
+      "answer": "The Garbage Grabber specializes in finding trash. If you're searching for hard-to-find trash, it offers better results than a wooden rod.",
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -2905,7 +3055,20 @@ window.DEEPFAQS_DATA = {
       "getting-started-13",
       "getting-started-14",
       "getting-started-15",
-      "getting-started-3"
+      "getting-started-3",
+      "getting-started-4",
+      "getting-started-5",
+      "getting-started-8",
+      "getting-started-9",
+      "getting-started-10",
+      "getting-started-11",
+      "getting-started-16",
+      "getting-started-17",
+      "getting-started-18",
+      "getting-started-19",
+      "getting-started-20",
+      "getting-started-23",
+      "getting-started-24"
     ],
     "fish-fishing": [
       "fish-fishing-5",
@@ -2915,7 +3078,24 @@ window.DEEPFAQS_DATA = {
       "fish-fishing-9",
       "fish-fishing-2",
       "fish-fishing-3",
-      "fish-fishing-4"
+      "fish-fishing-4",
+      "fish-fishing-1",
+      "fish-fishing-10",
+      "fish-fishing-11",
+      "fish-fishing-12",
+      "fish-fishing-13",
+      "fish-fishing-14",
+      "fish-fishing-15",
+      "fish-fishing-16",
+      "fish-fishing-17",
+      "fish-fishing-18",
+      "fish-fishing-19",
+      "new-0133-02",
+      "new-0133-03",
+      "new-0133-04",
+      "polish-035-3",
+      "v139-fish-price",
+      "v139-exhaust"
     ],
     "equipment": [
       "getting-started-6",
@@ -2925,7 +3105,19 @@ window.DEEPFAQS_DATA = {
       "polish-035-1",
       "new-0133-06",
       "new-0133-10",
-      "new-0133-07"
+      "new-0133-07",
+      "vip-maps-6",
+      "new-0133-05",
+      "new-0133-08",
+      "new-0133-09",
+      "v139-map-1",
+      "v139-map-2",
+      "v139-map-3",
+      "v139-map-4",
+      "v139-durability",
+      "v139-goldrod",
+      "v139-choose-rod",
+      "v139-garbage"
     ],
     "maps": [
       "maps-travel-1",
@@ -2934,7 +3126,12 @@ window.DEEPFAQS_DATA = {
       "maps-travel-5",
       "maps-travel-3",
       "maps-travel-6",
-      "maps-travel-7"
+      "maps-travel-7",
+      "maps-travel-8",
+      "maps-travel-9",
+      "maps-travel-10",
+      "maps-travel-11",
+      "maps-travel-12"
     ],
     "buildings": [
       "buildings-1",
@@ -2944,14 +3141,35 @@ window.DEEPFAQS_DATA = {
       "buildings-7",
       "buildings-3",
       "buildings-10",
-      "buildings-11"
+      "buildings-11",
+      "buildings-4",
+      "buildings-5",
+      "buildings-6",
+      "buildings-12",
+      "buildings-13",
+      "buildings-14",
+      "buildings-15",
+      "buildings-16",
+      "buildings-17",
+      "buildings-18",
+      "buildings-19",
+      "buildings-recycling-1",
+      "buildings-recycling-2"
     ],
     "npcs": [
       "npcs-1",
       "npcs-3",
       "npcs-4",
       "npcs-5",
-      "npcs-2"
+      "npcs-2",
+      "npcs-6",
+      "npcs-7",
+      "npcs-8",
+      "npcs-9",
+      "npcs-10",
+      "npcs-11",
+      "npcs-12",
+      "npcs-13"
     ],
     "quests": [
       "quests-1",
@@ -2959,7 +3177,9 @@ window.DEEPFAQS_DATA = {
       "quests-3",
       "quests-4",
       "quests-5",
-      "quests-8"
+      "quests-8",
+      "quests-6",
+      "quests-7"
     ],
     "lures": [
       "lures-baits-1",
@@ -2967,7 +3187,10 @@ window.DEEPFAQS_DATA = {
       "lures-baits-4",
       "lures-baits-5",
       "lures-baits-6",
-      "lures-baits-7"
+      "lures-baits-7",
+      "lures-baits-3",
+      "lures-baits-8",
+      "lures-baits-9"
     ],
     "skills": [
       "skills-1",
@@ -2976,12 +3199,23 @@ window.DEEPFAQS_DATA = {
       "skills-3",
       "skills-4",
       "skills-5",
-      "skills-6"
+      "skills-6",
+      "skills-8",
+      "skills-9",
+      "polish-035-2",
+      "v139-trader",
+      "v139-greenbox",
+      "v139-fourleaf",
+      "v139-fourleaf-equip",
+      "v139-viptransfer",
+      "v139-vipreturn",
+      "v139-durable"
     ],
     "economy": [
       "economy-1",
       "economy-3",
-      "economy-2"
+      "economy-2",
+      "v139-fish-price"
     ],
     "xp": [
       "xp-progression-1",
@@ -2989,7 +3223,14 @@ window.DEEPFAQS_DATA = {
       "xp-progression-2",
       "xp-progression-4",
       "xp-progression-5",
-      "xp-progression-10"
+      "xp-progression-10",
+      "xp-progression-6",
+      "xp-progression-7",
+      "xp-progression-8",
+      "xp-progression-9",
+      "xp-progression-11",
+      "xp-progression-12",
+      "xp-progression-13"
     ],
     "seasons": [
       "seasons-1",
@@ -3000,7 +3241,10 @@ window.DEEPFAQS_DATA = {
       "seasons-12",
       "seasons-11",
       "seasons-4",
-      "seasons-7"
+      "seasons-7",
+      "seasons-5",
+      "seasons-6",
+      "seasons-10"
     ],
     "monsters": [
       "q75",
@@ -3008,7 +3252,12 @@ window.DEEPFAQS_DATA = {
       "q77",
       "monster-9",
       "monster-10",
-      "q76"
+      "q76",
+      "monster-5",
+      "monster-6",
+      "monster-7",
+      "monster-8",
+      "monster-11"
     ],
     "dna": [
       "dna-01",
@@ -3017,7 +3266,18 @@ window.DEEPFAQS_DATA = {
       "dna-08",
       "dna-03",
       "dna-04",
-      "dna-05"
+      "dna-05",
+      "dna-06",
+      "dna-09",
+      "dna-10",
+      "dna-11",
+      "dna-12",
+      "dna-13",
+      "dna-14",
+      "dna-15",
+      "dna-16",
+      "dna-17",
+      "dna-18"
     ],
     "vip": [
       "vip-maps-1",
@@ -3027,7 +3287,8 @@ window.DEEPFAQS_DATA = {
       "vip-maps-5",
       "vip-bermuda-riddle-1",
       "vip-bermuda-riddle-2",
-      "vip-bermuda-riddle-3"
+      "vip-bermuda-riddle-3",
+      "vip-maps-6"
     ],
     "clans": [
       "clans-1",
@@ -3036,7 +3297,22 @@ window.DEEPFAQS_DATA = {
       "clans-4",
       "clans-7",
       "clans-8",
-      "clans-9"
+      "clans-9",
+      "clans-5",
+      "clans-6",
+      "clans-10",
+      "clans-11",
+      "clans-12",
+      "clans-13",
+      "clans-14",
+      "clans-15",
+      "clans-16",
+      "clans-17",
+      "clans-18",
+      "clans-19",
+      "clans-20",
+      "clans-21",
+      "new-0133-01"
     ],
     "pvp-duels": [
       "pvp-1",
@@ -3044,27 +3320,41 @@ window.DEEPFAQS_DATA = {
       "pvp-4",
       "pvp-5",
       "pvp-6",
-      "pvp-3"
+      "pvp-3",
+      "pvp-7",
+      "pvp-8",
+      "pvp-9"
     ],
     "tournaments": [
       "tournaments-1",
       "tournaments-3",
       "tournaments-7",
       "tournaments-8",
-      "tournaments-2"
+      "tournaments-2",
+      "tournaments-4",
+      "tournaments-5",
+      "tournaments-6"
     ],
     "events": [
       "events-1",
       "events-4",
       "events-3",
-      "events-2"
+      "events-2",
+      "events-5",
+      "events-6",
+      "events-7",
+      "events-8",
+      "events-9",
+      "events-10"
     ],
     "arcade": [
       "arcade-1",
       "arcade-2",
       "arcade-3",
       "arcade-4",
-      "arcade-7"
+      "arcade-7",
+      "arcade-5",
+      "arcade-6"
     ],
     "help": [
       "q80",

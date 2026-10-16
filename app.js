@@ -43,7 +43,7 @@ function search(q){
  const terms=q.split(/\s+/);
  const matches=D.faqs.filter(f=>{
    const c=catMap[f.category]?.name||"";
-   const hay=(f.question+" "+f.answer+" "+c+" "+(f.table?f.table.rows.flat().join(" "):"")).toLowerCase();
+   const hay=(f.question+" "+f.answer+" "+(f.searchAliases||[]).join(" ")+" "+c+" "+(f.table?f.table.rows.flat().join(" "):"")).toLowerCase();
    return terms.every(t=>hay.includes(t));
  });
  $("#resultCount").textContent=`${matches.length} question${matches.length===1?"":"s"} found`;

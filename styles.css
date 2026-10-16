@@ -148,3 +148,8 @@ footer>a[href="privacy.html"]:hover,footer>a[href="privacy.html"]:focus-visible{
 /* v0.1.38 — restore three community resource cards on desktop */
 @media(min-width:851px){#resources .resource-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(min-width:541px) and (max-width:850px){#resources .resource-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* v0.1.39 — anchor destinations clear the sticky header */
+html{scroll-padding-top:110px}
+#home,#resources,#categories,#popular,#submit-question,#categoryPanel,#searchPanel{scroll-margin-top:110px}
+@media(max-width:540px){html{scroll-padding-top:78px}#home,#resources,#categories,#popular,#submit-question,#categoryPanel,#searchPanel{scroll-margin-top:78px}}
