@@ -1,13 +1,14 @@
 
 const D=window.DEEPFAQS_DATA, $=s=>document.querySelector(s);
 const catMap=Object.fromEntries(D.categories.map(c=>[c.id,c]));
-let resourceOffset=Math.floor(Math.random()*D.resources.length);
+let resourceOffset=0; // Always begin with the first community resources.
 
 function esc(s){return s.replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
 function faqHTML(f){
  const table=f.table?`<table class="faq-data-table"><thead><tr>${f.table.headers.map(h=>`<th>${esc(String(h))}</th>`).join("")}</tr></thead><tbody>${f.table.rows.map(row=>`<tr>${row.map(cell=>`<td>${esc(String(cell))}</td>`).join("")}</tr>`).join("")}</tbody></table>`:"";
- const links=(f.links||[]).map(l=>`<a class="faq-link" href="${l.url}" target="_blank" rel="noopener">${esc(l.label)} ↗</a>`).join("");
- return `<div class="faq" id="faq-${esc(f.id)}"><b>${esc(f.question)}</b>${f.answer?`<p>${esc(f.answer)}</p>${table}${links?`<div class="faq-links">${links}</div>`:""}`:`<span class="pending">${esc(catMap[f.category]?.name||"FAQ")} • Answer coming soon</span>`}</div>`
+ const bullets=f.bullets?`<ul class="faq-bullets">${f.bullets.map(b=>`<li>${esc(b)}</li>`).join("")}</ul>`:"";
+ const links=(f.links||[]).map(l=>`<span class="faq-link-item">See the <a class="faq-link" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)} ↗</a></span>`).join("");
+ return `<div class="faq" id="faq-${esc(f.id)}"><b>${esc(f.question)}</b>${f.answer?`${f.paragraphs?f.paragraphs.map(p=>`<p>${esc(p)}</p>`).join(""):`<p>${esc(f.answer)}</p>`}${bullets}${table}${links?`<div class="faq-links">${links}</div>`:""}`:`<span class="pending">${esc(catMap[f.category]?.name||"FAQ")} • Answer coming soon</span>`}</div>`
 }
 
 function renderCategories(){
@@ -17,9 +18,14 @@ function renderCategories(){
  }).join("");
  document.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>openCategory(b.dataset.cat));
 }
+function orderedFaqs(id){
+ const order=D.faqOrder?.[id]||[];
+ const ranks=new Map(order.map((fid,i)=>[fid,i]));
+ return D.faqs.filter(f=>(f.category===id||(f.secondaryCategories||[]).includes(id))).sort((a,b)=>(ranks.get(a.id)??10000)-(ranks.get(b.id)??10000));
+}
 function openCategory(id){
  const c=catMap[id]; $("#categoryTitle").textContent=`${c.icon} ${c.name}`;
- $("#categoryQuestions").innerHTML=D.faqs.filter(f=>(f.category===id||(f.secondaryCategories||[]).includes(id))).map(faqHTML).join("");
+ $("#categoryQuestions").innerHTML=orderedFaqs(id).map(faqHTML).join("");
  $("#categoryPanel").classList.remove("hidden"); $("#categoryPanel").scrollIntoView({behavior:"smooth",block:"start"});
 }
 $("#closeCategory").onclick=()=>$("#categoryPanel").classList.add("hidden");
@@ -66,3 +72,5 @@ function openFaq(id){
 }
 document.querySelectorAll("[data-faq]").forEach(b=>b.addEventListener("click",()=>openFaq(b.dataset.faq)));
 renderCategories();renderResources();
+// Rotate the three cards gently, while keeping manual navigation available.
+window.setInterval(()=>{resourceOffset=(resourceOffset+1)%D.resources.length;renderResources()},7000);

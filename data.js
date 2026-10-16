@@ -413,7 +413,12 @@ window.DEEPFAQS_DATA = {
         }
       ],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "paragraphs": [
+        "It means your rod is close to breaking. At about 7 durability points remaining, a small orange dot appears on the bottom-right of the rod icon.",
+        "At about 3 durability points remaining, it turns red, meaning only a few more items can be caught before the rod breaks.",
+        "Coco will warn you when the rod enters this phase; this is around 2–3 points without the durability perk and 7 points with it."
+      ]
     },
     {
       "id": "getting-started-8",
@@ -1078,7 +1083,7 @@ window.DEEPFAQS_DATA = {
       "id": "seasons-7",
       "category": "seasons",
       "question": "What are the various badges for seasonal rankings?",
-      "answer": "There are five types of badges for seasonal rankings: ranks 11–50, ranks 4–10, and separate badges for ranks 3, 2, and 1.",
+      "answer": "There are five types of badges for seasonal rankings: ranks 11–100, ranks 4–10, and separate badges for ranks 3, 2, and 1.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -1447,7 +1452,12 @@ window.DEEPFAQS_DATA = {
       "answer": "With a Wooden Rod, catch common fish in Paradise Island and Great Lakes. With a Fiberglass Rod and Clover, catch White Tuna in Paradise Island, and Lake Sturgeon and Lake Trout in Great Lakes. Build the Aquarium because it generates passive income. Open slots in your bag as soon as possible. Do daily and seasonal tasks as much as possible. Optional: use the C2 perk to earn a sales bonus and the A3 perk to get extended rod life.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "paragraphs": [
+        "With a Wooden Rod, catch common fish in Paradise Island and Great Lakes. With a Fiberglass Rod and Clover, catch White Tuna in Paradise Island, and Lake Sturgeon and Lake Trout in Great Lakes.",
+        "Build the Aquarium because it generates passive income. Open slots in your bag as soon as possible. Do daily and seasonal tasks as much as possible.",
+        "Optional: use the C2 perk to earn a sales bonus and the A3 perk to get extended rod life."
+      ]
     },
     {
       "id": "economy-2",
@@ -1483,7 +1493,12 @@ window.DEEPFAQS_DATA = {
       "answer": "Being part of a clan in a higher league gives bonus XP per catch: Bronze +1, Silver +2, and Gold +3. Completing Infoboard, NPC, and Seasonal tasks gives extra XP. You can use an Intelligence potion from a clan totem or craft one at the Workbench to boost XP for a limited time. You can also buy an XP Booster for 35 gems, which gives +9 XP per catch for 20 hours. Achievements also give bonus XP.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "paragraphs": [
+        "Being part of a clan in a higher league gives bonus XP per catch: Bronze +1, Silver +2, and Gold +3. Completing Infoboard, NPC, and Seasonal tasks gives extra XP.",
+        "You can use an Intelligence potion from a clan totem or craft one at the Workbench to boost XP for a limited time. You can also buy an XP Booster for 35 gems, which gives +9 XP per catch for 20 hours.",
+        "Achievements also give bonus XP."
+      ]
     },
     {
       "id": "xp-progression-3",
@@ -1696,7 +1711,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "clans-7",
       "category": "clans",
-      "question": "When do Clan Battles happen?",
+      "question": "When do clan battles happen?",
       "answer": "Clan Battles take place every day except the last two days of the season. Each battle lasts 22 hours and 45 minutes.",
       "links": [],
       "published": true,
@@ -2651,7 +2666,7 @@ window.DEEPFAQS_DATA = {
       "id": "buildings-recycling-1",
       "category": "buildings",
       "question": "What does the Recycling Center do?",
-      "answer": "Players can use the Recycle-O-Matic to recycle trash into outfits and accessories. Recycling also increases karma, counts toward the 50 pieces of trash needed to earn a clover, and is sometimes included in Seasonal Tasks."
+      "answer": "Players can use the Recycle-O-Matic to recycle trash into outfits and accessories. Recycling also increases karma, counts toward the 50 pieces of trash needed to earn a clover, and is sometimes included in seasonal tasks."
     },
     {
       "links": [
@@ -2796,6 +2811,50 @@ window.DEEPFAQS_DATA = {
           ]
         ]
       }
+    },
+    {
+      "id": "polish-035-1",
+      "category": "equipment",
+      "question": "Are the boat engine upgrades worth it?",
+      "answer": "Both engine upgrades increase boat speed. The first engine upgrade offers better value for money at 100 gems. The second upgrade is generally not strongly recommended.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "polish-035-2",
+      "category": "skills",
+      "question": "Can the Gift of Fate and Smile of Fate perks be used together?",
+      "answer": "Yes, both perks can be used together.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "polish-035-3",
+      "category": "fish-fishing",
+      "question": "Can I catch the giant underwater shadows of sharks, monsters, and stingrays?",
+      "answer": "No. These giant underwater shadows are purely visual effects and cannot be caught.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "getting-started-daily-rewards",
+      "category": "getting-started",
+      "question": "What are the daily rewards on Home Island (Marina)?",
+      "answer": "Players can collect several daily rewards on Home Island (Marina):",
+      "bullets": [
+        "Newspaper bonus: Gold coins for four days, followed by a reward chest on day 5.",
+        "Floating chest: Contains gold or gems. Players who have made a real-money purchase can open it without watching an ad; other players must watch an ad.",
+        "Wood planks: 3 wood planks daily.",
+        "Message in a bottle: May occasionally contain a surprise gift."
+      ],
+      "links": [
+        {
+          "label": "Daily Rewards Wiki guide",
+          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Daily_Rewards"
+        }
+      ],
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -2806,16 +2865,16 @@ window.DEEPFAQS_DATA = {
       "icon": "💬"
     },
     {
-      "name": "CotD Wiki",
-      "description": "Community wiki",
-      "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Creatures_of_the_Deep_Wiki",
-      "icon": "📖"
-    },
-    {
       "name": "CloverSalad",
       "description": "Guide & interactive wiki",
       "url": "https://cloversalad.com/",
       "icon": "🍀"
+    },
+    {
+      "name": "CotD Wiki",
+      "description": "Community wiki",
+      "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Creatures_of_the_Deep_Wiki",
+      "icon": "📖"
     },
     {
       "name": "DeepSweep",
@@ -2835,5 +2894,185 @@ window.DEEPFAQS_DATA = {
       "url": "https://www.youtube.com/@BrowindChannel",
       "icon": "▶️"
     }
-  ]
+  ],
+  "faqOrder": {
+    "getting-started": [
+      "getting-started-1",
+      "getting-started-2",
+      "getting-started-daily-rewards",
+      "getting-started-21",
+      "getting-started-12",
+      "getting-started-13",
+      "getting-started-14",
+      "getting-started-15",
+      "getting-started-3"
+    ],
+    "fish-fishing": [
+      "fish-fishing-5",
+      "fish-fishing-6",
+      "fish-fishing-7",
+      "fish-fishing-8",
+      "fish-fishing-9",
+      "fish-fishing-2",
+      "fish-fishing-3",
+      "fish-fishing-4"
+    ],
+    "equipment": [
+      "getting-started-6",
+      "getting-started-22",
+      "getting-started-7",
+      "fish-fishing-20",
+      "polish-035-1",
+      "new-0133-06",
+      "new-0133-10",
+      "new-0133-07"
+    ],
+    "maps": [
+      "maps-travel-1",
+      "maps-travel-2",
+      "maps-travel-4",
+      "maps-travel-5",
+      "maps-travel-3",
+      "maps-travel-6",
+      "maps-travel-7"
+    ],
+    "buildings": [
+      "buildings-1",
+      "buildings-2",
+      "buildings-8",
+      "buildings-9",
+      "buildings-7",
+      "buildings-3",
+      "buildings-10",
+      "buildings-11"
+    ],
+    "npcs": [
+      "npcs-1",
+      "npcs-3",
+      "npcs-4",
+      "npcs-5",
+      "npcs-2"
+    ],
+    "quests": [
+      "quests-1",
+      "quests-2",
+      "quests-3",
+      "quests-4",
+      "quests-5",
+      "quests-8"
+    ],
+    "lures": [
+      "lures-baits-1",
+      "lures-baits-2",
+      "lures-baits-4",
+      "lures-baits-5",
+      "lures-baits-6",
+      "lures-baits-7"
+    ],
+    "skills": [
+      "skills-1",
+      "skills-2",
+      "skills-7",
+      "skills-3",
+      "skills-4",
+      "skills-5",
+      "skills-6"
+    ],
+    "economy": [
+      "economy-1",
+      "economy-3",
+      "economy-2"
+    ],
+    "xp": [
+      "xp-progression-1",
+      "xp-progression-3",
+      "xp-progression-2",
+      "xp-progression-4",
+      "xp-progression-5",
+      "xp-progression-10"
+    ],
+    "seasons": [
+      "seasons-1",
+      "seasons-2",
+      "seasons-3",
+      "seasons-8",
+      "seasons-9",
+      "seasons-12",
+      "seasons-11",
+      "seasons-4",
+      "seasons-7"
+    ],
+    "monsters": [
+      "q75",
+      "q78",
+      "q77",
+      "monster-9",
+      "monster-10",
+      "q76"
+    ],
+    "dna": [
+      "dna-01",
+      "dna-02",
+      "dna-07",
+      "dna-08",
+      "dna-03",
+      "dna-04",
+      "dna-05"
+    ],
+    "vip": [
+      "vip-maps-1",
+      "vip-maps-2",
+      "vip-maps-3",
+      "vip-maps-4",
+      "vip-maps-5",
+      "vip-bermuda-riddle-1",
+      "vip-bermuda-riddle-2",
+      "vip-bermuda-riddle-3"
+    ],
+    "clans": [
+      "clans-1",
+      "clans-2",
+      "clans-3",
+      "clans-4",
+      "clans-7",
+      "clans-8",
+      "clans-9"
+    ],
+    "pvp-duels": [
+      "pvp-1",
+      "pvp-2",
+      "pvp-4",
+      "pvp-5",
+      "pvp-6",
+      "pvp-3"
+    ],
+    "tournaments": [
+      "tournaments-1",
+      "tournaments-3",
+      "tournaments-7",
+      "tournaments-8",
+      "tournaments-2"
+    ],
+    "events": [
+      "events-1",
+      "events-4",
+      "events-3",
+      "events-2"
+    ],
+    "arcade": [
+      "arcade-1",
+      "arcade-2",
+      "arcade-3",
+      "arcade-4",
+      "arcade-7"
+    ],
+    "help": [
+      "q80",
+      "q81",
+      "game-settings-5",
+      "q82",
+      "game-settings-6",
+      "game-settings-4"
+    ]
+  }
 };
