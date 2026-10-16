@@ -1,3 +1,5 @@
+DeepFaqs v0.1.42 — 290 unique FAQs; Clan Island newer totem reward table, Lucky Clover FAQs, rod/map/bait/co-leader FAQs, potion stacking clarification, Acknowledgments copy refinements.
+
 DeepFaqs v0.1.1
 
 First working shell based on the approved DeepFaqs layout.
@@ -60,3 +62,9 @@ DeepFaqs v0.1.34: Category cards use six columns on wide desktop, three on table
 v0.1.38: Added boat engine, Fate perks, and underwater shadows FAQs (256 total). Editorial cleanup: standard reference link presentation, long-answer paragraph spacing, and terminology consistency.
 
 DeepFaqs v0.1.39: 17 new FAQs; anchor scroll fixes; submission copy; question and answer editorial improvements; searchable coin-farming aliases.
+
+
+v0.1.40: 11 new FAQs (Buildings 3, Equipment & Tools 5, Getting Started 3); two confirmed duplicate building entries consolidated into their Getting Started counterparts with secondary Buildings visibility; community Acknowledgments section and footer link. Total: 283 unique FAQs in 21 categories.
+
+
+v0.1.41: Fixed narrow mobile resource carousel layout (one full-width card, heading above, arrows alongside); tablet shows two cards, desktop three. Improved acknowledgments paragraph wrapping.

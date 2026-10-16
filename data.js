@@ -346,10 +346,13 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-1",
       "category": "getting-started",
       "question": "What should I build first?",
-      "answer": "Start with the Aquarium (Jam Jar Fish Tank), because it generates passive income. Put your biggest fish there. The Storage building is also useful early because it lets you keep rare or hard-to-find items.",
+      "answer": "Start with the Aquarium (Jam Jar Fish Tank), because it generates passive income. Put your biggest fish there. The Storage building is also useful early because it lets you keep rare or hard-to-find items. The Rod Shop and Dockyard are important for upgrades and accessories.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "buildings"
+      ]
     },
     {
       "id": "getting-started-2",
@@ -534,10 +537,13 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-18",
       "category": "getting-started",
       "question": "What are potions and elixirs?",
-      "answer": "Potions and elixirs temporarily boost player skills by adding one extra point to the chosen skill. You cannot use more than one potion or elixir of the same kind at the same time, but you can stack different kinds.",
+      "answer": "Potions and elixirs temporarily boost player skills by adding one extra point to the chosen skill. You can use different types of potions and elixirs together, but you cannot stack multiple potions or elixirs of the same kind.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "skills"
+      ]
     },
     {
       "id": "getting-started-19",
@@ -561,10 +567,13 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-21",
       "category": "getting-started",
       "question": "What are the most important buildings?",
-      "answer": "The Aquarium (Jam Jar Fish Tank) generates passive income, so it is useful to start early and stock it with your biggest fish. The Storage building is also valuable for keeping rare or hard-to-find items.",
+      "answer": "The Aquarium (Jam Jar Fish Tank) generates passive income, so it is useful to build early and stock with your biggest fish. The Storage building is valuable for keeping rare or hard-to-find items. The Rod Shop and Dockyard are important for upgrades and accessories.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "buildings"
+      ]
     },
     {
       "id": "getting-started-22",
@@ -594,24 +603,6 @@ window.DEEPFAQS_DATA = {
       "category": "getting-started",
       "question": "Is it possible to change the time of day in game?",
       "answer": "Yes. The Tidal Hourglass becomes available for purchase after completing 75% of the DNA Project. It costs 10 gems and flips day/night for one hour. Do not change your device time to alter the game's time, as this could result in a ban.",
-      "links": [],
-      "published": true,
-      "scope": "general"
-    },
-    {
-      "id": "buildings-1",
-      "category": "buildings",
-      "question": "What buildings are important?",
-      "answer": "The Aquarium (Jam Jar Fish Tank) generates passive income, so start this early and put your biggest fish there. The Storage building helps with keeping rare or hard-to-find items. The Rod Shop and Dockyard are important for various upgrades and buying accessories.",
-      "links": [],
-      "published": true,
-      "scope": "general"
-    },
-    {
-      "id": "buildings-2",
-      "category": "buildings",
-      "question": "What should I build first?",
-      "answer": "Start with the Aquarium (Jam Jar Fish Tank), because it generates passive income, and put your biggest fish there. The Storage building also helps with keeping rare or hard-to-find items. The Rod Shop and Dockyard are important for various upgrades and buying accessories.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -1702,8 +1693,8 @@ window.DEEPFAQS_DATA = {
     {
       "id": "clans-6",
       "category": "clans",
-      "question": "What are the totem benefits?",
-      "answer": "See the CotD Wiki for details about totem benefits.",
+      "question": "What rewards do the Clan Island totems give?",
+      "answer": "There are eight totems on Clan Island. Each has three upgrade stages: Stage 1 is the base totem and gives no rewards; Stages 2 and 3 provide rewards. For the original four totems, see the CotD Wiki. The four newer totems give the following rewards:",
       "links": [
         {
           "label": "CotD Wiki — Totems",
@@ -1711,7 +1702,36 @@ window.DEEPFAQS_DATA = {
         }
       ],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "table": {
+        "headers": [
+          "Totem",
+          "Stage 2",
+          "Stage 3"
+        ],
+        "rows": [
+          [
+            "Nessie",
+            "Charisma Potion",
+            "Charisma Elixir"
+          ],
+          [
+            "Bunyip",
+            "Agility Potion",
+            "Agility Elixir"
+          ],
+          [
+            "Naga",
+            "Pink Bait",
+            "Black Bait"
+          ],
+          [
+            "Boiuna",
+            "10 VIP Tickets",
+            "20 VIP Tickets"
+          ]
+        ]
+      }
     },
     {
       "id": "clans-7",
@@ -3005,6 +3025,227 @@ window.DEEPFAQS_DATA = {
       "answer": "The Garbage Grabber specializes in finding trash. If you're searching for hard-to-find trash, it offers better results than a wooden rod.",
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v140-chest-open",
+      "category": "buildings",
+      "question": "Can I open treasure chests that I fish out of the water?",
+      "answer": "Not directly. You can open them through the Workbench using the appropriate blueprint. Alternatively, Mike Locksmith may request a treasure chest, rewarding you with XP and either gold or gems.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v140-chest-blueprints",
+      "category": "buildings",
+      "question": "What do I do with treasure chest blueprints?",
+      "answer": "Use the blueprint at the Workbench and gather the required ingredients to craft the treasure chest. Once crafted, it opens and gives you a reward.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v140-repair-worth",
+      "category": "equipment",
+      "question": "Are repair kits worth crafting?",
+      "answer": "Repair kits are especially useful for expensive rods, such as the Monster Rod or Slowmo Rod, that you use selectively. For cheaper rods, repairing may not be worth the time spent gathering ingredients.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v140-repair-amount",
+      "category": "equipment",
+      "question": "How much durability do repair kits restore?",
+      "answer": "A level 1 repair kit restores 10 durability, while a level 2 kit restores 15. Higher-level kits restore progressively more.",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "table": {
+        "headers": [
+          "Repair kit level",
+          "Durability restored"
+        ],
+        "rows": [
+          [
+            "Level 1",
+            "10"
+          ],
+          [
+            "Level 2",
+            "15"
+          ],
+          [
+            "Higher levels",
+            "More (amount varies)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "v140-repair-types",
+      "category": "equipment",
+      "question": "Are the different repair kits identical?",
+      "answer": "The different repair kits restore the same amount of durability at equivalent levels.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v140-repair-every",
+      "category": "equipment",
+      "question": "Why shouldn’t I repair every rod?",
+      "answer": "Crafting repair kits requires gathering ingredients, which takes time. For cheaper rods, replacing them may be more practical than repairing them.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v140-durability-loss",
+      "category": "equipment",
+      "question": "How much rod durability is lost for different catches?",
+      "answer": "Rod durability loss depends on the type of catch. The monster value is an estimate and has not been confirmed; the value for creatures is unknown.",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "table": {
+        "headers": [
+          "Catch type",
+          "Durability lost"
+        ],
+        "rows": [
+          [
+            "Common fish / trash",
+            "1"
+          ],
+          [
+            "Rare fish",
+            "1.5"
+          ],
+          [
+            "Epic fish",
+            "2"
+          ],
+          [
+            "Monsters",
+            "Approximately 2.5 (unconfirmed)"
+          ],
+          [
+            "Creatures",
+            "Unknown"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "v140-quiz-what",
+      "category": "getting-started",
+      "question": "What are fish quizzes?",
+      "answer": "Fish quizzes are minigames based on identifying fish. There are individual quizzes for each map, excluding Marina and VIP maps, plus a master quiz covering fish from all eligible maps.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v140-quiz-rewards",
+      "category": "getting-started",
+      "question": "What rewards can I earn from fish quizzes?",
+      "answer": "You can earn bronze, silver, and gold badges that appear on your player profile.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v140-quiz-play",
+      "category": "getting-started",
+      "question": "How do I play the fish quiz?",
+      "answer": "At the start, you’ll see a set of nine fish. Their silhouettes are then shuffled. The game displays the name of one fish from the original set, and you must select its matching silhouette.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v140-aquarium-collect",
+      "category": "buildings",
+      "question": "Should I collect aquarium income frequently or just once a day?",
+      "answer": "It’s better to collect aquarium income as frequently as practical. The rate at which gold accumulates slows down as the uncollected amount increases.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v142-01",
+      "category": "equipment",
+      "question": "Does my rod lose durability when I fish out floating crates or trash?",
+      "answer": "No. Fishing out floating crates or trash does not reduce your rod’s durability.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v142-02",
+      "category": "fish-fishing",
+      "question": "What is Lucky Clover?",
+      "answer": "Lucky Clover increases your fishing luck. It can help you catch bigger fish and attract rare and epic fish more quickly.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v142-03",
+      "category": "fish-fishing",
+      "question": "How do I get Lucky Clover?",
+      "answer": "You can get Lucky Clover in several ways:",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "bullets": [
+        "Buy Clover for 2 gems at the Rod Shop.",
+        "Earn free Clover by selling or recycling a total of 50 trash items at the Marina Shop and Recycling Center. Donating wood to the Clan Monument also counts toward this total.",
+        "Collect free Clover from the Clover Stand on Clan Island.",
+        "Receive Clover as an occasional reward from treasure chests."
+      ]
+    },
+    {
+      "id": "v142-04",
+      "category": "fish-fishing",
+      "question": "Does Lucky Clover increase my chances of finding rare creatures or hard-to-find trash?",
+      "answer": "No. Lucky Clover only affects fish. It does not increase your chances of finding creatures or trash.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v142-05",
+      "category": "equipment",
+      "question": "Is there a difference between the red and gold pins on in-game maps?",
+      "answer": "No. The red and gold pins are simply used to differentiate locations. There is no functional difference between them.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v142-06",
+      "category": "lures",
+      "question": "Is there a difference between the various levels of craftable bait?",
+      "answer": "No difference between the various levels of craftable bait has been confirmed so far.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v142-07",
+      "category": "clans",
+      "question": "What can a clan co-leader do?",
+      "answer": "Clan co-leaders have several additional permissions:",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "bullets": [
+        "Kick or demote clan members.",
+        "Ring the bell on Clan Island.",
+        "Edit the clan description sections."
+      ]
     }
   ],
   "resources": [
@@ -3068,7 +3309,10 @@ window.DEEPFAQS_DATA = {
       "getting-started-19",
       "getting-started-20",
       "getting-started-23",
-      "getting-started-24"
+      "getting-started-24",
+      "v140-quiz-what",
+      "v140-quiz-play",
+      "v140-quiz-rewards"
     ],
     "fish-fishing": [
       "fish-fishing-5",
@@ -3095,7 +3339,10 @@ window.DEEPFAQS_DATA = {
       "new-0133-04",
       "polish-035-3",
       "v139-fish-price",
-      "v139-exhaust"
+      "v139-exhaust",
+      "v142-02",
+      "v142-03",
+      "v142-04"
     ],
     "equipment": [
       "getting-started-6",
@@ -3117,7 +3364,14 @@ window.DEEPFAQS_DATA = {
       "v139-durability",
       "v139-goldrod",
       "v139-choose-rod",
-      "v139-garbage"
+      "v139-garbage",
+      "v140-repair-worth",
+      "v140-repair-amount",
+      "v140-repair-types",
+      "v140-repair-every",
+      "v140-durability-loss",
+      "v142-01",
+      "v142-05"
     ],
     "maps": [
       "maps-travel-1",
@@ -3134,8 +3388,6 @@ window.DEEPFAQS_DATA = {
       "maps-travel-12"
     ],
     "buildings": [
-      "buildings-1",
-      "buildings-2",
       "buildings-8",
       "buildings-9",
       "buildings-7",
@@ -3154,7 +3406,10 @@ window.DEEPFAQS_DATA = {
       "buildings-18",
       "buildings-19",
       "buildings-recycling-1",
-      "buildings-recycling-2"
+      "buildings-recycling-2",
+      "v140-chest-open",
+      "v140-chest-blueprints",
+      "v140-aquarium-collect"
     ],
     "npcs": [
       "npcs-1",
@@ -3190,7 +3445,8 @@ window.DEEPFAQS_DATA = {
       "lures-baits-7",
       "lures-baits-3",
       "lures-baits-8",
-      "lures-baits-9"
+      "lures-baits-9",
+      "v142-06"
     ],
     "skills": [
       "skills-1",
@@ -3209,7 +3465,8 @@ window.DEEPFAQS_DATA = {
       "v139-fourleaf-equip",
       "v139-viptransfer",
       "v139-vipreturn",
-      "v139-durable"
+      "v139-durable",
+      "getting-started-18"
     ],
     "economy": [
       "economy-1",
@@ -3312,7 +3569,8 @@ window.DEEPFAQS_DATA = {
       "clans-19",
       "clans-20",
       "clans-21",
-      "new-0133-01"
+      "new-0133-01",
+      "v142-07"
     ],
     "pvp-duels": [
       "pvp-1",
