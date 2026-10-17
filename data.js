@@ -100,6 +100,12 @@ window.DEEPFAQS_DATA = {
       "icon": "🎉"
     },
     {
+      "id": "side-games",
+      "name": "Side Games",
+      "icon": "🎮",
+      "description": "Additional games and challenges within CotD, beyond fishing."
+    },
+    {
       "id": "arcade",
       "name": "Arcade",
       "icon": "🕹️",
@@ -870,7 +876,7 @@ window.DEEPFAQS_DATA = {
       "id": "fish-fishing-3",
       "category": "fish-fishing",
       "question": "Does exhaustion work for everything?",
-      "answer": "Yes. This applies to fish, creatures, and trash items.",
+      "answer": "Yes. This applies to fish, creatures, and trash items. Exhaustion does not apply in the Marina.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -2730,7 +2736,7 @@ window.DEEPFAQS_DATA = {
       "id": "new-0133-01",
       "category": "clans",
       "question": "How can I change clans without a 24-hour lockout?",
-      "answer": "You can switch clans without triggering the 24-hour lockout during the final two days of a CotD season, after the Clan Battle season has ended. You can also switch during the break between daily Clan Battles.",
+      "answer": "You can switch clans without triggering the 24-hour lockout during the final two days of a CotD season, after the Clan Battle season has ended. You can also switch during the break between daily Clan Battles (it is safe to leave your old clan 15 or more minutes after a battle ends).",
       "links": [],
       "published": true,
       "scope": "general"
@@ -3262,7 +3268,7 @@ window.DEEPFAQS_DATA = {
       "scope": "general",
       "bullets": [
         "Kick or demote clan members.",
-        "Ring the bell on Clan Island.",
+        "Ring the bell on Clan Island to call clan members. This sends a message to all clan members: “Meeting on clan island.”",
         "Edit the clan description sections."
       ]
     },
@@ -3399,6 +3405,60 @@ window.DEEPFAQS_DATA = {
       "links": [],
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v144-01",
+      "category": "getting-started",
+      "question": "What is the purpose of the daily message in a bottle on Home Island?",
+      "answer": "The daily message in a bottle provides background lore about the game rather than contributing to your progression. Occasionally, it also contains surprise rewards.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v144-02",
+      "category": "side-games",
+      "question": "What is the Sailboat Championship?",
+      "answer": "Sailboat Championship is a boat-racing side game within CotD, introduced by an NPC named Skipper Ray. It is currently available only in the Great Lakes and Costa Rica.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v144-03",
+      "category": "side-games",
+      "question": "Can I race against friends in Sailboat Championship?",
+      "answer": "No. You cannot race directly against friends. Instead, you compete to improve your own time and earn bronze, silver, or gold badges.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v144-04",
+      "category": "side-games",
+      "question": "Are there rewards for Sailboat Championship?",
+      "answer": "Yes. You receive XP and gold coins when you earn bronze, silver, or gold badges.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v144-05",
+      "category": "side-games",
+      "question": "Are there tutorials for improving my Sailboat Championship times?",
+      "answer": "Yes. Here are video examples of gold-badge runs for both available locations:",
+      "links": [
+        {
+          "label": "Great Lakes — Gold Badge Run",
+          "url": "https://www.youtube.com/watch?v=hhgmnobInrM"
+        },
+        {
+          "label": "Costa Rica — Gold Badge Run",
+          "url": "https://www.youtube.com/watch?v=W-P20Z_lc5c"
+        }
+      ],
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -3468,7 +3528,8 @@ window.DEEPFAQS_DATA = {
       "v140-quiz-rewards",
       "v143-04",
       "v143-05",
-      "v143-06"
+      "v143-06",
+      "v144-01"
     ],
     "fish-fishing": [
       "fish-fishing-5",
@@ -3784,6 +3845,12 @@ window.DEEPFAQS_DATA = {
       "q82",
       "game-settings-6",
       "game-settings-4"
+    ],
+    "side-games": [
+      "v144-02",
+      "v144-03",
+      "v144-04",
+      "v144-05"
     ]
   }
 };

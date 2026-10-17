@@ -1,3 +1,5 @@
+DeepFaqs v0.1.44 — 305 unique FAQs across 22 categories. New Side Games category with Sailboat Championship information and tutorial links; daily message-in-a-bottle FAQ; co-leader bell, Marina exhaustion, and safe clan-switching answer updates.
+
 DeepFaqs v0.1.42 — 290 unique FAQs; Clan Island newer totem reward table, Lucky Clover FAQs, rod/map/bait/co-leader FAQs, potion stacking clarification, Acknowledgments copy refinements.
 
 DeepFaqs v0.1.1
