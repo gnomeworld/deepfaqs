@@ -68,3 +68,6 @@ v0.1.40: 11 new FAQs (Buildings 3, Equipment & Tools 5, Getting Started 3); two 
 
 
 v0.1.41: Fixed narrow mobile resource carousel layout (one full-width card, heading above, arrows alongside); tablet shows two cards, desktop three. Improved acknowledgments paragraph wrapping.
+
+
+DeepFaqs v0.1.43: 10 new FAQs, potion/elixir Level 1 durations, Echosonar cost note. 300 unique FAQs.

@@ -549,10 +549,29 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-19",
       "category": "getting-started",
       "question": "What is the difference between a potion and an elixir?",
-      "answer": "Elixirs last longer than potions, usually by about 15 minutes.",
+      "answer": "Elixirs last longer than potions. For Level 1 blueprints, a potion lasts 15 minutes and an elixir lasts 30 minutes.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "table": {
+        "headers": [
+          "Level 1 blueprint",
+          "Duration"
+        ],
+        "rows": [
+          [
+            "Potion",
+            "15 minutes"
+          ],
+          [
+            "Elixir",
+            "30 minutes"
+          ]
+        ]
+      },
+      "secondaryCategories": [
+        "skills"
+      ]
     },
     {
       "id": "getting-started-20",
@@ -3246,6 +3265,140 @@ window.DEEPFAQS_DATA = {
         "Ring the bell on Clan Island.",
         "Edit the clan description sections."
       ]
+    },
+    {
+      "id": "v143-01",
+      "category": "monsters",
+      "question": "How can I detect daily monster spots myself?",
+      "answer": "You need Perception Level 10 to see daily monster spots. For instructions on locating them, see the linked guide on the CotD Discord.",
+      "links": [
+        {
+          "label": "CotD Discord — Daily Monster Spot Guide",
+          "url": "https://discord.com/channels/1038075942460993606/1038096510660911184/1225072559175897218"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v143-02",
+      "category": "fish-fishing",
+      "question": "How do I find fish locations?",
+      "answer": "There are several ways to find where fish are located:",
+      "links": [
+        {
+          "label": "CloverSalad",
+          "url": "https://cloversalad.com/"
+        },
+        {
+          "label": "CotD Wiki",
+          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Creatures_of_the_Deep_Wiki"
+        }
+      ],
+      "published": true,
+      "scope": "general",
+      "bullets": [
+        "Check community resources such as CloverSalad and the CotD Wiki.",
+        "Track fish shoals.",
+        "Use the in-game maps.",
+        "Purchase an Echosonar to help locate fish, although this is an extremely expensive option."
+      ]
+    },
+    {
+      "id": "v143-03",
+      "category": "clans",
+      "question": "Can I join a Clan Battle on a map I haven't unlocked yet?",
+      "answer": "No. You must unlock the map before you can participate in a Clan Battle held there.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v143-04",
+      "category": "getting-started",
+      "question": "Can I fish with a friend?",
+      "answer": "There is no dedicated friends system in the game. Your best chance of playing alongside a friend is to join the same clan.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v143-05",
+      "category": "getting-started",
+      "question": "Is there an in-game chat?",
+      "answer": "No, there is no free-text chat in the game. However, purchasing the Radio unlocks some emoji communication options. There are also a few preset messages you can use during Clan Battles and on Clan Island.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v143-06",
+      "category": "getting-started",
+      "question": "What is the friend code used for?",
+      "answer": "You can enter a friend code from a very new player and receive rewards as that player progresses through the game.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v143-07",
+      "category": "skills",
+      "question": "Why do some screenshots show fish shadows with fins?",
+      "answer": "This is caused by the Eye of Rarity perk, unlocked at Perception Level 6. With this perk, rare and epic fish shadows appear with fins.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v143-08",
+      "category": "lures",
+      "question": "Do lures really work? I've caught bigger fish without them!",
+      "answer": "Yes. Lures improve your chances of catching bigger fish, but they do not guarantee them. Fish size still involves luck, and you can catch fish up to 4★ without using any lure. To notice a significant improvement, you generally need a reasonably large lure.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v143-09",
+      "category": "npcs",
+      "question": "Are there benefits to giving fish to NPCs besides XP?",
+      "answer": "Yes. Some NPCs pay more than the normal selling price for fish. Rico is especially worthwhile for rare or epic fish. The 50 kg / 110 lbs Bellywise quest pays the normal price, but can still save travel costs.",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "table": {
+        "headers": [
+          "NPC / Quest",
+          "Fish payment"
+        ],
+        "rows": [
+          [
+            "Rico",
+            "3× normal price"
+          ],
+          [
+            "Bellywise (3 Common Fish quest)",
+            "2× normal price"
+          ],
+          [
+            "Le Cook",
+            "2× normal price"
+          ],
+          [
+            "Bellywise (50 kg / 110 lbs quest)",
+            "Normal price (1×)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "v143-10",
+      "category": "fish-fishing",
+      "question": "How can I tell the difference between creature and trash shadows?",
+      "answer": "Trash shadows generally bite faster and move closer to the bobber than creature shadows.",
+      "links": [],
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -3312,7 +3465,10 @@ window.DEEPFAQS_DATA = {
       "getting-started-24",
       "v140-quiz-what",
       "v140-quiz-play",
-      "v140-quiz-rewards"
+      "v140-quiz-rewards",
+      "v143-04",
+      "v143-05",
+      "v143-06"
     ],
     "fish-fishing": [
       "fish-fishing-5",
@@ -3342,7 +3498,9 @@ window.DEEPFAQS_DATA = {
       "v139-exhaust",
       "v142-02",
       "v142-03",
-      "v142-04"
+      "v142-04",
+      "v143-02",
+      "v143-10"
     ],
     "equipment": [
       "getting-started-6",
@@ -3424,7 +3582,8 @@ window.DEEPFAQS_DATA = {
       "npcs-10",
       "npcs-11",
       "npcs-12",
-      "npcs-13"
+      "npcs-13",
+      "v143-09"
     ],
     "quests": [
       "quests-1",
@@ -3446,7 +3605,8 @@ window.DEEPFAQS_DATA = {
       "lures-baits-3",
       "lures-baits-8",
       "lures-baits-9",
-      "v142-06"
+      "v142-06",
+      "v143-08"
     ],
     "skills": [
       "skills-1",
@@ -3466,7 +3626,8 @@ window.DEEPFAQS_DATA = {
       "v139-viptransfer",
       "v139-vipreturn",
       "v139-durable",
-      "getting-started-18"
+      "getting-started-18",
+      "v143-07"
     ],
     "economy": [
       "economy-1",
@@ -3514,7 +3675,8 @@ window.DEEPFAQS_DATA = {
       "monster-6",
       "monster-7",
       "monster-8",
-      "monster-11"
+      "monster-11",
+      "v143-01"
     ],
     "dna": [
       "dna-01",
@@ -3570,7 +3732,8 @@ window.DEEPFAQS_DATA = {
       "clans-20",
       "clans-21",
       "new-0133-01",
-      "v142-07"
+      "v142-07",
+      "v143-03"
     ],
     "pvp-duels": [
       "pvp-1",
