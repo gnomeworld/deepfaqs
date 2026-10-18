@@ -200,3 +200,7 @@ html{scroll-padding-top:110px}
 .hero-stats strong{color:#fff;font-weight:750}
 .hero-stats-separator{opacity:.65}
 @media(max-width:540px){.hero-stats{margin-top:12px;font-size:11px;gap:4px 7px}}
+
+/* v0.1.48: understated, readable count on the ocean hero */
+.hero-stats{color:#c6f5ee;font-weight:600}
+.hero-stats strong{color:#f0fffb}

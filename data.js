@@ -430,15 +430,6 @@ window.DEEPFAQS_DATA = {
       ]
     },
     {
-      "id": "getting-started-8",
-      "category": "getting-started",
-      "question": "What does Agent S. want?",
-      "answer": "Nothing at this time. Agent S. is an Easter egg, so you can ignore the task.",
-      "links": [],
-      "published": true,
-      "scope": "general"
-    },
-    {
       "id": "getting-started-9",
       "category": "getting-started",
       "question": "Are boat upgrades only cosmetic?",
@@ -477,7 +468,10 @@ window.DEEPFAQS_DATA = {
         }
       ],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "fish-fishing"
+      ]
     },
     {
       "id": "getting-started-13",
@@ -491,7 +485,10 @@ window.DEEPFAQS_DATA = {
         }
       ],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "fish-fishing"
+      ]
     },
     {
       "id": "getting-started-14",
@@ -505,7 +502,10 @@ window.DEEPFAQS_DATA = {
         }
       ],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "fish-fishing"
+      ]
     },
     {
       "id": "getting-started-15",
@@ -519,7 +519,10 @@ window.DEEPFAQS_DATA = {
         }
       ],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "fish-fishing"
+      ]
     },
     {
       "id": "getting-started-16",
@@ -528,16 +531,22 @@ window.DEEPFAQS_DATA = {
       "answer": "For trash items, always use Cast and Reel. For shadowless fish, both Cast and Wait and Cast and Reel may work.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "fish-fishing"
+      ]
     },
     {
       "id": "getting-started-17",
       "category": "getting-started",
       "question": "What are the different types of reel?",
-      "answer": "Most common fish use an automatic/simple reel. Some common fish and all rare and epic fish use reel minigames. Minigames may have either a static “perfect” bar or a moving “perfect” bar.",
+      "answer": "There are automatic/simple reels for most common fish. Some common fish and all rare and epic fish use reel minigames. Minigames can have either a static “perfect” bar or a moving “perfect” bar.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "fish-fishing"
+      ]
     },
     {
       "id": "getting-started-18",
@@ -891,80 +900,6 @@ window.DEEPFAQS_DATA = {
       "scope": "general"
     },
     {
-      "id": "fish-fishing-5",
-      "category": "fish-fishing",
-      "question": "What are the different fishing methods?",
-      "answer": "The three fishing methods are Active Fishing, Cast and Wait, and Cast and Reel.",
-      "links": [
-        {
-          "label": "CotD Wiki — Fishing Styles",
-          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Fishing_Techniques#Fishing_Styles"
-        }
-      ],
-      "published": true,
-      "scope": "general"
-    },
-    {
-      "id": "fish-fishing-6",
-      "category": "fish-fishing",
-      "question": "What is Active Fishing?",
-      "answer": "Active Fishing is one of the game's three fishing methods. See the Fishing Styles guide for details.",
-      "links": [
-        {
-          "label": "CotD Wiki — Fishing Styles",
-          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Fishing_Techniques#Fishing_Styles"
-        }
-      ],
-      "published": true,
-      "scope": "general"
-    },
-    {
-      "id": "fish-fishing-7",
-      "category": "fish-fishing",
-      "question": "What is Cast and Wait (CnW / CW)?",
-      "answer": "Cast and Wait is one of the game's three fishing methods. It is also commonly abbreviated CnW or CW.",
-      "links": [
-        {
-          "label": "CotD Wiki — Fishing Styles",
-          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Fishing_Techniques#Fishing_Styles"
-        }
-      ],
-      "published": true,
-      "scope": "general"
-    },
-    {
-      "id": "fish-fishing-8",
-      "category": "fish-fishing",
-      "question": "What is Cast and Reel (CnR / CR)?",
-      "answer": "Cast and Reel is one of the game's three fishing methods. It is also commonly abbreviated CnR or CR.",
-      "links": [
-        {
-          "label": "CotD Wiki — Fishing Styles",
-          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Fishing_Techniques#Fishing_Styles"
-        }
-      ],
-      "published": true,
-      "scope": "general"
-    },
-    {
-      "id": "fish-fishing-9",
-      "category": "fish-fishing",
-      "question": "Is there a preferred fishing method for different things?",
-      "answer": "For trash items, always use Cast and Reel. For shadowless fish, both Cast and Wait and Cast and Reel may work.",
-      "links": [],
-      "published": true,
-      "scope": "general"
-    },
-    {
-      "id": "fish-fishing-10",
-      "category": "fish-fishing",
-      "question": "What are the different types of reel?",
-      "answer": "There are automatic/simple reels for most common fish. Some common fish and all rare and epic fish use reel minigames. Minigames can have either a static “perfect” bar or a moving “perfect” bar.",
-      "links": [],
-      "published": true,
-      "scope": "general"
-    },
-    {
       "id": "fish-fishing-11",
       "category": "fish-fishing",
       "question": "What are these shimmers in the water?",
@@ -978,15 +913,6 @@ window.DEEPFAQS_DATA = {
       "category": "fish-fishing",
       "question": "Do shimmers always have bubbles?",
       "answer": "No, not always.",
-      "links": [],
-      "published": true,
-      "scope": "general"
-    },
-    {
-      "id": "fish-fishing-13",
-      "category": "fish-fishing",
-      "question": "What does OOS mean?",
-      "answer": "OOS stands for Out of Season.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -1048,7 +974,10 @@ window.DEEPFAQS_DATA = {
       "answer": "OOS stands for Out of Season.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "fish-fishing"
+      ]
     },
     {
       "id": "seasons-2",
@@ -1228,15 +1157,6 @@ window.DEEPFAQS_DATA = {
       "scope": "general"
     },
     {
-      "id": "maps-travel-6",
-      "category": "maps",
-      "question": "What is the cost of travel for VIP maps?",
-      "answer": "Travel to VIP locations varies between 80 and 190 VIP tickets. These ticket prices change every 90 minutes.",
-      "links": [],
-      "published": true,
-      "scope": "general"
-    },
-    {
       "id": "maps-travel-7",
       "category": "maps",
       "question": "What are secret caves?",
@@ -1320,7 +1240,13 @@ window.DEEPFAQS_DATA = {
       "answer": "Travel to VIP locations varies between 80 and 190 VIP tickets. These ticket prices change every 90 minutes.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "maps"
+      ],
+      "searchAliases": [
+        "What is the cost of travel for VIP maps?"
+      ]
     },
     {
       "id": "vip-maps-4",
@@ -1562,20 +1488,6 @@ window.DEEPFAQS_DATA = {
         {
           "label": "CotD Wiki — Game Progression",
           "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Gameplay#Game_Progression"
-        }
-      ],
-      "published": true,
-      "scope": "general"
-    },
-    {
-      "id": "xp-progression-7",
-      "category": "xp",
-      "question": "What are the secondary quests from main NPCs?",
-      "answer": "See the linked Discord reference for secondary quests from main NPCs.",
-      "links": [
-        {
-          "label": "Secondary NPC Quests — Discord",
-          "url": "https://discord.com/channels/1038075942460993606/1040334094048972880/1552971981257838725"
         }
       ],
       "published": true,
@@ -2419,10 +2331,20 @@ window.DEEPFAQS_DATA = {
         {
           "label": "Secondary building quests — CotD Official Discord",
           "url": "https://discord.com/channels/1038075942460993606/1040334094048972880/1552971981257838725"
+        },
+        {
+          "label": "Secondary NPC Quests — Discord",
+          "url": "https://discord.com/channels/1038075942460993606/1040334094048972880/1552971981257838725"
         }
       ],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "xp"
+      ],
+      "searchAliases": [
+        "What are the secondary quests from main NPCs?"
+      ]
     },
     {
       "id": "quests-6",
@@ -2519,10 +2441,16 @@ window.DEEPFAQS_DATA = {
       "id": "npcs-7",
       "category": "npcs",
       "question": "What does Agent S want us to do?",
-      "answer": "Agent S is an Easter egg and does not currently have a real task.",
+      "answer": "Nothing at this time. Agent S. is an Easter egg, so you can ignore the task.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "getting-started"
+      ],
+      "searchAliases": [
+        "What does Agent S. want?"
+      ]
     },
     {
       "id": "npcs-8",
@@ -3546,7 +3474,7 @@ window.DEEPFAQS_DATA = {
           ],
           [
             "Australia",
-            "Kangaroo Sign, Maori Jewellery, Explorer Diary, Giant Shark Tooth, Aboriginal Painting, Floppy Disk"
+            "Kangaroo Sign, Maori jewelry, Explorer Diary, Giant Shark Tooth, Aboriginal Painting, Floppy Disk"
           ],
           [
             "Scotland",
@@ -3627,7 +3555,7 @@ window.DEEPFAQS_DATA = {
       "getting-started-3",
       "getting-started-4",
       "getting-started-5",
-      "getting-started-8",
+      "npcs-7",
       "getting-started-9",
       "getting-started-10",
       "getting-started-11",
@@ -3647,19 +3575,19 @@ window.DEEPFAQS_DATA = {
       "v144-01"
     ],
     "fish-fishing": [
-      "fish-fishing-5",
-      "fish-fishing-6",
-      "fish-fishing-7",
-      "fish-fishing-8",
-      "fish-fishing-9",
+      "getting-started-12",
+      "getting-started-13",
+      "getting-started-14",
+      "getting-started-15",
+      "getting-started-16",
       "fish-fishing-2",
       "fish-fishing-3",
       "fish-fishing-4",
       "fish-fishing-1",
-      "fish-fishing-10",
+      "getting-started-17",
       "fish-fishing-11",
       "fish-fishing-12",
-      "fish-fishing-13",
+      "seasons-1",
       "fish-fishing-14",
       "fish-fishing-15",
       "fish-fishing-16",
@@ -3717,7 +3645,7 @@ window.DEEPFAQS_DATA = {
       "maps-travel-4",
       "maps-travel-5",
       "maps-travel-3",
-      "maps-travel-6",
+      "vip-maps-3",
       "maps-travel-7",
       "maps-travel-8",
       "maps-travel-9",
@@ -3824,7 +3752,7 @@ window.DEEPFAQS_DATA = {
       "xp-progression-5",
       "xp-progression-10",
       "xp-progression-6",
-      "xp-progression-7",
+      "quests-5",
       "xp-progression-8",
       "xp-progression-9",
       "xp-progression-11",

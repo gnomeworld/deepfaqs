@@ -77,3 +77,6 @@ DeepFaqs v0.1.43: 10 new FAQs, potion/elixir Level 1 durations, Echosonar cost n
 DeepFaqs v0.1.46: four difficult-collection FAQs; dynamic unique FAQ/category counts below search suggestions; community resource subtitle updated; acknowledgments phrasing refined.
 
 DeepFaqs v0.1.47: Simplified homepage stats to a dynamic “questions answered — and counting!” line; shortened Community Resources subtitle. No FAQ data changes.
+
+
+v0.1.48: Word-aware FAQ search and relevance ranking; consolidated 10 duplicate/near-duplicate FAQ pairs, retaining secondary-category listings and source links; American English spelling correction; updated hero count wording and color.

@@ -37,19 +37,63 @@ function renderResources(){
 $("#next").onclick=()=>{resourceOffset=(resourceOffset+1)%D.resources.length;renderResources()};
 $("#prev").onclick=()=>{resourceOffset=(resourceOffset-1+D.resources.length)%D.resources.length;renderResources()};
 
-function search(q){
- q=q.trim().toLowerCase(); const panel=$("#searchPanel");
- if(!q){panel.classList.add("hidden");return}
- const terms=q.split(/\s+/);
- const matches=D.faqs.filter(f=>{
+// Season acronyms are case-insensitive search concepts, never ordinary substrings.
+// "is" and "IS" both mean In Season; "oos" and "OOS" mean Out of Season.
+const STOP_WORDS=new Set(["a","an","and","are","as","at","be","by","can","could","do","does","for","from","how","i","in","it","my","of","on","or","the","to","was","were","what","when","where","which","who","why","will","with","you","your"]);
+function searchWords(value){
+ return (String(value||"").toLowerCase().match(/[\p{L}\p{N}]+/gu)||[]);
+}
+function termMatches(term,words){
+ return words.some(w=>w===term||(term.length>=4&&w.startsWith(term)));
+}
+function faqSearchText(f){
+ return [f.question,f.answer,...(f.searchAliases||[]),...(f.paragraphs||[]),...(f.bullets||[]),...(f.table?f.table.rows.flat():[])].join(" ");
+}
+function seasonMatches(f,acronym){
+ const content=faqSearchText(f);
+ // Explicit acronyms must be uppercase in FAQ content, or use the expanded phrase.
+ // Lowercase "is" in English prose must never count as the IS acronym.
+ return acronym==="is" ? /\bIS\b/.test(content)||/\bin[\s-]+season\b/i.test(content)
+                       : /\bOOS\b/i.test(content)||/\bout[\s-]+of[\s-]+season\b/i.test(content);
+}
+function seasonQuestionScore(f,acronym){
+ const pattern=acronym==="is"?/\bIS\b|\bin[\s-]+season\b/i:/\bOOS\b|\bout[\s-]+of[\s-]+season\b/i;
+ return pattern.test(f.question)?150:pattern.test((f.searchAliases||[]).join(" "))?110:30;
+}
+function search(rawQuery){
+ const panel=$("#searchPanel");
+ const raw=rawQuery.trim();
+ if(!raw){panel.classList.add("hidden");return}
+ const input=searchWords(raw);
+ // In conversational questions, "is" acts as grammar ("what is OOS").
+ // As a lone query, or with topical terms ("IS fish"), it means In Season.
+ const wantsOOS=input.includes("oos");
+ const wantsIS=input.includes("is")&&!(wantsOOS&&input.length>1);
+ const terms=input.filter(t=>t!=="is"&&t!=="oos"&&!STOP_WORDS.has(t));
+ if(!terms.length&&!wantsIS&&!wantsOOS){
+   $("#resultCount").textContent="Try a more specific search";
+   $("#results").innerHTML='<div class="faq"><b>Try a more specific search term 🎣</b><p>Search for a topic such as IS, OOS, monsters, lures, or clans.</p></div>';
+   panel.classList.remove("hidden");return;
+ }
+ const scored=D.faqs.filter(f=>f.published!==false&&f.answer).map(f=>{
+   if(wantsIS&&!seasonMatches(f,"is"))return null;
+   if(wantsOOS&&!seasonMatches(f,"oos"))return null;
    const c=catMap[f.category]?.name||"";
-   const hay=(f.question+" "+f.answer+" "+(f.searchAliases||[]).join(" ")+" "+c+" "+(f.table?f.table.rows.flat().join(" "):"")).toLowerCase();
-   return terms.every(t=>hay.includes(t));
- });
+   const question=searchWords(f.question);
+   const aliases=searchWords((f.searchAliases||[]).join(" "));
+   const answer=searchWords([f.answer,(f.paragraphs||[]).join(" "),(f.bullets||[]).join(" "),f.table?f.table.rows.flat().join(" "):""].join(" "));
+   const category=searchWords(c+" "+(f.secondaryCategories||[]).map(id=>catMap[id]?.name||"").join(" "));
+   if(!terms.every(t=>[question,aliases,answer,category].some(words=>termMatches(t,words))))return null;
+   const score=terms.reduce((sum,t)=>sum+(question.includes(t)?100:termMatches(t,question)?80:aliases.includes(t)?65:termMatches(t,aliases)?55:answer.includes(t)?30:termMatches(t,answer)?20:termMatches(t,category)?5:0),0)
+     +(wantsIS?seasonQuestionScore(f,"is"):0)+(wantsOOS?seasonQuestionScore(f,"oos"):0);
+   return {f,score};
+ }).filter(Boolean).sort((a,b)=>b.score-a.score);
+ const matches=scored.map(x=>x.f);
  $("#resultCount").textContent=`${matches.length} question${matches.length===1?"":"s"} found`;
  $("#results").innerHTML=matches.length?matches.map(faqHTML).join(""):`<div class="faq"><b>Nothing biting for that search 🎣</b><span class="pending">Try another phrase.</span></div>`;
  panel.classList.remove("hidden");
 }
+
 $("#searchInput").addEventListener("input",e=>search(e.target.value));
 document.querySelectorAll(".try button").forEach(b=>b.onclick=()=>{$("#searchInput").value=b.textContent;search(b.textContent);$("#searchPanel").scrollIntoView({behavior:"smooth"})});
 $("#clearSearch").onclick=()=>{$("#searchInput").value="";$("#searchPanel").classList.add("hidden")};
