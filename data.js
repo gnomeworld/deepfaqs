@@ -115,6 +115,12 @@ window.DEEPFAQS_DATA = {
       "id": "help",
       "name": "Game & Settings",
       "icon": "⚙️"
+    },
+    {
+      "id": "community-resources",
+      "name": "Community Resources",
+      "icon": "🧭",
+      "description": "Helpful CotD websites, tools and player communities."
     }
   ],
   "faqs": [
@@ -3435,6 +3441,10 @@ window.DEEPFAQS_DATA = {
           [
             "Australia",
             "Cuttlefish"
+          ],
+          [
+            "Marina",
+            "Tin Can Hermit Crab, Nudibranch"
           ]
         ]
       },
@@ -3518,6 +3528,208 @@ window.DEEPFAQS_DATA = {
       "links": [],
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v155-monster-rod",
+      "category": "equipment",
+      "question": "How is the Monster Rod different from the Carbon Rod?",
+      "answer": "The Monster Rod provides a strength boost, making the moving reel easier to control during the fishing minigame. However, it costs more than the Carbon Rod, has lower weight luck, and occupies four inventory slots. It is best used primarily for catching monsters, since that is its specialty.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v155-slowmo-rod",
+      "category": "equipment",
+      "question": "How is the Slowmo Rod different from the Carbon Rod?",
+      "answer": "The Slowmo Rod gives you more time to react when a fish bites, slows the fishing minigame, and makes the minigame bar wider. However, it costs 10 gems, has lower weight luck, and has less durability than the Carbon Rod. It is best reserved for difficult situations when you need the extra assistance.",
+      "bullets": [
+        "More time to react when a fish bites",
+        "Slower-moving fishing minigame",
+        "Wider minigame bar"
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v155-marina-flowers",
+      "category": "getting-started",
+      "question": "What can I do with the flowers on Home Island (Marina)?",
+      "answer": "Six flowers grow around the Marina and regrow every day. You can use them to craft items at the Workbench, or sell them at the shop for gold and karma points, like other trash items.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v155-mr-octopus",
+      "category": "getting-started",
+      "question": "What does the big pink octopus at the Marina do?",
+      "answer": "That is Mr. Octopus, who visits on weekends to give players rewards.",
+      "links": [
+        {
+          "label": "CotD Wiki — Mr. Octopus",
+          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Home_Island?#Mr._Octopus"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v155-vip-map-purchase",
+      "category": "vip",
+      "question": "Are in-game maps available for purchase for VIP areas?",
+      "answer": "No, in-game maps are not available for VIP areas.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v155-resource-1",
+      "category": "community-resources",
+      "question": "What is the Official CotD Discord?",
+      "answer": "The official Creatures of the Deep Discord is a place to meet other players, ask questions, share fishing tips, and find community discussions.",
+      "links": [
+        {
+          "label": "Visit Official CotD Discord",
+          "url": "https://discord.gg/jr42uYzKH"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v155-resource-2",
+      "category": "community-resources",
+      "question": "What is the CotD Wiki?",
+      "answer": "The community-maintained Creatures of the Deep Wiki contains reference articles about fish, locations, game mechanics, and other parts of the game.",
+      "links": [
+        {
+          "label": "Visit CotD Wiki",
+          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Creatures_of_the_Deep_Wiki"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v155-resource-3",
+      "category": "community-resources",
+      "question": "What is CloverSalad?",
+      "answer": "CloverSalad is a CotD guide and interactive reference that helps players look up fish information and locations.",
+      "links": [
+        {
+          "label": "Visit CloverSalad",
+          "url": "https://cloversalad.com/"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v155-resource-4",
+      "category": "community-resources",
+      "question": "What is the Browind Channel?",
+      "answer": "Browind shares Creatures of the Deep videos, tutorials, and guides. Visit the channel for visual walkthroughs and tips.",
+      "links": [
+        {
+          "label": "Visit Browind Channel",
+          "url": "https://www.youtube.com/@BrowindChannel"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v155-resource-5",
+      "category": "community-resources",
+      "question": "What is FishMetrics?",
+      "answer": "FishMetrics is a companion tool for tracking fishing records, reviewing season performance, and planning fishing goals.",
+      "links": [
+        {
+          "label": "Visit FishMetrics",
+          "url": "https://fish-metrics.com/"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v155-resource-6",
+      "category": "community-resources",
+      "question": "What is DeepSweep?",
+      "answer": "DeepSweep is a companion resource for tracking items in the Trash Museum.",
+      "links": [
+        {
+          "label": "Visit DeepSweep",
+          "url": "https://deepsweep.app/"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v156-01",
+      "category": "clans",
+      "question": "Why do I keep getting kicked from clans?",
+      "answer": "Before joining a clan, read its description carefully and make sure you meet its requirements. If the clan includes a Discord link, join the server, introduce yourself, and explain your interest. Many organized clans look for players whose activity levels, goals, and playstyles match their own. Clear communication about expectations can help you find a clan that suits you.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v156-02",
+      "category": "fish-fishing",
+      "question": "Are depletion and exhaustion the same thing?",
+      "answer": "Yes. Depletion and exhaustion are two names for the same fishing spot mechanic.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v156-03",
+      "category": "fish-fishing",
+      "question": "How do I catch bigger fish?",
+      "answer": "Catching bigger fish takes patience and plenty of fishing. To improve your chances, use the Carbon Rod and equip a clover. Lures can also help, but they are expensive, so it is generally better to invest in them later in the game.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v156-04",
+      "category": "lures",
+      "question": "Which fish should I make lures for?",
+      "answer": "There is no single rule. Many players prioritize fish they catch frequently, particularly Clan Battle fish and Tournament fish.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v156-05",
+      "category": "lures",
+      "question": "Should I start making higher-level lures right away?",
+      "answer": "Not necessarily. Higher-level lures can be very expensive, especially at the levels where they provide the greatest benefits. It is generally better to wait until later in the game, ideally after you have unlocked most fishing locations.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v156-06",
+      "category": "dna",
+      "question": "Is it possible to complete the final stages of the DNA Project?",
+      "answer": "Yes. The final stages often involve catching some of the hardest creatures in the game, so completing them can require considerable patience. Remember that the DNA Project is an endgame goal, not a requirement. There is no need to rush it.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v156-07",
+      "category": "side-games",
+      "question": "Where do I start the Sailboat Championship?",
+      "answer": "The starting point depends on the location:",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "bullets": [
+        "Great Lakes: At the northern pier where Agent S appears.",
+        "Costa Rica: South of the landing spot, in the palm leaf area."
+      ]
     }
   ],
   "resources": [
@@ -3588,7 +3800,9 @@ window.DEEPFAQS_DATA = {
       "v143-04",
       "v143-05",
       "v143-06",
-      "v144-01"
+      "v144-01",
+      "v155-marina-flowers",
+      "v155-mr-octopus"
     ],
     "fish-fishing": [
       "getting-started-12",
@@ -3624,7 +3838,9 @@ window.DEEPFAQS_DATA = {
       "v146-01",
       "v146-02",
       "v146-03",
-      "v146-04"
+      "v146-04",
+      "v156-02",
+      "v156-03"
     ],
     "equipment": [
       "getting-started-6",
@@ -3653,7 +3869,9 @@ window.DEEPFAQS_DATA = {
       "v140-repair-every",
       "v140-durability-loss",
       "v142-01",
-      "v142-05"
+      "v142-05",
+      "v155-monster-rod",
+      "v155-slowmo-rod"
     ],
     "maps": [
       "maps-travel-1",
@@ -3732,7 +3950,9 @@ window.DEEPFAQS_DATA = {
       "lures-baits-8",
       "lures-baits-9",
       "v142-06",
-      "v143-08"
+      "v143-08",
+      "v156-04",
+      "v156-05"
     ],
     "skills": [
       "skills-1",
@@ -3822,7 +4042,8 @@ window.DEEPFAQS_DATA = {
       "dna-15",
       "dna-16",
       "dna-17",
-      "dna-18"
+      "dna-18",
+      "v156-06"
     ],
     "vip": [
       "vip-maps-1",
@@ -3834,7 +4055,8 @@ window.DEEPFAQS_DATA = {
       "vip-bermuda-riddle-2",
       "vip-bermuda-riddle-3",
       "vip-maps-6",
-      "vip-aquarium-income"
+      "vip-aquarium-income",
+      "v155-vip-map-purchase"
     ],
     "clans": [
       "clans-1",
@@ -3860,7 +4082,8 @@ window.DEEPFAQS_DATA = {
       "clans-21",
       "new-0133-01",
       "v142-07",
-      "v143-03"
+      "v143-03",
+      "v156-01"
     ],
     "pvp-duels": [
       "pvp-1",
@@ -3916,7 +4139,16 @@ window.DEEPFAQS_DATA = {
       "v144-02",
       "v144-03",
       "v144-04",
-      "v144-05"
+      "v144-05",
+      "v156-07"
+    ],
+    "community-resources": [
+      "v155-resource-1",
+      "v155-resource-2",
+      "v155-resource-3",
+      "v155-resource-4",
+      "v155-resource-5",
+      "v155-resource-6"
     ]
   }
 };

@@ -236,3 +236,26 @@ body {
 #categories .cat:hover {
   background: #d9f7f4;
 }
+
+/* v0.1.55 — early switch to two resource cards before three become cramped. */
+@media (min-width:851px) and (max-width:1180px){
+ #resources.resources{grid-template-columns:220px 30px minmax(0,1fr) 30px;gap:10px}
+ #resources #resourceCards{grid-template-columns:repeat(2,minmax(0,1fr))}
+ #resources .resource-card:nth-child(n+3){display:none}
+}
+
+/* v0.1.56a: tiny saturation adjustment ONLY. Keep all cards within each
+   section identical; leave Featured Questions and FAQ cards untouched. */
+#categories .cat,
+#categories .cat:nth-child(4n + 2),
+#categories .cat:nth-child(4n + 3),
+#categories .cat:nth-child(4n) {
+  background: #e6f9f6;
+  border-color: #a0dcd5;
+}
+#resources .resource-card,
+#resources .resource-card:nth-child(2),
+#resources .resource-card:nth-child(3) {
+  background: #e9f4fe;
+  border-color: #c0ddef;
+}
