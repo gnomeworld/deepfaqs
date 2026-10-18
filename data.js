@@ -3459,6 +3459,121 @@ window.DEEPFAQS_DATA = {
       ],
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v146-01",
+      "category": "fish-fishing",
+      "question": "What are some of the hardest fish to catch?",
+      "answer": "Some fish are especially difficult to catch. Examples include:",
+      "table": {
+        "headers": [
+          "Rarity",
+          "Fish and location"
+        ],
+        "rows": [
+          [
+            "Epic",
+            "Whale Shark — Costa Rica; Ocean Sunfish — Alaska; Hoodwinker Sunfish — Australia; Ribbed Bonefish — VIP Chemical Plant"
+          ],
+          [
+            "Common",
+            "Leafy Seadragon — Australia; Rice Eel — Thailand"
+          ]
+        ]
+      },
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v146-02",
+      "category": "fish-fishing",
+      "question": "What are some of the hardest creatures to catch?",
+      "answer": "Some of the hardest creatures to catch include:",
+      "table": {
+        "headers": [
+          "Location",
+          "Creatures"
+        ],
+        "rows": [
+          [
+            "Costa Rica",
+            "Blue Seadragon"
+          ],
+          [
+            "Alaska",
+            "Harbor Seal, Beluga, Killer Whale, Polar Bear, Narwhal"
+          ],
+          [
+            "Australia",
+            "Cuttlefish"
+          ]
+        ]
+      },
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v146-03",
+      "category": "fish-fishing",
+      "secondaryCategories": [
+        "maps"
+      ],
+      "question": "What are some of the hardest trash items to find?",
+      "answer": "Some trash items are particularly difficult to find. Fridge magnets in general are among the harder collectibles.",
+      "table": {
+        "headers": [
+          "Location",
+          "Hard-to-find trash"
+        ],
+        "rows": [
+          [
+            "Marina",
+            "Steering Wheel, Turban Shell, some Brochures"
+          ],
+          [
+            "Great Lakes",
+            "Mouse Glove, Boom Floppy Disk"
+          ],
+          [
+            "Costa Rica",
+            "Mysterious Stone Sphere"
+          ],
+          [
+            "Alaska",
+            "Moose Antler"
+          ],
+          [
+            "Australia",
+            "Kangaroo Sign, Maori Jewellery, Explorer Diary, Giant Shark Tooth, Aboriginal Painting, Floppy Disk"
+          ],
+          [
+            "Scotland",
+            "Unicorn Horn, Weird Stone, Nessie Toy, Excalibur, Golden Apple, Old Mini Yellow Submarine"
+          ],
+          [
+            "Thailand",
+            "Sweet Fighter Floppy Disk, Gold Necklace"
+          ],
+          [
+            "VIP Chemical Plant",
+            "Glowing Crystal, Sai Knife"
+          ]
+        ]
+      },
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v146-04",
+      "category": "fish-fishing",
+      "question": "Is it harder to discover something for the first time than to catch it again?",
+      "answer": "Many players report that discovering a fish, creature, or trash item for the first time feels harder than finding it again afterward. This is based on player observations rather than a confirmed game mechanic.",
+      "links": [],
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -3561,7 +3676,11 @@ window.DEEPFAQS_DATA = {
       "v142-03",
       "v142-04",
       "v143-02",
-      "v143-10"
+      "v143-10",
+      "v146-01",
+      "v146-02",
+      "v146-03",
+      "v146-04"
     ],
     "equipment": [
       "getting-started-6",
@@ -3604,7 +3723,8 @@ window.DEEPFAQS_DATA = {
       "maps-travel-9",
       "maps-travel-10",
       "maps-travel-11",
-      "maps-travel-12"
+      "maps-travel-12",
+      "v146-03"
     ],
     "buildings": [
       "buildings-8",

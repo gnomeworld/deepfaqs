@@ -71,6 +71,8 @@ function openFaq(id){
  });
 }
 document.querySelectorAll("[data-faq]").forEach(b=>b.addEventListener("click",()=>openFaq(b.dataset.faq)));
+// Unique published questions, not duplicated for secondary categories.
+$("#totalFaqCount").textContent = new Set(D.faqs.filter(f=>f.published !== false && f.answer).map(f=>f.id)).size;
 renderCategories();renderResources();
 // Rotate the three cards gently, while keeping manual navigation available.
 window.setInterval(()=>{resourceOffset=(resourceOffset+1)%D.resources.length;renderResources()},7000);

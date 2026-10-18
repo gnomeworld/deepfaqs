@@ -73,3 +73,7 @@ v0.1.41: Fixed narrow mobile resource carousel layout (one full-width card, head
 
 
 DeepFaqs v0.1.43: 10 new FAQs, potion/elixir Level 1 durations, Echosonar cost note. 300 unique FAQs.
+
+DeepFaqs v0.1.46: four difficult-collection FAQs; dynamic unique FAQ/category counts below search suggestions; community resource subtitle updated; acknowledgments phrasing refined.
+
+DeepFaqs v0.1.47: Simplified homepage stats to a dynamic “questions answered — and counting!” line; shortened Community Resources subtitle. No FAQ data changes.
