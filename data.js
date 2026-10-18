@@ -653,7 +653,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "buildings-4",
       "category": "buildings",
-      "question": "Does a bigger fish give more money?",
+      "question": "Do bigger fish generate more Aquarium income?",
       "answer": "Yes. More stars on a fish means more money.",
       "links": [],
       "published": true,
@@ -662,7 +662,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "buildings-5",
       "category": "buildings",
-      "question": "Do more stars give more money?",
+      "question": "Do fish with more stars generate more Aquarium income?",
       "answer": "Yes.",
       "links": [],
       "published": true,
@@ -3502,6 +3502,22 @@ window.DEEPFAQS_DATA = {
       "links": [],
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "vip-aquarium-income",
+      "category": "vip",
+      "secondaryCategories": [
+        "buildings"
+      ],
+      "question": "Do VIP fish contribute to Aquarium income?",
+      "answer": "Yes, VIP fish contribute to Aquarium income.",
+      "searchAliases": [
+        "aquariums",
+        "VIP fish aquarium earnings"
+      ],
+      "links": [],
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -3676,7 +3692,8 @@ window.DEEPFAQS_DATA = {
       "buildings-recycling-2",
       "v140-chest-open",
       "v140-chest-blueprints",
-      "v140-aquarium-collect"
+      "v140-aquarium-collect",
+      "vip-aquarium-income"
     ],
     "npcs": [
       "npcs-1",
@@ -3816,7 +3833,8 @@ window.DEEPFAQS_DATA = {
       "vip-bermuda-riddle-1",
       "vip-bermuda-riddle-2",
       "vip-bermuda-riddle-3",
-      "vip-maps-6"
+      "vip-maps-6",
+      "vip-aquarium-income"
     ],
     "clans": [
       "clans-1",

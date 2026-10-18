@@ -11,6 +11,16 @@ function faqHTML(f){
  return `<div class="faq" id="faq-${esc(f.id)}"><b>${esc(f.question)}</b>${f.answer?`${f.paragraphs?f.paragraphs.map(p=>`<p>${esc(p)}</p>`).join(""):`<p>${esc(f.answer)}</p>`}${bullets}${table}${links?`<div class="faq-links">${links}</div>`:""}`:`<span class="pending">${esc(catMap[f.category]?.name||"FAQ")} • Answer coming soon</span>`}</div>`
 }
 
+// Search-only accordion: category pages continue using their existing full answers.
+function searchFaqHTML(f){
+ const full=faqHTML(f);
+ const start=full.indexOf('>',full.indexOf('class="faq"'))+1;
+ const body=full.slice(start,full.lastIndexOf('</div>'));
+ // Remove only the leading question title; keep the original answer markup.
+ const answer=body.replace(/^<b>[\s\S]*?<\/b>/,'');
+ return `<details class="faq search-faq" id="faq-${esc(f.id)}"><summary>${esc(f.question)}</summary><div class="search-faq-answer">${answer}</div></details>`;
+}
+
 function renderCategories(){
  $("#categoryGrid").innerHTML=D.categories.map(c=>{
    const n=D.faqs.filter(f=>(f.category===c.id||(f.secondaryCategories||[]).includes(c.id))).length;
@@ -90,7 +100,7 @@ function search(rawQuery){
  }).filter(Boolean).sort((a,b)=>b.score-a.score);
  const matches=scored.map(x=>x.f);
  $("#resultCount").textContent=`${matches.length} question${matches.length===1?"":"s"} found`;
- $("#results").innerHTML=matches.length?matches.map(faqHTML).join(""):`<div class="faq"><b>Nothing biting for that search 🎣</b><span class="pending">Try another phrase.</span></div>`;
+ $("#results").innerHTML=matches.length?matches.map(searchFaqHTML).join(""):`<div class="faq"><b>Nothing biting for that search 🎣</b><span class="pending">Try another phrase.</span></div>`;
  panel.classList.remove("hidden");
 }
 
@@ -98,10 +108,26 @@ $("#searchInput").addEventListener("input",e=>search(e.target.value));
 document.querySelectorAll(".try button").forEach(b=>b.onclick=()=>{$("#searchInput").value=b.textContent;search(b.textContent);$("#searchPanel").scrollIntoView({behavior:"smooth"})});
 $("#clearSearch").onclick=()=>{$("#searchInput").value="";$("#searchPanel").classList.add("hidden")};
 
-// Popular shortcuts point to real, answered FAQs (not placeholders).
-const popularIds=["seasons-1","lures-baits-1","economy-1","clans-7","fish-fishing-2","maps-travel-1","dna-01","dna-07"];
-const popularFaqs=popularIds.map(id=>D.faqs.find(f=>f.id===id)).filter(f=>f&&f.answer);
-$("#popularGrid").innerHTML=popularFaqs.map(f=>`<button type="button" class="popular-item" data-faq="${esc(f.id)}">${esc(f.question)} <span aria-hidden="true">›</span></button>`).join("");
+// Curated Featured Questions: 25 useful FAQs, eight varied picks per page load.
+const featuredIds=[
+ "getting-started-1","getting-started-12","fish-fishing-2","fish-fishing-3",
+ "getting-started-22","maps-travel-1","buildings-7","buildings-3",
+ "npcs-7","quests-5","lures-baits-1","skills-2",
+ "economy-1","xp-progression-1","seasons-1","seasons-2",
+ "q77","dna-01","dna-07","vip-maps-3",
+ "clans-7","pvp-2","tournaments-1","events-1","game-settings-4"
+];
+// If a curated ID changes, omit it rather than showing a missing question.
+const featuredPool=featuredIds.map(id=>D.faqs.find(f=>f.id===id)).filter(f=>f&&f.answer&&f.published!==false);
+function selectFeatured(pool,count){
+ const shuffled=[...pool].sort(()=>Math.random()-.5);
+ const selected=[],categories=new Set();
+ for(const f of shuffled){if(!categories.has(f.category)){selected.push(f);categories.add(f.category);if(selected.length===count)return selected}}
+ for(const f of shuffled){if(!selected.includes(f)){selected.push(f);if(selected.length===count)break}}
+ return selected;
+}
+const featuredFaqs=selectFeatured(featuredPool,8);
+$("#popularGrid").innerHTML=featuredFaqs.map(f=>`<button type="button" class="popular-item" data-faq="${esc(f.id)}">${esc(f.question)} <span aria-hidden="true">›</span></button>`).join("");
 function openFaq(id){
  const f=D.faqs.find(item=>item.id===id);if(!f)return;
  openCategory(f.category);

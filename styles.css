@@ -204,3 +204,35 @@ html{scroll-padding-top:110px}
 /* v0.1.48: understated, readable count on the ocean hero */
 .hero-stats{color:#c6f5ee;font-weight:600}
 .hero-stats strong{color:#f0fffb}
+
+/* v0.1.53: search results are compact, accessible accordions without category labels. */
+#searchPanel .search-faq{padding:0;overflow:hidden}
+#searchPanel .search-faq summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:12px;cursor:pointer;padding:13px 15px;font-size:15px;font-weight:750;color:var(--ink)}
+#searchPanel .search-faq summary::-webkit-details-marker{display:none}
+#searchPanel .search-faq summary::after{content:"⌄";font-size:20px;line-height:1;color:#4b8d90;flex-shrink:0;transition:transform .15s}
+#searchPanel .search-faq[open] summary::after{transform:rotate(180deg)}
+#searchPanel .search-faq summary:focus-visible{outline:2px solid #159c9d;outline-offset:-3px;border-radius:12px}
+#searchPanel .search-faq-answer{border-top:1px solid #c4e3d5;padding:0 15px 14px}
+#searchPanel .search-faq-answer p:first-child{margin-top:12px}
+
+
+/* v0.1.54 color trial — Option 2 softened; CSS colors only.
+   Preserve the original hero image, overlay, content and layout. */
+body {
+  background: linear-gradient(155deg, #ddf8f6 0%, #d1f3f6 52%, #e0f7f2 100%);
+  background-attachment: fixed;
+}
+#categories.panel {
+  background: #9edfdc;
+  border-color: #80cfc9;
+}
+#categories .cat,
+#categories .cat:nth-child(4n + 2),
+#categories .cat:nth-child(4n + 3),
+#categories .cat:nth-child(4n) {
+  background: #effbfa;
+  border-color: #a6ded9;
+}
+#categories .cat:hover {
+  background: #d9f7f4;
+}
