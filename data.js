@@ -456,11 +456,14 @@ window.DEEPFAQS_DATA = {
     {
       "id": "getting-started-11",
       "category": "getting-started",
-      "question": "What are the rewards for secondary NPC quests?",
+      "question": "What are the rewards for secondary quests from main NPCs?",
       "answer": "Rewards are usually XP, gems, and the NPC's hat.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "npcs"
+      ]
     },
     {
       "id": "getting-started-12",
@@ -483,7 +486,7 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-13",
       "category": "getting-started",
       "question": "What is active fishing?",
-      "answer": "active fishing is one of the game's three fishing methods. See the Fishing Styles guide for details on how it works.",
+      "answer": "Active fishing is one of the game's three fishing methods. See the Fishing Styles guide for details on how it works.",
       "links": [
         {
           "label": "CotD Wiki — Fishing Styles",
@@ -500,7 +503,7 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-14",
       "category": "getting-started",
       "question": "What is cast and wait (CnW / CW)?",
-      "answer": "cast and wait is one of the game's three fishing methods. It is also commonly abbreviated CnW or CW.",
+      "answer": "Cast and wait is one of the game's three fishing methods. It is also commonly abbreviated CnW or CW.",
       "links": [
         {
           "label": "CotD Wiki — Fishing Styles",
@@ -517,7 +520,7 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-15",
       "category": "getting-started",
       "question": "What is cast and reel (CnR / CR)?",
-      "answer": "cast and reel is one of the game's three fishing methods. It is also commonly abbreviated CnR or CR.",
+      "answer": "Cast and reel is one of the game's three fishing methods. It is also commonly abbreviated CnR or CR.",
       "links": [
         {
           "label": "CotD Wiki — Fishing Styles",
@@ -1175,7 +1178,7 @@ window.DEEPFAQS_DATA = {
       "id": "maps-travel-8",
       "category": "maps",
       "question": "What can you find in the secret caves?",
-      "answer": "You can find a chest to unlock. Rewards inside can include gold, gems, VIP tickets, blue and pink bait, and clover. You can also pick up creatures, trash items, and gold coins.",
+      "answer": "You can find a chest to unlock. Rewards inside can include gold, gems, VIP tickets, blue and pink bait, blueprints, and clover. You can also pick up creatures, trash items, and gold coins in the cave.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -1680,7 +1683,7 @@ window.DEEPFAQS_DATA = {
       "id": "clans-7",
       "category": "clans",
       "question": "When do clan battles happen?",
-      "answer": "clan battles take place every day except the last two days of the season. Each battle lasts 22 hours and 45 minutes.",
+      "answer": "Clan battles take place every day except the last two days of the season. Each battle lasts 22 hours and 45 minutes.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -1735,7 +1738,7 @@ window.DEEPFAQS_DATA = {
       "id": "clans-12",
       "category": "clans",
       "question": "What do clan battle travel costs depend on?",
-      "answer": "clan battle travel costs vary depending on the location and league.",
+      "answer": "Clan battle travel costs vary depending on the location and league.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -2346,7 +2349,8 @@ window.DEEPFAQS_DATA = {
       "published": true,
       "scope": "general",
       "secondaryCategories": [
-        "xp"
+        "xp",
+        "npcs"
       ],
       "searchAliases": [
         "What are the secondary quests from main NPCs?"
@@ -3144,7 +3148,7 @@ window.DEEPFAQS_DATA = {
       "id": "v142-02",
       "category": "fish-fishing",
       "question": "What is lucky clover?",
-      "answer": "lucky clover increases your fishing luck. It can help you catch bigger fish and attract rare and epic fish more quickly.",
+      "answer": "Lucky clover increases your fishing luck. It can help you catch bigger fish and attract rare and epic fish more quickly.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -3168,7 +3172,7 @@ window.DEEPFAQS_DATA = {
       "id": "v142-04",
       "category": "fish-fishing",
       "question": "Does lucky clover increase my chances of finding rare creatures or hard-to-find trash?",
-      "answer": "No. lucky clover only affects fish. It does not increase your chances of finding creatures or trash.",
+      "answer": "No. Lucky clover only affects fish. It does not increase your chances of finding creatures or trash.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -3761,6 +3765,192 @@ window.DEEPFAQS_DATA = {
       ],
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v158-01",
+      "category": "clans",
+      "question": "How do I join a clan?",
+      "answer": "To join a clan, you must first build the clan HQ on Home Island. Once it's built, you can browse the clan list or search for a specific clan by name. Choose one that matches your interests and playstyle.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v158-02",
+      "category": "buildings",
+      "question": "What does the Workbench do?",
+      "answer": "Anvil Ann Workbench is a workshop where players can craft various tools, potions, and elixirs using ingredients collected from different locations throughout the game.",
+      "links": [
+        {
+          "label": "Anvil Ann Workbench — CotD Wiki",
+          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Anvil_Ann_Workbench"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v158-03",
+      "category": "fish-fishing",
+      "question": "Can I exhaust common fish, creatures, and trash at a fishing spot before targeting an epic fish?",
+      "answer": "Yes! This is a technique some players use. Each species or item has an approximate soft limit of 20 catches per fishing spot. By exhausting common fish, creatures, and trash first, players can reduce competing catches before using bait to target the epic fish.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v158-04",
+      "category": "buildings",
+      "question": "How do I find out where a trash item belongs in the Trash Museum?",
+      "answer": "You can use DeepSweep, a web app that provides a Trash Museum map showing where each item belongs.",
+      "links": [
+        {
+          "label": "DeepSweep",
+          "url": "https://deepsweep.app/"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v158-05",
+      "category": "seasons",
+      "question": "How can I track my seasonal fishing progress?",
+      "answer": "You can use FishMetrics to record your seasonal catches and monitor your progress throughout the season. It helps you track points, star ratings, and overall completion, so you can see where you stand and which fish still need improvement.",
+      "links": [
+        {
+          "label": "FishMetrics",
+          "url": "https://fish-metrics.com/"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v158-06",
+      "category": "fish-fishing",
+      "question": "How can I keep track of my personal best catches?",
+      "answer": "You can use FishMetrics to record your personal best catches for different fish species. It organizes your records by fishing location and helps you track improvements over time.",
+      "links": [
+        {
+          "label": "FishMetrics",
+          "url": "https://fish-metrics.com/"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v158-07",
+      "category": "lures",
+      "question": "How can I calculate how much gold I need to upgrade my lures?",
+      "answer": "You can use the lure cost calculator in FishMetrics. Enter your current and target lure levels to estimate how much gold you'll need for your upgrades.",
+      "links": [
+        {
+          "label": "FishMetrics",
+          "url": "https://fish-metrics.com/"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v158-08",
+      "category": "xp",
+      "question": "How can I track my XP progress over time?",
+      "answer": "You can use the XP tracker in FishMetrics to record your XP and monitor your progress over time. It includes graphs showing your total XP progress and daily XP gains.",
+      "links": [
+        {
+          "label": "FishMetrics",
+          "url": "https://fish-metrics.com/"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v158-09",
+      "category": "fish-fishing",
+      "question": "How can I find where a particular fish spawns?",
+      "answer": "You can use CloverSalad to look up fish locations. Its interactive maps show where different species can be found, helping you narrow down which areas to fish.",
+      "links": [
+        {
+          "label": "CloverSalad",
+          "url": "https://cloversalad.com/"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v158-10",
+      "category": "maps",
+      "question": "Where can I find detailed maps of fishing locations?",
+      "answer": "You can use CloverSalad to explore interactive maps of fishing locations. These maps provide information about fish, creatures, and useful spots to help you plan your fishing trips.",
+      "links": [
+        {
+          "label": "CloverSalad",
+          "url": "https://cloversalad.com/"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v158-11",
+      "category": "fish-fishing",
+      "question": "How can I find information about a fish's rarity and spawning conditions?",
+      "answer": "You can use the CloverSalad fish database to look up a species and check its rarity, location, seasonality, and available spawning information, including time of day.",
+      "links": [
+        {
+          "label": "CloverSalad fish database",
+          "url": "https://cloversalad.com/database/"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v158-12",
+      "category": "maps",
+      "question": "Can I create my own fishing map with custom markers?",
+      "answer": "Yes! You can use the CloverSalad map editor to create your own fishing maps. You can place custom markers for fish, creatures, items, and monsters, then save your map or share it with other players.",
+      "links": [
+        {
+          "label": "CloverSalad map editor",
+          "url": "https://cloversalad.com/user-map/"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v158-13",
+      "category": "buildings",
+      "question": "How can I keep track of my Trash Museum collection?",
+      "answer": "You can use DeepSweep to track which Trash Museum items you've collected and which ones you're still missing. It organizes items by museum section and shows your collection progress.",
+      "links": [
+        {
+          "label": "DeepSweep",
+          "url": "https://deepsweep.app/"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v158-14",
+      "category": "buildings",
+      "question": "How can I find which Trash Museum items I'm missing?",
+      "answer": "You can use the Missing Items filter in DeepSweep to display items you haven't collected yet. You can also filter by location to focus on items from a particular fishing area.",
+      "links": [
+        {
+          "label": "DeepSweep",
+          "url": "https://deepsweep.app/"
+        }
+      ],
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -3877,7 +4067,11 @@ window.DEEPFAQS_DATA = {
       "v146-03",
       "v146-04",
       "v156-02",
-      "v156-03"
+      "v156-03",
+      "v158-03",
+      "v158-06",
+      "v158-09",
+      "v158-11"
     ],
     "equipment": [
       "getting-started-6",
@@ -3923,7 +4117,9 @@ window.DEEPFAQS_DATA = {
       "maps-travel-10",
       "maps-travel-11",
       "maps-travel-12",
-      "v146-03"
+      "v146-03",
+      "v158-10",
+      "v158-12"
     ],
     "buildings": [
       "buildings-8",
@@ -3948,7 +4144,11 @@ window.DEEPFAQS_DATA = {
       "v140-chest-open",
       "v140-chest-blueprints",
       "v140-aquarium-collect",
-      "vip-aquarium-income"
+      "vip-aquarium-income",
+      "v158-02",
+      "v158-04",
+      "v158-13",
+      "v158-14"
     ],
     "npcs": [
       "npcs-1",
@@ -3990,7 +4190,8 @@ window.DEEPFAQS_DATA = {
       "v143-08",
       "v156-04",
       "v156-05",
-      "v157-lure-matching"
+      "v157-lure-matching",
+      "v158-07"
     ],
     "skills": [
       "skills-1",
@@ -4032,7 +4233,8 @@ window.DEEPFAQS_DATA = {
       "xp-progression-9",
       "xp-progression-11",
       "xp-progression-12",
-      "xp-progression-13"
+      "xp-progression-13",
+      "v158-08"
     ],
     "seasons": [
       "seasons-1",
@@ -4046,7 +4248,8 @@ window.DEEPFAQS_DATA = {
       "seasons-7",
       "seasons-5",
       "seasons-6",
-      "seasons-10"
+      "seasons-10",
+      "v158-05"
     ],
     "monsters": [
       "q75",
@@ -4122,7 +4325,8 @@ window.DEEPFAQS_DATA = {
       "new-0133-01",
       "v142-07",
       "v143-03",
-      "v156-01"
+      "v156-01",
+      "v158-01"
     ],
     "pvp-duels": [
       "pvp-1",
