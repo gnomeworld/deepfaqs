@@ -349,7 +349,7 @@ window.DEEPFAQS_DATA = {
       "id": "skills-8",
       "category": "skills",
       "question": "What is the maximum effective skill level?",
-      "answer": "Each skill is effective up to level 10. The Clan Monument can raise a skill to level 11, but its effects remain capped at level 10.",
+      "answer": "Each skill is effective up to level 10. The clan monument can raise a skill to level 11, but its effects remain capped at level 10.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -379,7 +379,7 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-3",
       "category": "getting-started",
       "question": "What is karma?",
-      "answer": "Karma follows the idea that doing good things brings good in return. In the game, you gain karma by selling trash at the shop, recycling, or donating wood at the Clan Monument. You lose karma by throwing trash into the sea. It is not known whether or how karma affects gameplay, but keeping a positive karma score is recommended.",
+      "answer": "Karma follows the idea that doing good things brings good in return. In the game, you gain karma by selling trash at the shop, recycling, or donating wood at the clan monument. You lose karma by throwing trash into the sea. It is not known whether or how karma affects gameplay, but keeping a positive karma score is recommended.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -466,7 +466,7 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-12",
       "category": "getting-started",
       "question": "What are the different fishing methods?",
-      "answer": "The three fishing methods are Active Fishing, Cast and Wait, and Cast and Reel.",
+      "answer": "The three fishing methods are active fishing, cast and wait, and cast and reel.",
       "links": [
         {
           "label": "CotD Wiki — Fishing Styles",
@@ -482,8 +482,8 @@ window.DEEPFAQS_DATA = {
     {
       "id": "getting-started-13",
       "category": "getting-started",
-      "question": "What is Active Fishing?",
-      "answer": "Active Fishing is one of the game's three fishing methods. See the Fishing Styles guide for details on how it works.",
+      "question": "What is active fishing?",
+      "answer": "active fishing is one of the game's three fishing methods. See the Fishing Styles guide for details on how it works.",
       "links": [
         {
           "label": "CotD Wiki — Fishing Styles",
@@ -499,8 +499,8 @@ window.DEEPFAQS_DATA = {
     {
       "id": "getting-started-14",
       "category": "getting-started",
-      "question": "What is Cast and Wait (CnW / CW)?",
-      "answer": "Cast and Wait is one of the game's three fishing methods. It is also commonly abbreviated CnW or CW.",
+      "question": "What is cast and wait (CnW / CW)?",
+      "answer": "cast and wait is one of the game's three fishing methods. It is also commonly abbreviated CnW or CW.",
       "links": [
         {
           "label": "CotD Wiki — Fishing Styles",
@@ -516,8 +516,8 @@ window.DEEPFAQS_DATA = {
     {
       "id": "getting-started-15",
       "category": "getting-started",
-      "question": "What is Cast and Reel (CnR / CR)?",
-      "answer": "Cast and Reel is one of the game's three fishing methods. It is also commonly abbreviated CnR or CR.",
+      "question": "What is cast and reel (CnR / CR)?",
+      "answer": "cast and reel is one of the game's three fishing methods. It is also commonly abbreviated CnR or CR.",
       "links": [
         {
           "label": "CotD Wiki — Fishing Styles",
@@ -534,7 +534,7 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-16",
       "category": "getting-started",
       "question": "Is there a preferred fishing method for different things?",
-      "answer": "For trash items, always use Cast and Reel. For shadowless fish, both Cast and Wait and Cast and Reel may work.",
+      "answer": "For trash items, always use cast and reel. For shadowless fish, both cast and wait and cast and reel may work.",
       "links": [],
       "published": true,
       "scope": "general",
@@ -977,7 +977,7 @@ window.DEEPFAQS_DATA = {
       "id": "seasons-1",
       "category": "seasons",
       "question": "What does OOS mean?",
-      "answer": "OOS stands for Out of Season.",
+      "answer": "OOS stands for out of season.",
       "links": [],
       "published": true,
       "scope": "general",
@@ -1079,7 +1079,7 @@ window.DEEPFAQS_DATA = {
       "id": "seasons-12",
       "category": "seasons",
       "question": "How do I find out which fish are IS/OOS?",
-      "answer": "Go to your in-game bestiary and select a fish. Below it, you will find highlighted months indicating when the fish is In Season or Out of Season. You can also check fish seasonality on CloverSalad.",
+      "answer": "Go to your in-game bestiary and select a fish. Below it, you will find highlighted months indicating when the fish is in season or out of season. You can also check fish seasonality on CloverSalad.",
       "links": [
         {
           "label": "CloverSalad",
@@ -1397,12 +1397,12 @@ window.DEEPFAQS_DATA = {
       "id": "economy-1",
       "category": "economy",
       "question": "How do I farm coins?",
-      "answer": "With a Wooden Rod, catch common fish in Paradise Island and Great Lakes. With a Fiberglass Rod and Clover, catch White Tuna in Paradise Island, and Lake Sturgeon and Lake Trout in Great Lakes. Build the Aquarium because it generates passive income. Open slots in your bag as soon as possible. Do daily and seasonal tasks as much as possible. Optional: use the C2 perk to earn a sales bonus and the A3 perk to get extended rod life.",
+      "answer": "With a wooden rod, catch common fish in Paradise Island and Great Lakes. With a fiberglass rod and Clover, catch White Tuna in Paradise Island, and Lake Sturgeon and Lake Trout in Great Lakes. Build the Aquarium because it generates passive income. Open slots in your bag as soon as possible. Do daily and seasonal tasks as much as possible. Optional: use the C2 perk to earn a sales bonus and the A3 perk to get extended rod life.",
       "links": [],
       "published": true,
       "scope": "general",
       "paragraphs": [
-        "With a Wooden Rod, catch common fish in Paradise Island and Great Lakes. With a Fiberglass Rod and Clover, catch White Tuna in Paradise Island, and Lake Sturgeon and Lake Trout in Great Lakes.",
+        "With a wooden rod, catch common fish in Paradise Island and Great Lakes. With a fiberglass rod and Clover, catch White Tuna in Paradise Island, and Lake Sturgeon and Lake Trout in Great Lakes.",
         "Build the Aquarium because it generates passive income. Open slots in your bag as soon as possible. Do daily and seasonal tasks as much as possible.",
         "Optional: use the C2 perk to earn a sales bonus and the A3 perk to get extended rod life."
       ],
@@ -1544,8 +1544,8 @@ window.DEEPFAQS_DATA = {
     {
       "id": "xp-progression-11",
       "category": "xp",
-      "question": "What are Season Rankings?",
-      "answer": "See the CotD Wiki guide for information about Season Rankings.",
+      "question": "What are season rankings?",
+      "answer": "See the CotD Wiki guide for information about season rankings.",
       "links": [
         {
           "label": "CotD Wiki — Season Rankings",
@@ -1601,7 +1601,7 @@ window.DEEPFAQS_DATA = {
       "id": "clans-2",
       "category": "clans",
       "question": "Must I join a clan?",
-      "answer": "Joining a clan is not necessary for game progression, but clans add a community aspect. Members can earn bonus XP in Bronze League or higher, benefit from the Clan Island Monument, totems and Clover Stand, request items such as wood and bait from clanmates, and participate in Clan Battles for rewards.",
+      "answer": "Joining a clan is not necessary for game progression, but clans add a community aspect. Members can earn bonus XP in Bronze League or higher, benefit from the Clan Island Monument, totems and Clover Stand, request items such as wood and bait from clanmates, and participate in clan battles for rewards.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -1619,7 +1619,7 @@ window.DEEPFAQS_DATA = {
       "id": "clans-4",
       "category": "clans",
       "question": "What are the benefits of joining a clan?",
-      "answer": "Clan benefits include bonus XP in Bronze League or higher, Clan Island Monument, totem and Clover Stand benefits, item requests from clanmates (such as wood and bait), community, and Clan Battle participation and rewards.",
+      "answer": "Clan benefits include bonus XP in Bronze League or higher, Clan Island Monument, totem and Clover Stand benefits, item requests from clanmates (such as wood and bait), community, and clan battle participation and rewards.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -1627,8 +1627,8 @@ window.DEEPFAQS_DATA = {
     {
       "id": "clans-5",
       "category": "clans",
-      "question": "What are the Clan Monument benefits?",
-      "answer": "The Clan Monument awards a +1 bonus to all skills for all clan members.",
+      "question": "What are the clan monument benefits?",
+      "answer": "The clan monument awards a +1 bonus to all skills for all clan members.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -1680,7 +1680,7 @@ window.DEEPFAQS_DATA = {
       "id": "clans-7",
       "category": "clans",
       "question": "When do clan battles happen?",
-      "answer": "Clan Battles take place every day except the last two days of the season. Each battle lasts 22 hours and 45 minutes.",
+      "answer": "clan battles take place every day except the last two days of the season. Each battle lasts 22 hours and 45 minutes.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -1688,7 +1688,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "clans-8",
       "category": "clans",
-      "question": "What do I do in Clan Battles?",
+      "question": "What do I do in clan battles?",
       "answer": "Your clan is matched against another clan, usually in the same league. You are given a set of four fish from a map and have 22 hours and 45 minutes to catch the biggest specimens. Only the top five scores from each clan count toward the team total. The clan with the higher score wins.",
       "links": [],
       "published": true,
@@ -1697,8 +1697,8 @@ window.DEEPFAQS_DATA = {
     {
       "id": "clans-9",
       "category": "clans",
-      "question": "What are the rewards for Clan Battles?",
-      "answer": "There are four team goals: 3,000, 5,000, 7,000 and 9,000 fish points. Reaching each goal earns members a reward chest at the end of the battle, which may contain bait, blueprints, coins or gems. The highest-scoring member of each clan also receives an additional reward, potentially including blueprints, coins, gems, VIP tickets or Lucky Clover.",
+      "question": "What are the rewards for clan battles?",
+      "answer": "There are four team goals: 3,000, 5,000, 7,000 and 9,000 fish points. Reaching each goal earns members a reward chest at the end of the battle, which may contain bait, blueprints, coins or gems. The highest-scoring member of each clan also receives an additional reward, potentially including blueprints, coins, gems, VIP tickets or lucky clover.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -1706,8 +1706,8 @@ window.DEEPFAQS_DATA = {
     {
       "id": "clans-10",
       "category": "clans",
-      "question": "What are the travel costs for Clan Battles?",
-      "answer": "See the CotD Wiki Score Challenges guide for Clan Battle travel costs.",
+      "question": "What are the travel costs for clan battles?",
+      "answer": "See the CotD Wiki Score Challenges guide for clan battle travel costs.",
       "links": [
         {
           "label": "CotD Wiki — Score Challenges",
@@ -1720,7 +1720,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "clans-11",
       "category": "clans",
-      "question": "What are the various fish sets for Clan Battles?",
+      "question": "What are the various fish sets for clan battles?",
       "answer": "See the CotD Wiki Score Challenges guide for battle fish sets.",
       "links": [
         {
@@ -1734,8 +1734,8 @@ window.DEEPFAQS_DATA = {
     {
       "id": "clans-12",
       "category": "clans",
-      "question": "What do Clan Battle travel costs depend on?",
-      "answer": "Clan Battle travel costs vary depending on the location and league.",
+      "question": "What do clan battle travel costs depend on?",
+      "answer": "clan battle travel costs vary depending on the location and league.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -1757,8 +1757,8 @@ window.DEEPFAQS_DATA = {
     {
       "id": "clans-14",
       "category": "clans",
-      "question": "How much wood is needed to complete the Clan Monument?",
-      "answer": "A total of 55,500 wood planks across 10 stages is needed to complete the Clan Monument.",
+      "question": "How much wood is needed to complete the clan monument?",
+      "answer": "A total of 55,500 wood planks across 10 stages is needed to complete the clan monument.",
       "links": [
         {
           "label": "CotD Wiki — Clan Monument",
@@ -1873,7 +1873,7 @@ window.DEEPFAQS_DATA = {
       "id": "dna-03",
       "category": "dna",
       "question": "What are the 50% DNA Project rewards?",
-      "answer": "5,000 gold coins, 50 gems, 500 XP, the DNA Archivist badge, and unlocks for Cargo Box 10, Creatures Bait, and the Creature Catcher Rod.",
+      "answer": "5,000 gold coins, 50 gems, 500 XP, the DNA Archivist badge, and unlocks for Cargo Box 10, Creatures Bait, and the creature catcher rod.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -1891,7 +1891,7 @@ window.DEEPFAQS_DATA = {
       "id": "dna-05",
       "category": "dna",
       "question": "What are the 100% DNA Project rewards?",
-      "answer": "10,000 gold coins, 100 gems, 1,000 XP, the DNA Archivist badge, the Gold Rod, three new perks (Speed Demon, Peace and Quiet, and Glow and Waves), an Astronaut helmet, and the Shiny deck skin.",
+      "answer": "10,000 gold coins, 100 gems, 1,000 XP, the DNA Archivist badge, the gold rod, three new perks (Speed Demon, Peace and Quiet, and Glow and Waves), an Astronaut helmet, and the Shiny deck skin.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -1926,8 +1926,8 @@ window.DEEPFAQS_DATA = {
     {
       "id": "dna-09",
       "category": "dna",
-      "question": "What is the benefit of the Creature Catcher Rod?",
-      "answer": "The Creature Catcher Rod attracts more creature shadows and creatures.",
+      "question": "What is the benefit of the creature catcher rod?",
+      "answer": "The creature catcher rod attracts more creature shadows and creatures.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -1971,7 +1971,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "dna-14",
       "category": "dna",
-      "question": "How much does the Creature Catcher Rod cost?",
+      "question": "How much does the creature catcher rod cost?",
       "answer": "1,500 gold.",
       "links": [],
       "published": true,
@@ -2148,8 +2148,8 @@ window.DEEPFAQS_DATA = {
     {
       "id": "arcade-5",
       "category": "arcade",
-      "question": "Is the Wooden Rod free in Arcade?",
-      "answer": "Yes. The Wooden Rod is free in the Arcade version.",
+      "question": "Is the wooden rod free in Arcade?",
+      "answer": "Yes. The wooden rod is free in the Arcade version.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -2670,7 +2670,7 @@ window.DEEPFAQS_DATA = {
       "id": "new-0133-01",
       "category": "clans",
       "question": "How can I change clans without a 24-hour lockout?",
-      "answer": "You can switch clans without triggering the 24-hour lockout during the final two days of a CotD season, after the Clan Battle season has ended. You can also switch during the break between daily Clan Battles (it is safe to leave your old clan 15 or more minutes after a battle ends).",
+      "answer": "You can switch clans without triggering the 24-hour lockout during the final two days of a CotD season, after the clan battle season has ended. You can also switch during the break between daily clan battles (it is safe to leave your old clan 15 or more minutes after a battle ends).",
       "links": [],
       "published": true,
       "scope": "general"
@@ -2824,9 +2824,8 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-daily-rewards",
       "category": "getting-started",
       "question": "What are the daily rewards on Home Island (Marina)?",
-      "answer": "Players can collect several daily rewards on Home Island (Marina):",
+      "answer": "Daily login rewards have been discontinued and are no longer available in the game. Other daily pickups on Home Island (Marina) include:",
       "bullets": [
-        "Newspaper bonus: Gold coins for four days, followed by a reward chest on day 5.",
         "Floating chest: Contains gold or gems. Players who have made a real-money purchase can open it without watching an ad; other players must watch an ad.",
         "Wood planks: 3 wood planks daily.",
         "Message in a bottle: May occasionally contain a surprise gift."
@@ -3007,7 +3006,7 @@ window.DEEPFAQS_DATA = {
       "id": "v140-repair-worth",
       "category": "equipment",
       "question": "Are repair kits worth crafting?",
-      "answer": "Repair kits are especially useful for expensive rods, such as the Monster Rod or Slowmo Rod, that you use selectively. For cheaper rods, repairing may not be worth the time spent gathering ingredients.",
+      "answer": "Repair kits are especially useful for expensive rods, such as the monster rod or slowmo rod, that you use selectively. For cheaper rods, repairing may not be worth the time spent gathering ingredients.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -3144,8 +3143,8 @@ window.DEEPFAQS_DATA = {
     {
       "id": "v142-02",
       "category": "fish-fishing",
-      "question": "What is Lucky Clover?",
-      "answer": "Lucky Clover increases your fishing luck. It can help you catch bigger fish and attract rare and epic fish more quickly.",
+      "question": "What is lucky clover?",
+      "answer": "lucky clover increases your fishing luck. It can help you catch bigger fish and attract rare and epic fish more quickly.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -3153,14 +3152,14 @@ window.DEEPFAQS_DATA = {
     {
       "id": "v142-03",
       "category": "fish-fishing",
-      "question": "How do I get Lucky Clover?",
-      "answer": "You can get Lucky Clover in several ways:",
+      "question": "How do I get lucky clover?",
+      "answer": "You can get lucky clover in several ways:",
       "links": [],
       "published": true,
       "scope": "general",
       "bullets": [
         "Buy Clover for 2 gems at the Rod Shop.",
-        "Earn free Clover by selling or recycling a total of 50 trash items at the Marina Shop and Recycling Center. Donating wood to the Clan Monument also counts toward this total.",
+        "Earn free Clover by selling or recycling a total of 50 trash items at the Marina Shop and Recycling Center. Donating wood to the clan monument also counts toward this total.",
         "Collect free Clover from the Clover Stand on Clan Island.",
         "Receive Clover as an occasional reward from treasure chests."
       ]
@@ -3168,8 +3167,8 @@ window.DEEPFAQS_DATA = {
     {
       "id": "v142-04",
       "category": "fish-fishing",
-      "question": "Does Lucky Clover increase my chances of finding rare creatures or hard-to-find trash?",
-      "answer": "No. Lucky Clover only affects fish. It does not increase your chances of finding creatures or trash.",
+      "question": "Does lucky clover increase my chances of finding rare creatures or hard-to-find trash?",
+      "answer": "No. lucky clover only affects fish. It does not increase your chances of finding creatures or trash.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -3247,8 +3246,8 @@ window.DEEPFAQS_DATA = {
     {
       "id": "v143-03",
       "category": "clans",
-      "question": "Can I join a Clan Battle on a map I haven't unlocked yet?",
-      "answer": "No. You must unlock the map before you can participate in a Clan Battle held there.",
+      "question": "Can I join a clan battle on a map I haven't unlocked yet?",
+      "answer": "No. You must unlock the map before you can participate in a clan battle held there.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -3266,7 +3265,7 @@ window.DEEPFAQS_DATA = {
       "id": "v143-05",
       "category": "getting-started",
       "question": "Is there an in-game chat?",
-      "answer": "No, there is no free-text chat in the game. However, purchasing the Radio unlocks some emoji communication options. There are also a few preset messages you can use during Clan Battles and on Clan Island.",
+      "answer": "No, there is no free-text chat in the game. However, purchasing the Radio unlocks some emoji communication options. There are also a few preset messages you can use during clan battles and on Clan Island.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -3532,16 +3531,16 @@ window.DEEPFAQS_DATA = {
     {
       "id": "v155-monster-rod",
       "category": "equipment",
-      "question": "How is the Monster Rod different from the Carbon Rod?",
-      "answer": "The Monster Rod provides a strength boost, making the moving reel easier to control during the fishing minigame. However, it costs more than the Carbon Rod, has lower weight luck, and occupies four inventory slots. It is best used primarily for catching monsters, since that is its specialty.",
+      "question": "How is the monster rod different from the carbon rod?",
+      "answer": "The monster rod provides a strength boost, making the moving reel easier to control during the fishing minigame. However, it costs more than the carbon rod, has lower weight luck, and occupies four inventory slots. It is best used primarily for catching monsters, since that is its specialty.",
       "published": true,
       "scope": "general"
     },
     {
       "id": "v155-slowmo-rod",
       "category": "equipment",
-      "question": "How is the Slowmo Rod different from the Carbon Rod?",
-      "answer": "The Slowmo Rod gives you more time to react when a fish bites, slows the fishing minigame, and makes the minigame bar wider. However, it costs 10 gems, has lower weight luck, and has less durability than the Carbon Rod. It is best reserved for difficult situations when you need the extra assistance.",
+      "question": "How is the slowmo rod different from the carbon rod?",
+      "answer": "The slowmo rod gives you more time to react when a fish bites, slows the fishing minigame, and makes the minigame bar wider. However, it costs 10 gems, has lower weight luck, and has less durability than the carbon rod. It is best reserved for difficult situations when you need the extra assistance.",
       "bullets": [
         "More time to react when a fish bites",
         "Slower-moving fishing minigame",
@@ -3686,7 +3685,7 @@ window.DEEPFAQS_DATA = {
       "id": "v156-03",
       "category": "fish-fishing",
       "question": "How do I catch bigger fish?",
-      "answer": "Catching bigger fish takes patience and plenty of fishing. To improve your chances, use the Carbon Rod and equip a clover. Lures can also help, but they are expensive, so it is generally better to invest in them later in the game.",
+      "answer": "Catching bigger fish takes patience and plenty of fishing. To improve your chances, use the carbon rod and equip a clover. Lures can also help, but they are expensive, so it is generally better to invest in them later in the game.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -3695,7 +3694,7 @@ window.DEEPFAQS_DATA = {
       "id": "v156-04",
       "category": "lures",
       "question": "Which fish should I make lures for?",
-      "answer": "There is no single rule. Many players prioritize fish they catch frequently, particularly Clan Battle fish and Tournament fish.",
+      "answer": "There is no single rule. Many players prioritize fish they catch frequently, particularly clan battle fish and Tournament fish.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -3730,6 +3729,38 @@ window.DEEPFAQS_DATA = {
         "Great Lakes: At the northern pier where Agent S appears.",
         "Costa Rica: South of the landing spot, in the palm leaf area."
       ]
+    },
+    {
+      "id": "v157-lure-matching",
+      "category": "lures",
+      "question": "How do I choose the right lure for a fish species?",
+      "answer": "Each fish species requires its own matching lure. For example, if you want to catch a bigger bluefish, equip a bluefish lure. If you catch a fish while using a lure intended for a different species, that catch will be limited to 1★.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v157-dna-locked-door",
+      "category": "dna",
+      "question": "Can the locked door at the back of the DNA Cave be opened?",
+      "answer": "No, the door cannot be opened yet.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v157-dna-tracker",
+      "category": "community-resources",
+      "question": "What is DNA Tracker?",
+      "answer": "DNA Tracker is a community-created companion resource for Creatures of the Deep. Visit the site to explore its tracking tools.",
+      "links": [
+        {
+          "label": "Visit DNA Tracker",
+          "url": "https://boheleven.github.io/Deep-DNA-Tracker/index.html"
+        }
+      ],
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -3768,6 +3799,12 @@ window.DEEPFAQS_DATA = {
       "description": "CotD videos & guides",
       "url": "https://www.youtube.com/@BrowindChannel",
       "icon": "▶️"
+    },
+    {
+      "name": "DNA Tracker",
+      "description": "DNA project tracking tool",
+      "url": "https://boheleven.github.io/Deep-DNA-Tracker/index.html",
+      "icon": "🧬"
     }
   ],
   "faqOrder": {
@@ -3952,7 +3989,8 @@ window.DEEPFAQS_DATA = {
       "v142-06",
       "v143-08",
       "v156-04",
-      "v156-05"
+      "v156-05",
+      "v157-lure-matching"
     ],
     "skills": [
       "skills-1",
@@ -4043,7 +4081,8 @@ window.DEEPFAQS_DATA = {
       "dna-16",
       "dna-17",
       "dna-18",
-      "v156-06"
+      "v156-06",
+      "v157-dna-locked-door"
     ],
     "vip": [
       "vip-maps-1",
@@ -4148,7 +4187,8 @@ window.DEEPFAQS_DATA = {
       "v155-resource-3",
       "v155-resource-4",
       "v155-resource-5",
-      "v155-resource-6"
+      "v155-resource-6",
+      "v157-dna-tracker"
     ]
   }
 };

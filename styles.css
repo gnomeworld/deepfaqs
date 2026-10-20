@@ -259,3 +259,11 @@ body {
   background: #e9f4fe;
   border-color: #c0ddef;
 }
+
+/* v0.1.57: Featured Questions only — subtle card-to-panel contrast.
+   Preserve beige panel, category/resource colors and all layout rules. */
+#popular .popular-item {
+  background: #fffdf7;
+  border-color: #d8c5a5;
+  border-bottom-color: #d8c5a5;
+}
