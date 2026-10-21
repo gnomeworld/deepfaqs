@@ -948,7 +948,7 @@ window.DEEPFAQS_DATA = {
       "id": "fish-fishing-16",
       "category": "fish-fishing",
       "question": "What are dawn and dusk hours?",
-      "answer": "Dawn is 4 AM–6 AM. Dusk is 6 PM–8 PM. The hours may shift by an hour if your country has a winter timing change.",
+      "answer": "Dawn is from 4:00 AM to 6:00 AM, and dusk is from 6:00 PM to 8:00 PM. Both periods count as daytime in the game. Note: Daylight saving time may shift these hours.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -3951,6 +3951,38 @@ window.DEEPFAQS_DATA = {
       ],
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v159-01",
+      "category": "dna",
+      "question": "Why don't I have shrines in my game?",
+      "answer": "Shrines unlock when you reach 75% DNA Project completion. You won't have access to them until you've reached that milestone.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v159-02",
+      "category": "dna",
+      "question": "Why don't I have creature rod or creature bait in my Rod Shop?",
+      "answer": "Creature rod and creature bait unlock when you reach 50% DNA Project completion. They won't be available in the Rod Shop until you reach that milestone.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v159-resource-monsterspots",
+      "category": "community-resources",
+      "question": "What is MonsterSpots?",
+      "answer": "MonsterSpots is a community resource for finding monster fishing spots in Creatures of the Deep.",
+      "links": [
+        {
+          "label": "Visit MonsterSpots",
+          "url": "https://deepmonstersarchive.github.io/Jay/"
+        }
+      ],
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -3995,6 +4027,12 @@ window.DEEPFAQS_DATA = {
       "description": "DNA project tracking tool",
       "url": "https://boheleven.github.io/Deep-DNA-Tracker/index.html",
       "icon": "🧬"
+    },
+    {
+      "name": "MonsterSpots",
+      "description": "Monster fishing spots archive",
+      "url": "https://deepmonstersarchive.github.io/Jay/",
+      "icon": "👾"
     }
   ],
   "faqOrder": {
@@ -4285,7 +4323,9 @@ window.DEEPFAQS_DATA = {
       "dna-17",
       "dna-18",
       "v156-06",
-      "v157-dna-locked-door"
+      "v157-dna-locked-door",
+      "v159-01",
+      "v159-02"
     ],
     "vip": [
       "vip-maps-1",
@@ -4392,7 +4432,8 @@ window.DEEPFAQS_DATA = {
       "v155-resource-4",
       "v155-resource-5",
       "v155-resource-6",
-      "v157-dna-tracker"
+      "v157-dna-tracker",
+      "v159-resource-monsterspots"
     ]
   }
 };
