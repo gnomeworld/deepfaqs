@@ -3983,6 +3983,24 @@ window.DEEPFAQS_DATA = {
       ],
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v160-event-items",
+      "category": "events",
+      "question": "How do I collect event items like pumpkins, stars, hearts, eggs, and gifts/presents?",
+      "answer": "You can collect event items just like other floating trash. Up to five can be found floating in each regular map. They can also be caught randomly while fishing.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v160-great-descent",
+      "category": "events",
+      "question": "What is the Great Descent event?",
+      "answer": "The Great Descent is a Halloween special event introduced in 2026. It's a platformer-style minigame in Creatures of the Deep, where players navigate moving platforms to collect pumpkins and reward chests.",
+      "links": [],
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -4399,7 +4417,9 @@ window.DEEPFAQS_DATA = {
       "events-7",
       "events-8",
       "events-9",
-      "events-10"
+      "events-10",
+      "v160-event-items",
+      "v160-great-descent"
     ],
     "arcade": [
       "arcade-1",
