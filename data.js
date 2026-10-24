@@ -2198,7 +2198,12 @@ window.DEEPFAQS_DATA = {
       "category": "events",
       "question": "What are the rewards for special events?",
       "answer": "Rewards usually include gems for completing each stage, clothing items, and a badge after completing the final stage.",
-      "links": [],
+      "links": [
+        {
+          "label": "CotD Wiki — Events",
+          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Category:Events"
+        }
+      ],
       "published": true,
       "scope": "general"
     },
@@ -2207,7 +2212,12 @@ window.DEEPFAQS_DATA = {
       "category": "events",
       "question": "What do players have to do during special events?",
       "answer": "Collect the number of event items requested by the event NPC. Up to five of these items can be found floating in each regular map, and they can also be fished from the maps. After each stage, the NPC gives you rewards and moves on to the next stage.",
-      "links": [],
+      "links": [
+        {
+          "label": "CotD Wiki — Events",
+          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Category:Events"
+        }
+      ],
       "published": true,
       "scope": "general"
     },
@@ -3989,7 +3999,12 @@ window.DEEPFAQS_DATA = {
       "category": "events",
       "question": "How do I collect event items like pumpkins, stars, hearts, eggs, and gifts/presents?",
       "answer": "You can collect event items just like other floating trash. Up to five can be found floating in each regular map. They can also be caught randomly while fishing.",
-      "links": [],
+      "links": [
+        {
+          "label": "CotD Wiki — Events",
+          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Category:Events"
+        }
+      ],
       "published": true,
       "scope": "general"
     },
@@ -3998,6 +4013,46 @@ window.DEEPFAQS_DATA = {
       "category": "events",
       "question": "What is the Great Descent event?",
       "answer": "The Great Descent is a Halloween special event introduced in 2026. It's a platformer-style minigame in Creatures of the Deep, where players navigate moving platforms to collect pumpkins and reward chests.",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "secondaryCategories": [
+        "side-games"
+      ]
+    },
+    {
+      "id": "v163-event-npc-items",
+      "category": "events",
+      "question": "After completing all quests for a special event NPC, will floating event items still appear?",
+      "answer": "Yes! Even after you've completed all the special event NPC's quests and the NPC disappears, floating event items will still be available to collect. You can sell them for coins and earn karma points.",
+      "links": [
+        {
+          "label": "CotD Wiki — Events",
+          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Category:Events"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v163-discord-search",
+      "category": "community-resources",
+      "question": "How do I use the Search function in the official Discord server?",
+      "answer": "The Search function is a useful way to find information shared by other players. Click the magnifying glass in the top-right corner of Discord and enter your keyword. To search across all channels, remove any channel filter from the search bar. Otherwise, your results will be limited to the selected channel.",
+      "links": [
+        {
+          "label": "Official CotD Discord",
+          "url": "https://discord.gg/jr42uYzKH"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v163-monster-food",
+      "category": "monsters",
+      "question": "NPCs sometimes mention a monster's favorite food. Should I use it as a lure?",
+      "answer": "Not recommended. Using a monster's favorite food as a lure has not been proven to provide any benefit. In addition, using a lure that doesn't match your target species will limit your catch to 1★.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -4319,7 +4374,8 @@ window.DEEPFAQS_DATA = {
       "monster-7",
       "monster-8",
       "monster-11",
-      "v143-01"
+      "v143-01",
+      "v163-monster-food"
     ],
     "dna": [
       "dna-01",
@@ -4419,7 +4475,8 @@ window.DEEPFAQS_DATA = {
       "events-9",
       "events-10",
       "v160-event-items",
-      "v160-great-descent"
+      "v160-great-descent",
+      "v163-event-npc-items"
     ],
     "arcade": [
       "arcade-1",
@@ -4453,7 +4510,8 @@ window.DEEPFAQS_DATA = {
       "v155-resource-5",
       "v155-resource-6",
       "v157-dna-tracker",
-      "v159-resource-monsterspots"
+      "v159-resource-monsterspots",
+      "v163-discord-search"
     ]
   }
 };
