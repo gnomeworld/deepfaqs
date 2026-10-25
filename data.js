@@ -639,7 +639,10 @@ window.DEEPFAQS_DATA = {
       "answer": "The XP Booster is available at the Rod Shop for 35 gems. It lasts for 20 hours and gives an extra +9 XP for everything caught.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "xp"
+      ]
     },
     {
       "id": "getting-started-24",
@@ -3301,7 +3304,7 @@ window.DEEPFAQS_DATA = {
     },
     {
       "id": "v143-07",
-      "category": "skills",
+      "category": "fish-fishing",
       "question": "Why do some screenshots show fish shadows with fins?",
       "answer": "This is caused by the Eye of Rarity perk, unlocked at Perception Level 6. With this perk, rare and epic fish shadows appear with fins.",
       "links": [],
@@ -4059,6 +4062,22 @@ window.DEEPFAQS_DATA = {
       "links": [],
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v166-xp-boost-elixir",
+      "category": "xp",
+      "question": "Can the XP Boost from the shop be used together with the Intelligence Elixir?",
+      "answer": "No. You can't use two boosts of the same type at the same time.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v166-eye-rarity",
+      "category": "skills",
+      "question": "What does Eye of Rarity Perk (P6) do?",
+      "answer": "When Eye of Rarity (P6) is equipped, all rare and epic fish shadows show with fins, making them easy to distinguish from common fish in the same spot.",
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -4174,6 +4193,7 @@ window.DEEPFAQS_DATA = {
       "new-0133-04",
       "polish-035-3",
       "v143-10",
+      "v143-07",
       "fish-fishing-2",
       "fish-fishing-3",
       "v156-02",
@@ -4310,24 +4330,24 @@ window.DEEPFAQS_DATA = {
     ],
     "skills": [
       "skills-1",
-      "skills-2",
       "skills-7",
-      "skills-3",
-      "skills-4",
+      "skills-9",
+      "skills-8",
+      "skills-2",
       "skills-5",
       "skills-6",
-      "skills-8",
-      "skills-9",
+      "skills-3",
+      "skills-4",
       "polish-035-2",
-      "v139-trader",
-      "v139-greenbox",
       "v139-fourleaf",
       "v139-fourleaf-equip",
+      "v166-eye-rarity",
+      "v139-trader",
+      "v139-greenbox",
       "v139-viptransfer",
       "v139-vipreturn",
       "v139-durable",
-      "getting-started-18",
-      "v143-07"
+      "getting-started-18"
     ],
     "economy": [
       "economy-1",
@@ -4339,17 +4359,19 @@ window.DEEPFAQS_DATA = {
       "xp-progression-1",
       "xp-progression-3",
       "xp-progression-2",
-      "xp-progression-4",
+      "getting-started-23",
+      "v166-xp-boost-elixir",
       "xp-progression-5",
-      "xp-progression-10",
+      "xp-progression-4",
+      "v158-08",
       "xp-progression-6",
       "quests-5",
+      "xp-progression-13",
+      "xp-progression-10",
       "xp-progression-8",
       "xp-progression-9",
       "xp-progression-11",
-      "xp-progression-12",
-      "xp-progression-13",
-      "v158-08"
+      "xp-progression-12"
     ],
     "seasons": [
       "seasons-9",
