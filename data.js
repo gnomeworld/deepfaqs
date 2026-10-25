@@ -1757,20 +1757,6 @@ window.DEEPFAQS_DATA = {
       "scope": "general"
     },
     {
-      "id": "clans-13",
-      "category": "clans",
-      "question": "What is the process for joining clans?",
-      "answer": "Build the Clan HQ, then open Clan Search from the in-game phone. Browse clans with vacancies or search by name. Read each clan’s description and requirements before joining; some have level requirements or ask members to join their Discord server. You can also look for clan advertisements or advertise yourself on the official CotD Discord.",
-      "links": [
-        {
-          "label": "CotD Discord — Clan Advertisements",
-          "url": "https://discord.com/channels/1038075942460993606/1076037071208198225"
-        }
-      ],
-      "published": true,
-      "scope": "general"
-    },
-    {
       "id": "clans-14",
       "category": "clans",
       "question": "How much wood is needed to complete the clan monument?",
@@ -3800,8 +3786,13 @@ window.DEEPFAQS_DATA = {
       "id": "v158-01",
       "category": "clans",
       "question": "How do I join a clan?",
-      "answer": "To join a clan, you must first build the clan HQ on Home Island. Once it's built, you can browse the clan list or search for a specific clan by name. Choose one that matches your interests and playstyle.",
-      "links": [],
+      "answer": "Build the Clan HQ, then open Clan Search from the in-game phone. Browse clans with vacancies or search by name. Read each clan’s description and requirements before joining; some have level requirements or ask members to join their Discord server. You can also look for clan advertisements or advertise yourself on the official CotD Discord.",
+      "links": [
+        {
+          "label": "CotD Discord — Clan Advertisements",
+          "url": "https://discord.com/channels/1038075942460993606/1076037071208198225"
+        }
+      ],
       "published": true,
       "scope": "general"
     },
@@ -4098,6 +4089,22 @@ window.DEEPFAQS_DATA = {
       "category": "economy",
       "question": "Should I spend my gold on lures or save it for other upgrades?",
       "answer": "Early in the game, it's generally better to save your gold for other upgrades, especially unlocking new fishing locations. Higher-level lures can be very expensive, so consider investing heavily in them later, once you've unlocked most locations.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v169-side-games-intro",
+      "category": "side-games",
+      "question": "What are side games?",
+      "answer": "Side games are additional activities in Creatures of the Deep that offer a different experience from regular fishing. They include activities such as the Sailboat Championship and Great Descent, giving players other challenges to enjoy.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v169-arcade-monster-spots",
+      "category": "arcade",
+      "question": "Are the daily monster locations the same as in the app version?",
+      "answer": "Yes, they are the same.",
       "published": true,
       "scope": "general"
     }
@@ -4473,30 +4480,29 @@ window.DEEPFAQS_DATA = {
     "clans": [
       "clans-1",
       "clans-2",
-      "clans-3",
       "clans-4",
+      "v158-01",
+      "v156-01",
+      "new-0133-01",
+      "clans-3",
+      "clans-21",
+      "v142-07",
       "clans-7",
       "clans-8",
-      "clans-9",
-      "clans-5",
-      "clans-6",
-      "clans-10",
+      "v143-03",
       "clans-11",
+      "clans-10",
       "clans-12",
-      "clans-13",
-      "clans-14",
-      "clans-15",
-      "clans-16",
-      "clans-17",
-      "clans-18",
+      "clans-9",
       "clans-19",
       "clans-20",
-      "clans-21",
-      "new-0133-01",
-      "v142-07",
-      "v143-03",
-      "v156-01",
-      "v158-01"
+      "clans-5",
+      "clans-14",
+      "clans-6",
+      "clans-15",
+      "clans-17",
+      "clans-18",
+      "clans-16"
     ],
     "pvp-duels": [
       "pvp-1",
@@ -4510,14 +4516,14 @@ window.DEEPFAQS_DATA = {
       "pvp-9"
     ],
     "tournaments": [
+      "tournaments-7",
       "tournaments-1",
       "tournaments-3",
-      "tournaments-7",
-      "tournaments-8",
       "tournaments-2",
       "tournaments-4",
       "tournaments-5",
-      "tournaments-6"
+      "tournaments-6",
+      "tournaments-8"
     ],
     "events": [
       "events-1",
@@ -4536,10 +4542,11 @@ window.DEEPFAQS_DATA = {
     ],
     "arcade": [
       "arcade-1",
+      "arcade-7",
       "arcade-2",
+      "v169-arcade-monster-spots",
       "arcade-3",
       "arcade-4",
-      "arcade-7",
       "arcade-5",
       "arcade-6"
     ],
@@ -4547,27 +4554,29 @@ window.DEEPFAQS_DATA = {
       "q80",
       "q81",
       "game-settings-5",
+      "game-settings-4",
       "q82",
-      "game-settings-6",
-      "game-settings-4"
+      "game-settings-6"
     ],
     "side-games": [
+      "v169-side-games-intro",
       "v144-02",
+      "v156-07",
       "v144-03",
-      "v144-04",
       "v144-05",
-      "v156-07"
+      "v144-04",
+      "v160-great-descent"
     ],
     "community-resources": [
       "v155-resource-1",
+      "v163-discord-search",
       "v155-resource-2",
       "v155-resource-3",
       "v155-resource-4",
       "v155-resource-5",
-      "v155-resource-6",
       "v157-dna-tracker",
       "v159-resource-monsterspots",
-      "v163-discord-search"
+      "v155-resource-6"
     ]
   }
 };
