@@ -660,7 +660,10 @@ window.DEEPFAQS_DATA = {
       "answer": "It depends on the amount of fish it has and their quality. Collecting the money frequently helps generate money faster.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "economy"
+      ]
     },
     {
       "id": "buildings-4",
@@ -669,7 +672,10 @@ window.DEEPFAQS_DATA = {
       "answer": "Yes. More stars on a fish means more money.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "economy"
+      ]
     },
     {
       "id": "buildings-5",
@@ -678,7 +684,10 @@ window.DEEPFAQS_DATA = {
       "answer": "Yes.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "economy"
+      ]
     },
     {
       "id": "buildings-6",
@@ -1117,7 +1126,10 @@ window.DEEPFAQS_DATA = {
       "answer": "No. It is simply a place to showcase your collection.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "economy"
+      ]
     },
     {
       "id": "maps-travel-1",
@@ -2917,7 +2929,10 @@ window.DEEPFAQS_DATA = {
       "question": "Do I need the Trader of the Year perk equipped while fishing or only when selling?",
       "answer": "You only need to equip Trader of the Year when selling fish at the shop.",
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "economy"
+      ]
     },
     {
       "id": "v139-greenbox",
@@ -2925,7 +2940,10 @@ window.DEEPFAQS_DATA = {
       "question": "Does the sales bonus perk affect fish prices in the green box?",
       "answer": "No. The sales bonus perk does not affect fish prices in the green box.",
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "economy"
+      ]
     },
     {
       "id": "v139-fourleaf",
@@ -3152,7 +3170,10 @@ window.DEEPFAQS_DATA = {
       "answer": "It’s better to collect aquarium income as frequently as practical. The rate at which gold accumulates slows down as the uncollected amount increases.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "economy"
+      ]
     },
     {
       "id": "v142-01",
@@ -3536,7 +3557,8 @@ window.DEEPFAQS_DATA = {
       "id": "vip-aquarium-income",
       "category": "vip",
       "secondaryCategories": [
-        "buildings"
+        "buildings",
+        "economy"
       ],
       "question": "Do VIP fish contribute to Aquarium income?",
       "answer": "Yes, VIP fish contribute to Aquarium income.",
@@ -4066,7 +4088,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "v166-xp-boost-elixir",
       "category": "xp",
-      "question": "Can the XP Boost from the shop be used together with the Intelligence Elixir?",
+      "question": "Can the XP Booster from the shop be used together with the Intelligence Elixir?",
       "answer": "No. You can't use two boosts of the same type at the same time.",
       "published": true,
       "scope": "general"
@@ -4076,6 +4098,14 @@ window.DEEPFAQS_DATA = {
       "category": "skills",
       "question": "What does Eye of Rarity Perk (P6) do?",
       "answer": "When Eye of Rarity (P6) is equipped, all rare and epic fish shadows show with fins, making them easy to distinguish from common fish in the same spot.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v167-gold-lures-invest",
+      "category": "economy",
+      "question": "Should I spend my gold on lures or save it for other upgrades?",
+      "answer": "Early in the game, it's generally better to save your gold for other upgrades, especially unlocking new fishing locations. Higher-level lures can be very expensive, so consider investing heavily in them later, once you've unlocked most locations.",
       "published": true,
       "scope": "general"
     }
@@ -4211,14 +4241,26 @@ window.DEEPFAQS_DATA = {
     ],
     "equipment": [
       "getting-started-6",
-      "getting-started-22",
-      "getting-started-7",
+      "v139-choose-rod",
+      "v155-monster-rod",
+      "v155-slowmo-rod",
+      "v139-garbage",
       "fish-fishing-20",
       "polish-035-1",
+      "getting-started-22",
+      "getting-started-7",
+      "v139-durability",
+      "v140-durability-loss",
+      "v142-01",
+      "vip-maps-6",
+      "v139-goldrod",
+      "v140-repair-worth",
+      "v140-repair-amount",
+      "v140-repair-types",
+      "v140-repair-every",
       "new-0133-06",
       "new-0133-10",
       "new-0133-07",
-      "vip-maps-6",
       "new-0133-05",
       "new-0133-08",
       "new-0133-09",
@@ -4226,19 +4268,7 @@ window.DEEPFAQS_DATA = {
       "v139-map-2",
       "v139-map-3",
       "v139-map-4",
-      "v139-durability",
-      "v139-goldrod",
-      "v139-choose-rod",
-      "v139-garbage",
-      "v140-repair-worth",
-      "v140-repair-amount",
-      "v140-repair-types",
-      "v140-repair-every",
-      "v140-durability-loss",
-      "v142-01",
-      "v142-05",
-      "v155-monster-rod",
-      "v155-slowmo-rod"
+      "v142-05"
     ],
     "maps": [
       "maps-travel-2",
@@ -4352,8 +4382,17 @@ window.DEEPFAQS_DATA = {
     "economy": [
       "economy-1",
       "economy-3",
+      "buildings-3",
+      "buildings-4",
+      "buildings-5",
+      "vip-aquarium-income",
+      "v140-aquarium-collect",
+      "buildings-19",
       "economy-2",
-      "v139-fish-price"
+      "v139-fish-price",
+      "v139-trader",
+      "v139-greenbox",
+      "v167-gold-lures-invest"
     ],
     "xp": [
       "xp-progression-1",
