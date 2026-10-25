@@ -80,3 +80,6 @@ DeepFaqs v0.1.47: Simplified homepage stats to a dynamic â€œquestions answered â
 
 
 v0.1.48: Word-aware FAQ search and relevance ranking; consolidated 10 duplicate/near-duplicate FAQ pairs, retaining secondary-category listings and source links; American English spelling correction; updated hero count wording and color.
+
+
+v0.1.71: 350 unique FAQs. Added Great Descent rewards (Side Games + Events), axe wood yields (Getting Started + Equipment), and updated Sailboat rewards, aquarium income, fishing technique, wood regrowth, Jack Trimble Lake, potion durations, karma, XP Booster sources, daily floating crates, boat upgrade effects, and event item spawning tip.

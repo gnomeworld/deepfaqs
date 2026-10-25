@@ -362,7 +362,7 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-2",
       "category": "getting-started",
       "question": "Where do I get wood?",
-      "answer": "You can find up to 3 floating wood on every map, for a total of 36 including VIP maps on weekends; find 3 on Home Island; and chop 7 trees in Marina. You may also very rarely reel in wood as trash, request wood on Clan Island every 7 hours, or buy it for 9 gems, although buying it is not recommended.",
+      "answer": "You can find up to 3 floating wood on every map, for a total of 36 including VIP maps on weekends; find 3 on Home Island; and chop 7 trees in Marina. You may also very rarely reel in wood as trash, request wood on Clan Island every 7 hours, or buy it for 9 gems, although buying it is not recommended. Trees in Marina regrow approximately 48 hours after being chopped. The amount of wood collected from each tree depends on the axe used.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -371,7 +371,7 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-3",
       "category": "getting-started",
       "question": "What is karma?",
-      "answer": "Karma follows the idea that doing good things brings good in return. In the game, you gain karma by selling trash at the shop, recycling, or donating wood at the clan monument. You lose karma by throwing trash into the sea. It is not known whether or how karma affects gameplay, but keeping a positive karma score is recommended. You will need at least 1,000 karma to unlock the DNA Cave later in the game.",
+      "answer": "Karma follows the idea that doing good things brings good in return. In the game, you gain karma by selling trash at the shop, recycling, or donating wood at the clan monument. You lose karma by throwing trash into the sea, except for biodegradable trash, which can be thrown back into the water without losing karma. It is not known whether or how karma affects gameplay, but keeping a positive karma score is recommended. You will need at least 1,000 karma to unlock the DNA Cave later in the game.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -431,7 +431,7 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-9",
       "category": "getting-started",
       "question": "Are boat upgrades only cosmetic?",
-      "answer": "Other than the two motors, all boat upgrades are cosmetic.",
+      "answer": "Motors increase your boat's speed. Big wheels and balloons slightly slow your boat down. Other boat upgrades are cosmetic.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -461,7 +461,7 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-12",
       "category": "getting-started",
       "question": "What are the different fishing methods?",
-      "answer": "The three fishing methods are active fishing, cast and wait, and cast and reel.",
+      "answer": "The three fishing methods are active fishing, cast and wait, and cast and reel. Another technique is to cast, reel in a little, then stop and wait for a bite. This can be particularly useful when trying to catch creatures and may also help with fish that do not show a shadow.",
       "links": [
         {
           "label": "CotD Wiki — Fishing Styles",
@@ -565,23 +565,26 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-19",
       "category": "getting-started",
       "question": "What is the difference between a potion and an elixir?",
-      "answer": "Elixirs last longer than potions. For Level 1 blueprints, a potion lasts 15 minutes and an elixir lasts 30 minutes.",
+      "answer": "Elixirs last longer than potions. Level 1 potions last 15 minutes and Level 1 elixirs last 30 minutes. Level 2 potions last 20 minutes and Level 2 elixirs last 35 minutes.",
       "links": [],
       "published": true,
       "scope": "general",
       "table": {
         "headers": [
-          "Level 1 blueprint",
-          "Duration"
+          "Blueprint level",
+          "Potion",
+          "Elixir"
         ],
         "rows": [
           [
-            "Potion",
-            "15 minutes"
+            "Level 1",
+            "15 minutes",
+            "30 minutes"
           ],
           [
-            "Elixir",
-            "30 minutes"
+            "Level 2",
+            "20 minutes",
+            "35 minutes"
           ]
         ]
       },
@@ -628,7 +631,7 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-23",
       "category": "getting-started",
       "question": "What does the XP Booster do?",
-      "answer": "The XP Booster is available at the Rod Shop for 35 gems. It lasts for 20 hours and gives an extra +9 XP for everything caught.",
+      "answer": "The XP Booster is available at the Rod Shop for 35 gems. It lasts for 20 hours and gives an extra +9 XP for everything caught. XP Boosters can also be obtained from the Clan Island totem.",
       "links": [],
       "published": true,
       "scope": "general",
@@ -661,7 +664,7 @@ window.DEEPFAQS_DATA = {
       "id": "buildings-4",
       "category": "buildings",
       "question": "Do bigger fish generate more Aquarium income?",
-      "answer": "Yes. More stars on a fish means more money.",
+      "answer": "No, not necessarily. Aquarium income increases with the fish's star rating, not simply its size. A bigger fish doesn't automatically have more stars, so it won't necessarily earn more income.",
       "links": [],
       "published": true,
       "scope": "general",
@@ -2475,7 +2478,7 @@ window.DEEPFAQS_DATA = {
       "id": "npcs-8",
       "category": "npcs",
       "question": "What does Jack Trimble Lake need in Scotland?",
-      "answer": "Nothing currently.",
+      "answer": "Nothing currently. Jack Trimble Lake, found near the harbour in southeastern Scotland, is an Easter egg — a hidden reference or surprise in the game rather than a regular quest-giving NPC.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -2840,6 +2843,7 @@ window.DEEPFAQS_DATA = {
       "answer": "Daily login rewards have been discontinued and are no longer available in the game. Other daily pickups on Home Island (Marina) include:",
       "bullets": [
         "Floating chest: Contains gold or gems. Players who have made a real-money purchase can open it without watching an ad; other players must watch an ad.",
+        "Floating daily reward crates: Each contains 10 gold coins.",
         "Wood planks: 3 wood planks daily.",
         "Message in a bottle: May occasionally contain a surprise gift."
       ],
@@ -3391,11 +3395,35 @@ window.DEEPFAQS_DATA = {
     {
       "id": "v144-04",
       "category": "side-games",
-      "question": "Are there rewards for Sailboat Championship?",
-      "answer": "Yes. You receive XP and gold coins when you earn bronze, silver, or gold badges.",
+      "question": "What are the rewards for the Sailboat Championship?",
+      "answer": "Bronze, silver, and gold rewards vary by location. These prizes can be claimed daily.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "table": {
+        "headers": [
+          "Medal",
+          "Great Lakes",
+          "Costa Rica"
+        ],
+        "rows": [
+          [
+            "Bronze",
+            "100 coins, 50 XP",
+            "100 coins, 100 XP"
+          ],
+          [
+            "Silver",
+            "150 coins, 100 XP",
+            "300 coins, 200 XP"
+          ],
+          [
+            "Gold",
+            "200 coins, 150 XP",
+            "500 coins, 400 XP"
+          ]
+        ]
+      }
     },
     {
       "id": "v144-05",
@@ -4009,7 +4037,7 @@ window.DEEPFAQS_DATA = {
       "id": "v160-event-items",
       "category": "events",
       "question": "How do I collect event items like pumpkins, stars, hearts, eggs, and gifts/presents?",
-      "answer": "You can collect event items just like other floating trash. Up to five can be found floating in each regular map. They can also be caught randomly while fishing. If you notice a sparkle in the water, cast into it! These spots can sometimes give you event items.",
+      "answer": "You can collect event items just like other floating trash. Up to five can be found floating in each regular map. They can also be caught randomly while fishing. If you notice a sparkle in the water, cast into it! These spots can sometimes give you event items. Sometimes all 5 event items don't spawn at once, and you may only find 3. If that happens, restart the game or enter and exit a secret cave to make the remaining items appear.",
       "links": [
         {
           "label": "CotD Wiki — Events",
@@ -4123,6 +4151,50 @@ window.DEEPFAQS_DATA = {
       "answer": "No, they offer no rewards.",
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v171-great-descent-rewards",
+      "category": "side-games",
+      "secondaryCategories": [
+        "events"
+      ],
+      "question": "What are the rewards of the Great Descent event?",
+      "answer": "You can collect a total of 6 pumpkins every day. You will also receive a reward chest containing gems or coins. You must return to the entry point with your collected rewards to claim them.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v171-axe-wood-yields",
+      "category": "getting-started",
+      "secondaryCategories": [
+        "equipment"
+      ],
+      "question": "How much wood can I get from chopping a tree?",
+      "answer": "The amount of wood collected from each tree depends on the axe you use.",
+      "table": {
+        "headers": [
+          "Axe",
+          "Wood per tree"
+        ],
+        "rows": [
+          [
+            "Axe purchased from the shop",
+            "5"
+          ],
+          [
+            "Crafted Level 1 axe",
+            "5"
+          ],
+          [
+            "Crafted Level 2 axe",
+            "7"
+          ]
+        ]
+      },
+      "links": [],
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -4186,6 +4258,7 @@ window.DEEPFAQS_DATA = {
       "getting-started-1",
       "getting-started-21",
       "getting-started-2",
+      "v171-axe-wood-yields",
       "getting-started-3",
       "getting-started-4",
       "getting-started-5",
@@ -4283,7 +4356,8 @@ window.DEEPFAQS_DATA = {
       "v139-map-2",
       "v139-map-3",
       "v139-map-4",
-      "v142-05"
+      "v142-05",
+      "v171-axe-wood-yields"
     ],
     "maps": [
       "maps-travel-2",
@@ -4554,6 +4628,7 @@ window.DEEPFAQS_DATA = {
       "events-10",
       "events-8",
       "v160-great-descent",
+      "v171-great-descent-rewards",
       "events-6"
     ],
     "arcade": [
@@ -4583,7 +4658,8 @@ window.DEEPFAQS_DATA = {
       "v144-03",
       "v144-05",
       "v144-04",
-      "v160-great-descent"
+      "v160-great-descent",
+      "v171-great-descent-rewards"
     ],
     "community-resources": [
       "v155-resource-1",
