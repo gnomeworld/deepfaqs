@@ -2141,7 +2141,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "arcade-4",
       "category": "arcade",
-      "question": "Are there gems in the Arcade version?",
+      "question": "Are there gems or VIP tickets in the Arcade version?",
       "answer": "No. The Arcade version uses only gold as currency.",
       "links": [],
       "published": true,
@@ -4107,6 +4107,22 @@ window.DEEPFAQS_DATA = {
       "answer": "Yes, they are the same.",
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v170-arcade-travel",
+      "category": "arcade",
+      "question": "Are there no travel fees in Arcade?",
+      "answer": "No, all travel is free.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v170-arcade-totems",
+      "category": "arcade",
+      "question": "Are the monster totems the same as in the app?",
+      "answer": "No, they offer no rewards.",
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -4545,10 +4561,12 @@ window.DEEPFAQS_DATA = {
       "arcade-7",
       "arcade-2",
       "v169-arcade-monster-spots",
-      "arcade-3",
+      "v170-arcade-travel",
       "arcade-4",
       "arcade-5",
-      "arcade-6"
+      "arcade-6",
+      "arcade-3",
+      "v170-arcade-totems"
     ],
     "help": [
       "q80",
