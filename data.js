@@ -80,7 +80,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "clans",
       "name": "Clans & Clan Battles",
-      "icon": "🏆"
+      "icon": "🛡️"
     },
     {
       "id": "pvp-duels",
@@ -184,7 +184,7 @@ window.DEEPFAQS_DATA = {
       "id": "monster-9",
       "category": "monsters",
       "question": "Are there tips for monster hunting?",
-      "answer": "Read this guide for tips on monster hunting.",
+      "answer": "Monster hunting can be challenging and requires a lot of patience.",
       "published": true,
       "scope": "general",
       "links": [
@@ -398,7 +398,7 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-6",
       "category": "equipment",
       "question": "What are the different rods?",
-      "answer": "There are several rods available throughout the game. The CotD Wiki has a detailed list of the different rods and their properties.",
+      "answer": "Several rods are available in the game. Some unlock as players progress through levels, others are unlocked by completing DNA quests, and some can be crafted.",
       "links": [
         {
           "label": "CotD Wiki — Rods",
@@ -478,7 +478,7 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-13",
       "category": "getting-started",
       "question": "What is active fishing?",
-      "answer": "Active fishing is one of the game's three fishing methods. See the Fishing Styles guide for details on how it works.",
+      "answer": "Active fishing is a fishing method where you cast toward a visible fish shadow.",
       "links": [
         {
           "label": "CotD Wiki — Fishing Styles",
@@ -706,7 +706,7 @@ window.DEEPFAQS_DATA = {
       "id": "buildings-8",
       "category": "buildings",
       "question": "What does the Rod Store do?",
-      "answer": "See the CotD Wiki for details about the Broken Rod Anglers Store.",
+      "answer": "The Broken Rod Angler's Store, commonly referred to as the Rod Shop or Rod Store, offers a variety of items for players, including rods, bait, maps, boosters, gear, and equipment crate upgrades.",
       "links": [
         {
           "label": "CotD Wiki — Broken Rod Anglers Store",
@@ -720,7 +720,7 @@ window.DEEPFAQS_DATA = {
       "id": "buildings-9",
       "category": "buildings",
       "question": "What does the Boat Shop do?",
-      "answer": "See the CotD Wiki for details about Chuchu Boat Service (Dockyard).",
+      "answer": "Chuchu Boat Service, commonly called the Dockyard, offers boat upgrades. Players can also purchase additional inventory slots here.",
       "links": [
         {
           "label": "CotD Wiki — Chuchu Boat Service (Dockyard)",
@@ -1130,7 +1130,7 @@ window.DEEPFAQS_DATA = {
       "id": "maps-travel-1",
       "category": "maps",
       "question": "How do I unlock the next map?",
-      "answer": "For regular/main maps, you simply gather the required unlocking fee. Marina and Paradise Island are unlocked by default. For VIP maps, VIP is only available to purchase after finishing the NPC quest in VIP 1. After that, it's the same as regular maps.",
+      "answer": "For regular/main maps, you simply gather the required unlocking fee. Marina and Paradise Island are unlocked by default. For VIP maps, VIP2 is only available to purchase after finishing the NPC quest in VIP1. After that, it's the same as regular maps.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -1157,7 +1157,7 @@ window.DEEPFAQS_DATA = {
       "id": "maps-travel-4",
       "category": "maps",
       "question": "What are the unlock costs for every location?",
-      "answer": "See the CotD Wiki Destinations guide for the unlock costs for each location.",
+      "answer": "Marina (Home Island) and Paradise Island are unlocked by default. The remaining main maps can be unlocked using gold coins at the main pier, while VIP maps are unlocked through Go Extreme Travel Services.",
       "links": [
         {
           "label": "CotD Wiki — Destinations",
@@ -1212,7 +1212,7 @@ window.DEEPFAQS_DATA = {
       "id": "maps-travel-10",
       "category": "maps",
       "question": "What are the locations of the secret caves?",
-      "answer": "See the linked Discord reference for the secret cave locations.",
+      "answer": "Every regular map except Marina has a secret cave containing a reward chest and other collectible items.",
       "links": [
         {
           "label": "Secret Cave Locations — Discord",
@@ -1494,7 +1494,7 @@ window.DEEPFAQS_DATA = {
       "id": "xp-progression-5",
       "category": "xp",
       "question": "What is the XP requirement for each level?",
-      "answer": "See the CotD Wiki for the XP requirements for each level.",
+      "answer": "Each player level requires a certain amount of XP. The requirements increase as you progress.",
       "links": [
         {
           "label": "CotD Wiki — Experience Points",
@@ -1508,7 +1508,7 @@ window.DEEPFAQS_DATA = {
       "id": "xp-progression-6",
       "category": "xp",
       "question": "How does game progression work and what are the various quests?",
-      "answer": "See the CotD Wiki guide for game progression and the various quests.",
+      "answer": "You progress through the game by completing quests, unlocking new maps and discovering fish, creatures, and items, as well as participating in different activities.",
       "links": [
         {
           "label": "CotD Wiki — Game Progression",
@@ -1522,7 +1522,7 @@ window.DEEPFAQS_DATA = {
       "id": "xp-progression-8",
       "category": "xp",
       "question": "What are the various badges?",
-      "answer": "See the CotD Wiki guide for information about badges.",
+      "answer": "Badges are in-game recognition for completing certain activities or reaching milestones.",
       "links": [
         {
           "label": "CotD Wiki — Badges",
@@ -1536,7 +1536,7 @@ window.DEEPFAQS_DATA = {
       "id": "xp-progression-9",
       "category": "xp",
       "question": "What does the Achievements Board include?",
-      "answer": "See the CotD Wiki guide for information about the Achievements Board.",
+      "answer": "The Achievements Board tracks achievements and goals you can complete as you play.",
       "links": [
         {
           "label": "CotD Wiki — Achievements Board",
@@ -1550,7 +1550,7 @@ window.DEEPFAQS_DATA = {
       "id": "xp-progression-10",
       "category": "xp",
       "question": "What is the Bestiary?",
-      "answer": "See the CotD Wiki guide for information about the Bestiary.",
+      "answer": "The Bestiary is a collection of information about fish, creatures, and items you encounter in the game.",
       "links": [
         {
           "label": "CotD Wiki — Bestiary",
@@ -1564,7 +1564,7 @@ window.DEEPFAQS_DATA = {
       "id": "xp-progression-11",
       "category": "xp",
       "question": "What are season rankings?",
-      "answer": "See the CotD Wiki guide for information about season rankings.",
+      "answer": "Season rankings show how players perform relative to others during a season.",
       "links": [
         {
           "label": "CotD Wiki — Season Rankings",
@@ -1578,7 +1578,7 @@ window.DEEPFAQS_DATA = {
       "id": "xp-progression-12",
       "category": "xp",
       "question": "What are Fish Rankings?",
-      "answer": "See the CotD Wiki guide for information about Fish Rankings.",
+      "answer": "Fish Rankings showcase the Top 10 catches for each fish species.",
       "links": [
         {
           "label": "CotD Wiki — Fish Rankings",
@@ -1592,7 +1592,7 @@ window.DEEPFAQS_DATA = {
       "id": "xp-progression-13",
       "category": "xp",
       "question": "What are the things that happen daily?",
-      "answer": "See the CotD Wiki Daily Rewards guide for information about daily activities and rewards.",
+      "answer": "Certain activities and rewards are available on a daily cycle, giving players reasons to return each day. Note: The daily Newspaper/Login reward has been discontinued.",
       "links": [
         {
           "label": "CotD Wiki — Daily Rewards",
@@ -1726,7 +1726,7 @@ window.DEEPFAQS_DATA = {
       "id": "clans-10",
       "category": "clans",
       "question": "What are the travel costs for clan battles?",
-      "answer": "See the CotD Wiki Score Challenges guide for clan battle travel costs.",
+      "answer": "Each time you travel to a Clan Battle map, you pay a travel fee.",
       "links": [
         {
           "label": "CotD Wiki — Score Challenges",
@@ -1740,7 +1740,7 @@ window.DEEPFAQS_DATA = {
       "id": "clans-11",
       "category": "clans",
       "question": "What are the various fish sets for clan battles?",
-      "answer": "See the CotD Wiki Score Challenges guide for battle fish sets.",
+      "answer": "Every Clan Battle features a set of four fish to compete over. Most maps have three distinct fish sets, while some currently have only two.",
       "links": [
         {
           "label": "CotD Wiki — Score Challenges",
@@ -1818,7 +1818,7 @@ window.DEEPFAQS_DATA = {
       "id": "clans-19",
       "category": "clans",
       "question": "What are the different clan leagues?",
-      "answer": "See the CotD Wiki for the different clan leagues.",
+      "answer": "Clan leagues progress through five levels: Warm-up, Novice, Bronze, Silver, and Gold.",
       "links": [
         {
           "label": "CotD Wiki — Clan Leagues",
@@ -1832,7 +1832,7 @@ window.DEEPFAQS_DATA = {
       "id": "clans-20",
       "category": "clans",
       "question": "What is the reward for being the best clan in a season?",
-      "answer": "See the CotD Wiki for the Best Clan of the Month reward.",
+      "answer": "The best clan receives a badge displayed on its clan profile. The clan is also featured in the podium animation during the following season.",
       "links": [
         {
           "label": "CotD Wiki — Best Clan of the Month",
@@ -2045,7 +2045,7 @@ window.DEEPFAQS_DATA = {
       "id": "pvp-3",
       "category": "pvp-duels",
       "question": "What are the various duel leagues?",
-      "answer": "See the CotD Wiki for duel leagues and their rewards.",
+      "answer": "PvP leagues progress through five levels: Warm-up, Novice, Bronze, Silver, and Gold.",
       "links": [
         {
           "label": "CotD Wiki — PvP rewards and duel leagues",
@@ -2068,7 +2068,7 @@ window.DEEPFAQS_DATA = {
       "id": "pvp-5",
       "category": "pvp-duels",
       "question": "What are duel fish?",
-      "answer": "See the CotD Wiki for the list of duel fish.",
+      "answer": "Every PvP duel is fought over a set of two fish. Each map has a few predetermined fish sets.",
       "links": [
         {
           "label": "CotD Wiki — Duel fish",
@@ -2227,7 +2227,7 @@ window.DEEPFAQS_DATA = {
       "id": "events-5",
       "category": "events",
       "question": "What is the Valentine’s Day quest?",
-      "answer": "See the CotD Wiki for details about the Valentine’s Day Postman quest.",
+      "answer": "This seasonal event lets players collect floating hearts for NPC Valentino and earn gems and Valentine-themed cosmetics for their avatars.",
       "links": [
         {
           "label": "Valentine’s Day Postman — CotD Wiki",
@@ -2241,7 +2241,7 @@ window.DEEPFAQS_DATA = {
       "id": "events-6",
       "category": "events",
       "question": "What is the Christmas quest?",
-      "answer": "See the CotD Wiki for details about Saving Christmas.",
+      "answer": "This seasonal event lets players collect floating gifts for NPC Santa and earn gems and Christmas-themed cosmetics for their avatars.",
       "links": [
         {
           "label": "Saving Christmas — CotD Wiki",
@@ -2255,7 +2255,7 @@ window.DEEPFAQS_DATA = {
       "id": "events-7",
       "category": "events",
       "question": "What is the Egg Collector event?",
-      "answer": "See the CotD Wiki for details about the Professional Egg Collector event.",
+      "answer": "This seasonal event lets players collect floating eggs for NPC Skippy and earn gems and Easter-themed cosmetics for their avatars.",
       "links": [
         {
           "label": "Professional Egg Collector — CotD Wiki",
@@ -2269,7 +2269,7 @@ window.DEEPFAQS_DATA = {
       "id": "events-8",
       "category": "events",
       "question": "What is the Halloween event?",
-      "answer": "See the CotD Wiki for details about Saving Halloween.",
+      "answer": "This seasonal event lets players collect floating pumpkins for NPC Pumpkin Pete and earn gems and Halloween-themed cosmetics for their avatars.",
       "links": [
         {
           "label": "Saving Halloween — CotD Wiki",
@@ -2283,7 +2283,7 @@ window.DEEPFAQS_DATA = {
       "id": "events-9",
       "category": "events",
       "question": "What is the Starlight Courier event?",
-      "answer": "See the CotD Wiki for details about Starlight Courier.",
+      "answer": "This seasonal event lets players collect floating stars for NPC Arien and earn gems and cosmetics for their avatars.",
       "links": [
         {
           "label": "Starlight Courier — CotD Wiki",
@@ -2297,7 +2297,7 @@ window.DEEPFAQS_DATA = {
       "id": "events-10",
       "category": "events",
       "question": "What are Anniversary events?",
-      "answer": "See the CotD Wiki for details about Anniversary events.",
+      "answer": "On November 11, the game celebrates its anniversary on Home Island. NPCs visit, the island is decorated with balloons and a large cake, and a special celebration animation plays. Players also receive rewards.",
       "links": [
         {
           "label": "Anniversary events — CotD Wiki",
@@ -2351,10 +2351,6 @@ window.DEEPFAQS_DATA = {
       "links": [
         {
           "label": "Secondary building quests — CotD Official Discord",
-          "url": "https://discord.com/channels/1038075942460993606/1040334094048972880/1552971981257838725"
-        },
-        {
-          "label": "Secondary NPC Quests — Discord",
           "url": "https://discord.com/channels/1038075942460993606/1040334094048972880/1552971981257838725"
         }
       ],
@@ -2648,7 +2644,7 @@ window.DEEPFAQS_DATA = {
       "id": "vip-bermuda-riddle-2",
       "category": "vip",
       "question": "How do I solve the Bermuda Triangle riddle?",
-      "answer": "You can find a guide to solving the Bermuda Triangle riddle here."
+      "answer": "Bermuda Triangle, the fourth VIP map, contains a riddle involving an octopus."
     },
     {
       "links": [],
@@ -4159,7 +4155,7 @@ window.DEEPFAQS_DATA = {
         "events"
       ],
       "question": "What are the rewards of the Great Descent event?",
-      "answer": "You can collect a total of 6 pumpkins every day. You will also receive a reward chest containing gems or coins. You must return to the entry point with your collected rewards to claim them.",
+      "answer": "During the Great Descent event, you can collect pumpkins and earn a reward chest containing gems or coins. You must return to the entry point with your collected rewards to claim them.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -4192,6 +4188,30 @@ window.DEEPFAQS_DATA = {
           ]
         ]
       },
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v172-charisma-travel-discount",
+      "category": "skills",
+      "secondaryCategories": [
+        "maps"
+      ],
+      "question": "How much discount do we get on travel fees with Charisma points?",
+      "answer": "Each Charisma point reduces travel fees by 5 gold for regular map travel and 10 gold for Clan Battle and PvP trips.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v172-dna-backpack-stars",
+      "category": "dna",
+      "secondaryCategories": [
+        "equipment"
+      ],
+      "question": "Why can't I see fish star ratings in my backpack slots?",
+      "answer": "Fish star ratings in your backpack inventory slots become visible only after you unlock the DNA Cave.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -4328,13 +4348,15 @@ window.DEEPFAQS_DATA = {
       "v158-06"
     ],
     "equipment": [
+      "fish-fishing-20",
+      "v172-dna-backpack-stars",
+      "polish-035-1",
+      "v171-axe-wood-yields",
       "getting-started-6",
       "v139-choose-rod",
       "v155-monster-rod",
       "v155-slowmo-rod",
       "v139-garbage",
-      "fish-fishing-20",
-      "polish-035-1",
       "getting-started-22",
       "getting-started-7",
       "v139-durability",
@@ -4356,14 +4378,14 @@ window.DEEPFAQS_DATA = {
       "v139-map-2",
       "v139-map-3",
       "v139-map-4",
-      "v142-05",
-      "v171-axe-wood-yields"
+      "v142-05"
     ],
     "maps": [
       "maps-travel-2",
       "maps-travel-1",
       "maps-travel-4",
       "maps-travel-5",
+      "v172-charisma-travel-discount",
       "maps-travel-3",
       "vip-maps-3",
       "maps-travel-7",
@@ -4380,12 +4402,12 @@ window.DEEPFAQS_DATA = {
       "buildings-9",
       "buildings-7",
       "buildings-3",
-      "buildings-10",
-      "buildings-11",
       "buildings-4",
       "buildings-5",
       "v140-aquarium-collect",
       "vip-aquarium-income",
+      "buildings-10",
+      "buildings-11",
       "buildings-6",
       "buildings-14",
       "buildings-15",
@@ -4463,6 +4485,7 @@ window.DEEPFAQS_DATA = {
       "v166-eye-rarity",
       "v139-trader",
       "v139-greenbox",
+      "v172-charisma-travel-discount",
       "v139-viptransfer",
       "v139-vipreturn",
       "v139-durable",
@@ -4533,6 +4556,7 @@ window.DEEPFAQS_DATA = {
     "dna": [
       "dna-01",
       "dna-12",
+      "v172-dna-backpack-stars",
       "dna-18",
       "dna-17",
       "dna-16",
@@ -4626,10 +4650,10 @@ window.DEEPFAQS_DATA = {
       "events-7",
       "events-9",
       "events-10",
+      "events-6",
       "events-8",
       "v160-great-descent",
-      "v171-great-descent-rewards",
-      "events-6"
+      "v171-great-descent-rewards"
     ],
     "arcade": [
       "arcade-1",
