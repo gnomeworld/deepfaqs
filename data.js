@@ -431,7 +431,7 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-9",
       "category": "getting-started",
       "question": "Are boat upgrades only cosmetic?",
-      "answer": "Motors increase your boat's speed. Big wheels and balloons slightly slow your boat down. Other boat upgrades are cosmetic.",
+      "answer": "Motors increase your boat's speed. Big wheels slightly slow your boat down. Other boat upgrades are cosmetic.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -2817,6 +2817,15 @@ window.DEEPFAQS_DATA = {
       "scope": "general"
     },
     {
+      "id": "v176-money-sign-boat-decoration",
+      "category": "equipment",
+      "question": "Does the money-sign boat decoration increase fishing luck?",
+      "answer": "No, the money-sign boat decoration is purely cosmetic and does not increase fishing luck.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
       "id": "polish-035-2",
       "category": "skills",
       "question": "Can the Gift of Fate and Smile of Fate perks be used together?",
@@ -4038,7 +4047,7 @@ window.DEEPFAQS_DATA = {
       "id": "v160-event-items",
       "category": "events",
       "question": "How do I collect event items like pumpkins, stars, hearts, eggs, and gifts/presents?",
-      "answer": "You can collect event items just like other floating trash. Up to five can be found floating in each regular map. They can also be caught randomly while fishing. If you notice a sparkle in the water, cast into it! These spots can sometimes give you event items. Sometimes all 5 event items don't spawn at once, and you may only find 3. If that happens, restart the game or enter and exit a secret cave to make the remaining items appear.",
+      "answer": "You can collect event items just like other floating trash. Up to five can be found floating in each regular map. Event items can also be found on VIP maps, but only when those maps are open on weekends. They can also be caught randomly while fishing. If you notice a sparkle in the water, cast into it! These spots can sometimes give you event items. Sometimes all 5 event items don't spawn at once, and you may only find 3. If that happens, restart the game or enter and exit a secret cave to make the remaining items appear.",
       "links": [
         {
           "label": "CotD Wiki — Events",
@@ -4411,6 +4420,7 @@ window.DEEPFAQS_DATA = {
       "fish-fishing-20",
       "v172-dna-backpack-stars",
       "polish-035-1",
+      "v176-money-sign-boat-decoration",
       "v171-axe-wood-yields",
       "getting-started-6",
       "v139-choose-rod",
