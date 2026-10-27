@@ -2763,7 +2763,7 @@ window.DEEPFAQS_DATA = {
       "id": "new-0133-10",
       "category": "equipment",
       "question": "How much does it cost to use the Echosounder (Sonar)?",
-      "answer": "Sonar usage costs vary by target. The currency and costs for Unidentified Signal and Monsters are still to be confirmed.",
+      "answer": "Sonar usage costs vary by target. The prices for monster searches and Unidentified Signals are shown below.",
       "links": [],
       "published": true,
       "scope": "general",
@@ -2795,13 +2795,13 @@ window.DEEPFAQS_DATA = {
           ],
           [
             "Monsters",
-            "TBD",
+            "15 gems",
             "—",
             "—"
           ],
           [
             "Unidentified Signal",
-            "TBD",
+            "50 gems",
             "—",
             "—"
           ]
@@ -3081,8 +3081,13 @@ window.DEEPFAQS_DATA = {
       "id": "v140-durability-loss",
       "category": "equipment",
       "question": "How much rod durability is lost for different catches?",
-      "answer": "Rod durability loss depends on the type of catch. The monster value is an estimate and has not been confirmed; the value for creatures is unknown.",
-      "links": [],
+      "answer": "Rod durability loss depends on the type of catch. The values for epic creatures and monsters are not yet confirmed.",
+      "links": [
+        {
+          "label": "CotD Wiki — Rod Durability",
+          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Rods#Durability"
+        }
+      ],
       "published": true,
       "scope": "general",
       "table": {
@@ -3092,27 +3097,27 @@ window.DEEPFAQS_DATA = {
         ],
         "rows": [
           [
-            "Common fish / trash",
+            "Common fish / creatures, trash",
             "1"
           ],
           [
-            "Rare fish",
+            "Rare fish / creatures",
             "1.5"
           ],
           [
-            "Epic fish",
-            "2"
+            "Epic fish / creatures",
+            "2*"
           ],
           [
             "Monsters",
-            "Approximately 2.5 (unconfirmed)"
-          ],
-          [
-            "Creatures",
-            "Unknown"
+            "2.5*"
           ]
         ]
-      }
+      },
+      "paragraphs": [
+        "Rod durability loss depends on the type of catch.",
+        "*The durability values for epic creatures and monsters are not yet confirmed."
+      ]
     },
     {
       "id": "v140-quiz-what",
@@ -4215,6 +4220,61 @@ window.DEEPFAQS_DATA = {
       "links": [],
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v174-sonar-deactivation",
+      "category": "equipment",
+      "question": "What does the “Deactivation” option on the Echosounder (Sonar) do?",
+      "answer": "The Deactivation option clears a previously selected Echosounder option.",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "searchAliases": [
+        "sonar",
+        "echosounder"
+      ]
+    },
+    {
+      "id": "v174-sonar-unidentified-cost",
+      "category": "equipment",
+      "question": "How much does the Echosounder (Sonar) Unidentified Signal search cost?",
+      "answer": "Searching for an Unidentified Signal costs 50 gems.",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "searchAliases": [
+        "sonar",
+        "echosounder"
+      ]
+    },
+    {
+      "id": "v174-sonar-monster-cost",
+      "category": "equipment",
+      "question": "How much does an Echosounder (Sonar) monster search cost?",
+      "answer": "Searching for monsters using the Echosounder costs 15 gems.",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "searchAliases": [
+        "sonar",
+        "echosounder"
+      ]
+    },
+    {
+      "id": "v175-sonar-daily-monster-location",
+      "category": "equipment",
+      "question": "Does the Echosounder (Sonar) show a monster’s daily location or all possible locations?",
+      "answer": "The Echosounder shows only the monster’s location for the current day, not all its possible spawn locations.",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "searchAliases": [
+        "sonar",
+        "echosounder",
+        "daily monster location",
+        "monster spots",
+        "monster spawn locations"
+      ]
     }
   ],
   "resources": [
@@ -4370,6 +4430,10 @@ window.DEEPFAQS_DATA = {
       "v140-repair-every",
       "new-0133-06",
       "new-0133-10",
+      "v174-sonar-unidentified-cost",
+      "v174-sonar-monster-cost",
+      "v174-sonar-deactivation",
+      "v175-sonar-daily-monster-location",
       "new-0133-07",
       "new-0133-05",
       "new-0133-08",

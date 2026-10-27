@@ -88,3 +88,7 @@ v0.1.72: 352 unique FAQs. Added Charisma travel discount (Skills & Perks / Maps 
 
 
 v0.1.73: Added 20 reviewed introductory FAQ answers while retaining their existing reference links; changed Clans category icon to shield.
+
+v0.1.74: Added 3 Echosounder/Sonar FAQs (Deactivation, Unidentified Signal 50 gems, monster search 15 gems), updated existing sonar cost table, and revised rod durability FAQ with compact fish/creature rows, uncertainty notes and Wiki link. 355 unique FAQs.
+
+v0.1.75: Shortened Echosounder Deactivation answer and added FAQ clarifying that Sonar displays only the monster location for the current day, not all possible spawn locations. 356 unique FAQs.
