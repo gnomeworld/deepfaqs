@@ -94,3 +94,7 @@ v0.1.74: Added 3 Echosounder/Sonar FAQs (Deactivation, Unidentified Signal 50 ge
 v0.1.75: Shortened Echosounder Deactivation answer and added FAQ clarifying that Sonar displays only the monster location for the current day, not all possible spawn locations. 356 unique FAQs.
 
 DeepFaqs v0.1.76 — 357 unique FAQs across 23 categories. Added money-sign boat decoration FAQ to Equipment & Tools; corrected boat speed information (balloons do not slow boats; big wheels do); clarified that event items also appear on VIP maps when open on weekends.
+
+v0.1.77: Removed balloon mention from boat upgrades answer; moved VIP weekend event-item note earlier in the relevant answer. 357 unique FAQs.
+
+v0.1.78: Added Lucky Clover offline timer FAQ, cross-listed in Fish & Fishing and Getting Started; clarified Great Descent access ends upon completing Pumpkin Pete's Halloween quest. 358 unique FAQs, 23 categories.

@@ -3183,7 +3183,10 @@ window.DEEPFAQS_DATA = {
       "answer": "Lucky clover increases your fishing luck. It can help you catch bigger fish and attract rare and epic fish more quickly.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "getting-started"
+      ]
     },
     {
       "id": "v142-03",
@@ -3208,6 +3211,18 @@ window.DEEPFAQS_DATA = {
       "links": [],
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v178-clover-timer",
+      "category": "fish-fishing",
+      "question": "Does the Lucky Clover's timer continue running when I'm not playing?",
+      "answer": "Yes. The Lucky Clover's timer continues running even when you're not playing.",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "secondaryCategories": [
+        "getting-started"
+      ]
     },
     {
       "id": "v142-05",
@@ -4061,7 +4076,7 @@ window.DEEPFAQS_DATA = {
       "id": "v160-great-descent",
       "category": "events",
       "question": "What is the Great Descent event?",
-      "answer": "The Great Descent is a Halloween special event introduced in 2026. It's a platformer-style minigame in Creatures of the Deep, where players navigate moving platforms to collect pumpkins and reward chests.",
+      "answer": "The Great Descent is a Halloween special event introduced in 2026. It's a platformer-style minigame in Creatures of the Deep, where players navigate moving platforms to collect pumpkins and reward chests. Access to the Great Descent minigame closes as soon as the player completes Pumpkin Pete's Halloween quest.",
       "links": [],
       "published": true,
       "scope": "general",
@@ -4351,6 +4366,8 @@ window.DEEPFAQS_DATA = {
       "getting-started-3",
       "getting-started-4",
       "getting-started-5",
+      "v142-02",
+      "v178-clover-timer",
       "fish-fishing-16",
       "fish-fishing-17",
       "getting-started-24",
@@ -4383,6 +4400,7 @@ window.DEEPFAQS_DATA = {
       "v142-02",
       "v142-03",
       "v142-04",
+      "v178-clover-timer",
       "fish-fishing-19",
       "fish-fishing-11",
       "fish-fishing-12",
