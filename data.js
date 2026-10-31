@@ -2903,7 +2903,7 @@ window.DEEPFAQS_DATA = {
       "id": "v139-fish-price",
       "category": "economy",
       "question": "What influences the price of a fish?",
-      "answer": "A fish's weight affects its selling price when comparing fish of the same species. Prices also vary between species and rarity levels.",
+      "answer": "A fish's weight affects its selling price when comparing fish of the same species. Prices also vary between species and rarity levels. Fish sale prices are also influenced by Charisma points. The Trader of the Year perk (C2) increases the selling price by 20% for everything sold from regular inventory slots.",
       "published": true,
       "scope": "general",
       "secondaryCategories": [
@@ -3180,7 +3180,7 @@ window.DEEPFAQS_DATA = {
       "id": "v142-02",
       "category": "fish-fishing",
       "question": "What is lucky clover?",
-      "answer": "Lucky clover increases your fishing luck. It can help you catch bigger fish and attract rare and epic fish more quickly.",
+      "answer": "Lucky clover increases your fishing luck. It can help you catch bigger fish and attract rare and epic fish more quickly. Each clover lasts one hour. Clovers also stack, meaning that if you activate multiple clovers, they run consecutively. The next one starts when the previous one expires.",
       "links": [],
       "published": true,
       "scope": "general",
@@ -3192,22 +3192,22 @@ window.DEEPFAQS_DATA = {
       "id": "v142-03",
       "category": "fish-fishing",
       "question": "How do I get lucky clover?",
-      "answer": "You can get lucky clover in several ways:",
+      "answer": "You can get clovers in several ways:",
       "links": [],
       "published": true,
       "scope": "general",
       "bullets": [
-        "Buy Clover for 2 gems at the Rod Shop.",
-        "Earn free Clover by selling or recycling a total of 50 trash items at the Marina Shop and Recycling Center. Donating wood to the clan monument also counts toward this total.",
-        "Collect free Clover from the Clover Stand on Clan Island.",
-        "Receive Clover as an occasional reward from treasure chests."
+        "Buy clover for 2 gems at the Rod Shop.",
+        "Earn free clover by selling or recycling a total of 50 trash items at the Marina Shop and Recycling Center. Donating wood to the clan monument also counts toward this total.",
+        "Collect free clover from the clover stand on Clan Island.",
+        "Receive clover as an occasional reward from treasure chests."
       ]
     },
     {
       "id": "v142-04",
       "category": "fish-fishing",
       "question": "Does lucky clover increase my chances of finding rare creatures or hard-to-find trash?",
-      "answer": "No. Lucky clover only affects fish. It does not increase your chances of finding creatures or trash.",
+      "answer": "No. Clover only affects fish. It does not increase your chances of finding creatures or trash.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -3215,8 +3215,8 @@ window.DEEPFAQS_DATA = {
     {
       "id": "v178-clover-timer",
       "category": "fish-fishing",
-      "question": "Does the Lucky Clover's timer continue running when I'm not playing?",
-      "answer": "Yes. The Lucky Clover's timer continues running even when you're not playing.",
+      "question": "Does the clover's timer continue running when I'm not playing?",
+      "answer": "Yes. The clover's timer continues running even when you're not playing.",
       "links": [],
       "published": true,
       "scope": "general",
@@ -3283,6 +3283,10 @@ window.DEEPFAQS_DATA = {
         {
           "label": "CotD Wiki",
           "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Creatures_of_the_Deep_Wiki"
+        },
+        {
+          "label": "Official CotD Discord",
+          "url": "https://discord.gg/jr42uYzKH"
         }
       ],
       "published": true,
@@ -3291,7 +3295,8 @@ window.DEEPFAQS_DATA = {
         "Check community resources such as CloverSalad and the CotD Wiki.",
         "Track fish shoals.",
         "Use the in-game maps.",
-        "Purchase an Echosonar to help locate fish, although this is an extremely expensive option."
+        "Purchase an Echosonar to help locate fish, although this is an extremely expensive option.",
+        "Search the official CotD Discord server for tips and screenshots of fish locations shared by other players."
       ]
     },
     {
@@ -3960,11 +3965,15 @@ window.DEEPFAQS_DATA = {
       "id": "v158-10",
       "category": "maps",
       "question": "Where can I find detailed maps of fishing locations?",
-      "answer": "You can use CloverSalad to explore interactive maps of fishing locations. These maps provide information about fish, creatures, and useful spots to help you plan your fishing trips.",
+      "answer": "You can use CloverSalad to explore interactive maps of fishing locations. These maps provide information about fish, creatures, and useful spots to help you plan your fishing trips. The CotD Wiki provides maps and locations of fish, creatures, and other discoveries on each map. You can also check the in-game maps for fish locations.",
       "links": [
         {
           "label": "CloverSalad",
           "url": "https://cloversalad.com/"
+        },
+        {
+          "label": "CotD Wiki",
+          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Creatures_of_the_Deep_Wiki"
         }
       ],
       "published": true,
@@ -4299,6 +4308,18 @@ window.DEEPFAQS_DATA = {
         "monster spots",
         "monster spawn locations"
       ]
+    },
+    {
+      "id": "v180-night-cycle",
+      "category": "help",
+      "question": "Why hasn't my game switched to night even though it's nighttime?",
+      "answer": "If you've just created your account, it may take up to a day for the in-game day/night cycle to synchronize. The cycle normally follows your local time, but it may differ if your account was created in another time zone. Daylight saving time can also affect the cycle if your location observes it.",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "secondaryCategories": [
+        "getting-started"
+      ]
     }
   ],
   "resources": [
@@ -4356,6 +4377,7 @@ window.DEEPFAQS_DATA = {
       "getting-started-12",
       "getting-started-13",
       "getting-started-14",
+      "v180-night-cycle",
       "getting-started-15",
       "getting-started-17",
       "getting-started-16",
@@ -4760,6 +4782,7 @@ window.DEEPFAQS_DATA = {
       "v170-arcade-totems"
     ],
     "help": [
+      "v180-night-cycle",
       "q80",
       "q81",
       "game-settings-5",
