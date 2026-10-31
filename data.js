@@ -565,7 +565,7 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-19",
       "category": "getting-started",
       "question": "What is the difference between a potion and an elixir?",
-      "answer": "Elixirs last longer than potions. Level 1 potions last 15 minutes and Level 1 elixirs last 30 minutes. Level 2 potions last 20 minutes and Level 2 elixirs last 35 minutes.",
+      "answer": "Elixirs last longer than potions. Level 1 potions last 15 minutes and Level 1 elixirs last 30 minutes. Level 2 potions last 20 minutes and Level 2 elixirs are reported to last 35 minutes, although 40 minutes is also possible and awaits confirmation.",
       "links": [],
       "published": true,
       "scope": "general",
@@ -584,12 +584,16 @@ window.DEEPFAQS_DATA = {
           [
             "Level 2",
             "20 minutes",
-            "35 minutes"
+            "35 minutes*"
           ]
         ]
       },
       "secondaryCategories": [
         "skills"
+      ],
+      "paragraphs": [
+        "Elixirs last longer than potions.",
+        "*The Level 2 elixir duration may be 40 minutes. This is awaiting confirmation."
       ]
     },
     {
@@ -1832,7 +1836,7 @@ window.DEEPFAQS_DATA = {
       "id": "clans-20",
       "category": "clans",
       "question": "What is the reward for being the best clan in a season?",
-      "answer": "The best clan receives a badge displayed on its clan profile. The clan is also featured in the podium animation during the following season.",
+      "answer": "The best clan receives a badge displayed on its clan profile. The clan is also featured in the podium animation during the following season. Each time a clan finishes first in the global seasonal rankings, it earns one golden Champion Star, up to a maximum of three. Currently, no additional stars are available beyond the third.",
       "links": [
         {
           "label": "CotD Wiki — Best Clan of the Month",
@@ -3008,7 +3012,7 @@ window.DEEPFAQS_DATA = {
       "id": "v139-garbage",
       "category": "equipment",
       "question": "Why should I use a Garbage Grabber rod instead of a wooden rod?",
-      "answer": "The Garbage Grabber specializes in finding trash. If you're searching for hard-to-find trash, it offers better results than a wooden rod.",
+      "answer": "The Garbage Grabber specializes in finding trash. If you're searching for hard-to-find trash, it offers better results than a wooden rod. The trash rod is also reported to increase the appearance of creature and trash shadows, although this has not been confirmed.",
       "published": true,
       "scope": "general"
     },
@@ -3090,7 +3094,7 @@ window.DEEPFAQS_DATA = {
       "id": "v140-durability-loss",
       "category": "equipment",
       "question": "How much rod durability is lost for different catches?",
-      "answer": "Rod durability loss depends on the type of catch. The values for epic creatures and monsters are not yet confirmed.",
+      "answer": "Rod durability loss depends on the type of catch. The value for monsters is not yet confirmed.",
       "links": [
         {
           "label": "CotD Wiki — Rod Durability",
@@ -3115,7 +3119,7 @@ window.DEEPFAQS_DATA = {
           ],
           [
             "Epic fish / creatures",
-            "2*"
+            "2"
           ],
           [
             "Monsters",
@@ -3125,7 +3129,7 @@ window.DEEPFAQS_DATA = {
       },
       "paragraphs": [
         "Rod durability loss depends on the type of catch.",
-        "*The durability values for epic creatures and monsters are not yet confirmed."
+        "*The durability value for monsters is not yet confirmed."
       ]
     },
     {
@@ -4054,20 +4058,6 @@ window.DEEPFAQS_DATA = {
       "scope": "general"
     },
     {
-      "id": "v159-resource-monsterspots",
-      "category": "community-resources",
-      "question": "What is MonsterSpots?",
-      "answer": "MonsterSpots is a community resource for finding monster fishing spots in Creatures of the Deep.",
-      "links": [
-        {
-          "label": "Visit MonsterSpots",
-          "url": "https://deepmonstersarchive.github.io/Jay/"
-        }
-      ],
-      "published": true,
-      "scope": "general"
-    },
-    {
       "id": "v160-event-items",
       "category": "events",
       "question": "How do I collect event items like pumpkins, stars, hearts, eggs, and gifts/presents?",
@@ -4085,7 +4075,7 @@ window.DEEPFAQS_DATA = {
       "id": "v160-great-descent",
       "category": "events",
       "question": "What is the Great Descent event?",
-      "answer": "The Great Descent is a Halloween special event introduced in 2026. It's a platformer-style minigame in Creatures of the Deep, where players navigate moving platforms to collect pumpkins and reward chests. Access to the Great Descent minigame closes as soon as the player completes Pumpkin Pete's Halloween quest.",
+      "answer": "The Great Descent is a Halloween special event introduced in 2026. It's a platformer-style minigame in Creatures of the Deep, where players navigate moving platforms to collect pumpkins and reward chests. Access to the Great Descent minigame closes as soon as the player completes Pumpkin Pete's Halloween quest. If you fall during the Great Descent, you lose everything collected during that attempt and must start again.",
       "links": [],
       "published": true,
       "scope": "general",
@@ -4320,6 +4310,50 @@ window.DEEPFAQS_DATA = {
       "secondaryCategories": [
         "getting-started"
       ]
+    },
+    {
+      "id": "v181-useful-npc-tasks",
+      "category": "npcs",
+      "question": "Which side/daily NPC tasks are most useful?",
+      "answer": "Some side and daily NPC tasks offer especially worthwhile rewards. John Scuba and Greta Green pay well, but some tasks require hard-to-find creatures or items, making them not always worth the effort.",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "secondaryCategories": [
+        "economy"
+      ],
+      "table": {
+        "headers": [
+          "NPC",
+          "Why it’s worth doing"
+        ],
+        "rows": [
+          [
+            "Rico",
+            "Pays 3× the normal selling price for fish."
+          ],
+          [
+            "Bellywise",
+            "The three-common-fish quest pays 2× the normal price."
+          ],
+          [
+            "Chef Le Cook",
+            "Pays 2× the normal price."
+          ],
+          [
+            "Mike Locksmith",
+            "One of his quests rewards gems."
+          ],
+          [
+            "John Scuba",
+            "Pays well, but some tasks require hard-to-find creatures or items, making them not always worth the effort."
+          ],
+          [
+            "Greta Green",
+            "Pays well, but some tasks require hard-to-find creatures or items, making them not always worth the effort."
+          ]
+        ]
+      }
     }
   ],
   "resources": [
@@ -4364,12 +4398,6 @@ window.DEEPFAQS_DATA = {
       "description": "DNA project tracking tool",
       "url": "https://boheleven.github.io/Deep-DNA-Tracker/index.html",
       "icon": "🧬"
-    },
-    {
-      "name": "MonsterSpots",
-      "description": "Monster fishing spots archive",
-      "url": "https://deepmonstersarchive.github.io/Jay/",
-      "icon": "👾"
     }
   ],
   "faqOrder": {
@@ -4554,7 +4582,8 @@ window.DEEPFAQS_DATA = {
       "npcs-11",
       "npcs-12",
       "npcs-13",
-      "v143-09"
+      "v143-09",
+      "v181-useful-npc-tasks"
     ],
     "quests": [
       "quests-1",
@@ -4618,7 +4647,8 @@ window.DEEPFAQS_DATA = {
       "v139-fish-price",
       "v139-trader",
       "v139-greenbox",
-      "v167-gold-lures-invest"
+      "v167-gold-lures-invest",
+      "v181-useful-npc-tasks"
     ],
     "xp": [
       "xp-progression-1",
@@ -4808,7 +4838,6 @@ window.DEEPFAQS_DATA = {
       "v155-resource-4",
       "v155-resource-5",
       "v157-dna-tracker",
-      "v159-resource-monsterspots",
       "v155-resource-6"
     ]
   }
