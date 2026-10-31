@@ -4314,7 +4314,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "v181-useful-npc-tasks",
       "category": "npcs",
-      "question": "Which side/daily NPC tasks are most useful?",
+      "question": "Which side quests/daily NPC tasks are most useful?",
       "answer": "Some side and daily NPC tasks offer especially worthwhile rewards. John Scuba and Greta Green pay well, but some tasks require hard-to-find creatures or items, making them not always worth the effort.",
       "links": [],
       "published": true,
