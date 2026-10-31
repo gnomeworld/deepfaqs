@@ -103,3 +103,6 @@ v0.1.78: Added Lucky Clover offline timer FAQ, cross-listed in Fish & Fishing an
 v0.1.80: clover terminology and duration/stacking; fish sale pricing; fish location Discord resource; map Wiki reference; new day/night cycle FAQ cross-listed in Getting Started.
 
 v0.1.81: 359 unique FAQs, 23 categories. Added useful side/daily NPC tasks FAQ (NPCs and Gold & Economy); clarified durability, potion/elixir timing, Champion Stars, Great Descent, and Garbage Grabber observation. Removed MonsterSpots FAQ and homepage resource.
+
+
+v0.1.82: 360 unique FAQs, 23 categories. Added post-event item FAQ; refined Garbage Grabber answer; reformatted wood sources as bullets and PvP trophy rewards as a compact table.

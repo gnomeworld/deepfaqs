@@ -362,7 +362,16 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-2",
       "category": "getting-started",
       "question": "Where do I get wood?",
-      "answer": "You can find up to 3 floating wood on every map, for a total of 36 including VIP maps on weekends; find 3 on Home Island; and chop 7 trees in Marina. You may also very rarely reel in wood as trash, request wood on Clan Island every 7 hours, or buy it for 9 gems, although buying it is not recommended. Trees in Marina regrow approximately 48 hours after being chopped. The amount of wood collected from each tree depends on the axe used.",
+      "answer": "You can get wood in several ways:",
+      "bullets": [
+        "Floating wood: Find up to 3 pieces on each map, including VIP maps on weekends.",
+        "Home Island: Collect up to 3 pieces.",
+        "Chopping trees: Chop the 7 trees in Marina. Trees in Marina regrow approximately 48 hours after being chopped. The amount of wood collected from each tree depends on the axe used.",
+        "Fishing: Occasionally catch wood as trash (very rare).",
+        "Clan Island: Request wood every 7 hours.",
+        "Crafting: If you have the Wood blueprint, you can fish 2 Old Planks at Marina and craft 1 Wood at the workbench.",
+        "Shop: Buy wood for 9 gems (not recommended)."
+      ],
       "links": [],
       "published": true,
       "scope": "general"
@@ -2104,7 +2113,15 @@ window.DEEPFAQS_DATA = {
       "id": "pvp-8",
       "category": "pvp-duels",
       "question": "What are the trophy rewards for PvP matches?",
-      "answer": "After a duel, players gain or lose duel trophies. If both players are in the same league, the winner gains 5 trophies and the loser loses 2. If the winner is in a lower league, the winner gains 6 and the loser loses 3. If the winner is in a higher league, the winner gains 4 and the loser loses 1.",
+      "answer": "After a duel, players gain or lose duel trophies depending on their leagues.",
+      "table": {
+        "headers": ["Match result", "Winner", "Loser"],
+        "rows": [
+          ["Both players in the same league", "+5", "−2"],
+          ["Winner in a lower league", "+6", "−3"],
+          ["Winner in a higher league", "+4", "−1"]
+        ]
+      },
       "links": [],
       "published": true,
       "scope": "general"
@@ -3012,7 +3029,7 @@ window.DEEPFAQS_DATA = {
       "id": "v139-garbage",
       "category": "equipment",
       "question": "Why should I use a Garbage Grabber rod instead of a wooden rod?",
-      "answer": "The Garbage Grabber specializes in finding trash. If you're searching for hard-to-find trash, it offers better results than a wooden rod. The trash rod is also reported to increase the appearance of creature and trash shadows, although this has not been confirmed.",
+      "answer": "The Garbage Grabber specializes in finding trash. If you're searching for hard-to-find trash, it offers better results than a wooden rod. The trash rod is also reported to increase the appearance of creature and trash shadows.",
       "published": true,
       "scope": "general"
     },
@@ -4094,6 +4111,15 @@ window.DEEPFAQS_DATA = {
           "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Category:Events"
         }
       ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v182-event-items-after-quest",
+      "category": "events",
+      "question": "I completed the special event quest and the NPC has left, but the event items are still around. What do I do with them?",
+      "answer": "Once you've completed the quest, any remaining event items are treated like regular floating trash. You can ignore them or collect and sell them for gold and karma points.",
+      "links": [],
       "published": true,
       "scope": "general"
     },
