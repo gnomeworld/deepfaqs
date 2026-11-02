@@ -3307,7 +3307,7 @@ window.DEEPFAQS_DATA = {
         },
         {
           "label": "Official CotD Discord",
-          "url": "https://discord.gg/jr42uYzKH"
+          "url": "https://discord.com/invite/JksmvR6YXa"
         }
       ],
       "published": true,
@@ -3686,7 +3686,7 @@ window.DEEPFAQS_DATA = {
       "links": [
         {
           "label": "Visit Official CotD Discord",
-          "url": "https://discord.gg/jr42uYzKH"
+          "url": "https://discord.com/invite/JksmvR6YXa"
         }
       ],
       "published": true,
@@ -4131,7 +4131,7 @@ window.DEEPFAQS_DATA = {
       "links": [
         {
           "label": "Official CotD Discord",
-          "url": "https://discord.gg/jr42uYzKH"
+          "url": "https://discord.com/invite/JksmvR6YXa"
         }
       ],
       "published": true,
@@ -4386,7 +4386,7 @@ window.DEEPFAQS_DATA = {
     {
       "name": "COTD Official Discord",
       "description": "Official CotD community Discord",
-      "url": "https://discord.gg/jr42uYzKH",
+      "url": "https://discord.com/invite/JksmvR6YXa",
       "icon": "💬"
     },
     {
