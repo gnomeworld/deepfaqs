@@ -2115,11 +2115,27 @@ window.DEEPFAQS_DATA = {
       "question": "What are the trophy rewards for PvP matches?",
       "answer": "After a duel, players gain or lose duel trophies depending on their leagues.",
       "table": {
-        "headers": ["Match result", "Winner", "Loser"],
+        "headers": [
+          "Match result",
+          "Winner",
+          "Loser"
+        ],
         "rows": [
-          ["Both players in the same league", "+5", "−2"],
-          ["Winner in a lower league", "+6", "−3"],
-          ["Winner in a higher league", "+4", "−1"]
+          [
+            "Both players in the same league",
+            "+5",
+            "−2"
+          ],
+          [
+            "Winner in a lower league",
+            "+6",
+            "−3"
+          ],
+          [
+            "Winner in a higher league",
+            "+4",
+            "−1"
+          ]
         ]
       },
       "links": [],
@@ -4380,6 +4396,24 @@ window.DEEPFAQS_DATA = {
           ]
         ]
       }
+    },
+    {
+      "id": "v190-workbench-sets",
+      "category": "buildings",
+      "question": "What is the benefit of completing the Chess Board or Beach Set at the workbench?",
+      "answer": "Both the Chess Board and Beach Set can be sold for more gold as completed sets than their individual items would earn separately.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v190-cosmos-map",
+      "category": "maps",
+      "question": "What is the Cosmos map?",
+      "answer": "Cosmos is a space-themed location unlocked after reaching 100% DNA completion. It can be accessed through the DNA Cave, and its fish are modeled after the game's developers.",
+      "links": [],
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -4563,7 +4597,8 @@ window.DEEPFAQS_DATA = {
       "maps-travel-8",
       "maps-travel-12",
       "v158-10",
-      "v158-12"
+      "v158-12",
+      "v190-cosmos-map"
     ],
     "buildings": [
       "buildings-8",
@@ -4592,7 +4627,8 @@ window.DEEPFAQS_DATA = {
       "buildings-17",
       "v140-chest-open",
       "v140-chest-blueprints",
-      "v158-02"
+      "v158-02",
+      "v190-workbench-sets"
     ],
     "npcs": [
       "npcs-1",
