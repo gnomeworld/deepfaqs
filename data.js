@@ -4414,6 +4414,30 @@ window.DEEPFAQS_DATA = {
       "links": [],
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v191-f2p-p2w",
+      "category": "getting-started",
+      "question": "What is F2P and P2W?",
+      "answer": "F2P stands for Free-to-Play, meaning games you can download and play without paying. P2W stands for Pay-to-Win, meaning games where spending real money gives players a direct competitive advantage.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v191-lure-vs-bait",
+      "category": "lures",
+      "question": "What is the difference between lure and bait?",
+      "answer": "A lure matching your target fish increases your chances of catching a bigger fish, while bait attracts fish.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v191-aquarium-shortcuts",
+      "category": "buildings",
+      "question": "Are there shortcuts in the aquarium to travel quickly between locations?",
+      "answer": "Yes! Clicking on a location sign or banner inside the aquarium activates autopilot, automatically transporting your character to the selected location.",
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -4498,7 +4522,9 @@ window.DEEPFAQS_DATA = {
       "v143-06",
       "v144-01",
       "v155-marina-flowers",
-      "v155-mr-octopus"
+      "v155-mr-octopus",
+      "v191-f2p-p2w",
+      "v191-lure-vs-bait"
     ],
     "fish-fishing": [
       "getting-started-12",
@@ -4628,7 +4654,8 @@ window.DEEPFAQS_DATA = {
       "v140-chest-open",
       "v140-chest-blueprints",
       "v158-02",
-      "v190-workbench-sets"
+      "v190-workbench-sets",
+      "v191-aquarium-shortcuts"
     ],
     "npcs": [
       "npcs-1",
@@ -4672,7 +4699,8 @@ window.DEEPFAQS_DATA = {
       "lures-baits-5",
       "lures-baits-3",
       "v156-05",
-      "v158-07"
+      "v158-07",
+      "v191-lure-vs-bait"
     ],
     "skills": [
       "skills-1",
