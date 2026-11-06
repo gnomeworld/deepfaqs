@@ -333,7 +333,12 @@ window.DEEPFAQS_DATA = {
       "category": "skills",
       "question": "What are perks?",
       "answer": "Perks are special powers that can be unlocked depending on how many points you invest in a particular skill.",
-      "links": [],
+      "links": [
+        {
+          "label": "Skills – CotD Wiki",
+          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Skills"
+        }
+      ],
       "published": true,
       "scope": "general"
     },
@@ -4438,6 +4443,20 @@ window.DEEPFAQS_DATA = {
       "answer": "Yes! Clicking on a location sign or banner inside the aquarium activates autopilot, automatically transporting your character to the selected location.",
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v192-chemical-plant-quest-items",
+      "category": "vip",
+      "question": "Are there quest items needed from other maps in the VIP Chemical Plant? What are they?",
+      "answer": "Yes! Since traveling to VIP maps is expensive, it is a good idea to collect the required quest items from other maps before visiting the Chemical Plant. See the linked guide for the full list.",
+      "links": [
+        {
+          "label": "Chemical Plant – Important things to know before traveling (CotD Wiki)",
+          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Chemical_Plant#Important_things_to_know_before_traveling"
+        }
+      ],
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -4823,7 +4842,8 @@ window.DEEPFAQS_DATA = {
       "v155-vip-map-purchase",
       "vip-bermuda-riddle-1",
       "vip-bermuda-riddle-2",
-      "vip-bermuda-riddle-3"
+      "vip-bermuda-riddle-3",
+      "v192-chemical-plant-quest-items"
     ],
     "clans": [
       "clans-1",
