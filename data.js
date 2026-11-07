@@ -4457,6 +4457,15 @@ window.DEEPFAQS_DATA = {
       ],
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v193-golden-fish-bestiary",
+      "category": "fish-fishing",
+      "question": "Where can I see the golden fish I caught?",
+      "answer": "You can see the golden fish you've caught in your Bestiary.",
+      "links": [],
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -4571,6 +4580,7 @@ window.DEEPFAQS_DATA = {
       "new-0133-02",
       "new-0133-03",
       "new-0133-04",
+      "v193-golden-fish-bestiary",
       "polish-035-3",
       "v143-10",
       "v143-07",
