@@ -4479,7 +4479,10 @@ window.DEEPFAQS_DATA = {
         }
       ],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "secondaryCategories": [
+        "getting-started"
+      ]
     },
     {
       "id": "v194-dna-cave-location",
