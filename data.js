@@ -4466,6 +4466,28 @@ window.DEEPFAQS_DATA = {
       "links": [],
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v194-temporary-luck",
+      "category": "fish-fishing",
+      "question": "What is temporary luck?",
+      "answer": "Temporary Luck, also known as Clover or Lucky Clover, helps you catch bigger and rarer fish. It is represented by a four-leaf clover (🍀) icon.",
+      "links": [
+        {
+          "label": "Temporary Luck – CotD Wiki",
+          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Temporary_Luck"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v194-dna-cave-location",
+      "category": "dna",
+      "question": "Where is the DNA Cave located?",
+      "answer": "The DNA Cave is located on Home Island (Marina), beneath the crystal fountain/pond. It opens once you place all 8 crystals, collected from the 8 monsters, around the fountain.",
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -4528,6 +4550,7 @@ window.DEEPFAQS_DATA = {
       "getting-started-3",
       "getting-started-4",
       "getting-started-5",
+      "v194-temporary-luck",
       "v142-02",
       "v178-clover-timer",
       "fish-fishing-16",
@@ -4561,6 +4584,7 @@ window.DEEPFAQS_DATA = {
       "getting-started-15",
       "getting-started-16",
       "getting-started-17",
+      "v194-temporary-luck",
       "v142-02",
       "v142-03",
       "v142-04",
@@ -4818,6 +4842,7 @@ window.DEEPFAQS_DATA = {
     ],
     "dna": [
       "dna-01",
+      "v194-dna-cave-location",
       "dna-12",
       "v172-dna-backpack-stars",
       "dna-18",
