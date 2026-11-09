@@ -4491,6 +4491,15 @@ window.DEEPFAQS_DATA = {
       "answer": "The DNA Cave is located on Home Island (Marina), beneath the crystal fountain/pond. It opens once you place all 8 crystals, collected from the 8 monsters, around the fountain.",
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v196-carbon-rod-epic",
+      "category": "fish-fishing",
+      "question": "Do I need a Carbon Rod to catch Epic fish?",
+      "answer": "It depends on the fish. Some Epic fish may require a Carbon Rod because of the difficulty of the fishing minigame.",
+      "links": [],
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -4624,7 +4633,8 @@ window.DEEPFAQS_DATA = {
       "v146-02",
       "v146-03",
       "v146-04",
-      "v158-06"
+      "v158-06",
+      "v196-carbon-rod-epic"
     ],
     "equipment": [
       "fish-fishing-20",
