@@ -99,7 +99,7 @@ function search(rawQuery){
    return {f,score};
  }).filter(Boolean).sort((a,b)=>b.score-a.score);
  const matches=scored.map(x=>x.f);
- $("#resultCount").textContent=`${matches.length} question${matches.length===1?"":"s"} found`;
+ $("#resultCount").textContent=matches.length ? `${matches.length} result${matches.length===1?"":"s"} matching “${raw}”` : `No results matching “${raw}”`;
  $("#results").innerHTML=matches.length?matches.map(searchFaqHTML).join(""):`<div class="faq"><b>Nothing biting for that search 🎣</b><span class="pending">Try another phrase.</span></div>`;
  panel.classList.remove("hidden");
 }
