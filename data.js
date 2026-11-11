@@ -4500,6 +4500,24 @@ window.DEEPFAQS_DATA = {
       "links": [],
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v197-hard-trash-tip",
+      "category": "fish-fishing",
+      "question": "Any tips for finding harder-to-find trash items?",
+      "answer": "Use a Garbage Rod and have plenty of patience!",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v197-arcade-auctions",
+      "category": "arcade",
+      "question": "Are there auctions in the Arcade version of the game?",
+      "answer": "No. Since Arcade is an offline version of the game, auctions are not available.",
+      "links": [],
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -4632,6 +4650,7 @@ window.DEEPFAQS_DATA = {
       "v146-01",
       "v146-02",
       "v146-03",
+      "v197-hard-trash-tip",
       "v146-04",
       "v158-06",
       "v196-carbon-rod-epic"
@@ -4967,7 +4986,8 @@ window.DEEPFAQS_DATA = {
       "arcade-5",
       "arcade-6",
       "arcade-3",
-      "v170-arcade-totems"
+      "v170-arcade-totems",
+      "v197-arcade-auctions"
     ],
     "help": [
       "v180-night-cycle",
