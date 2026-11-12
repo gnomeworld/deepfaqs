@@ -1077,7 +1077,7 @@ window.DEEPFAQS_DATA = {
       "id": "seasons-8",
       "category": "seasons",
       "question": "When does a season end?",
-      "answer": "A season in CotD ends at 00:00 UTC on the 1st of the new month, and a new season starts immediately.",
+      "answer": "A season in CotD ends at 00:00 UTC on the 1st of the following month, immediately before the new season starts.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -1086,7 +1086,7 @@ window.DEEPFAQS_DATA = {
       "id": "seasons-9",
       "category": "seasons",
       "question": "When does a new season start?",
-      "answer": "A season in CotD ends at 00:00 UTC on the 1st of the new month, and a new season starts immediately.",
+      "answer": "A new season in CotD starts at 00:00 UTC on the 1st of each month, immediately after the previous season ends.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -4534,7 +4534,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "v208-trash-use",
       "category": "equipment",
-      "question": "How can I tell which items in my backpack can be used for something other than selling or recycling?",
+      "question": "How can I tell which trash items in my backpack can be used for something other than selling or recycling?",
       "answer": "Trash items that can be used at the Workbench have a blue background and an anvil symbol in the item view. Trash items missing from your Trash Museum collection have a gray background and a museum shell symbol in the item view.",
       "links": [],
       "published": true,
@@ -4560,6 +4560,27 @@ window.DEEPFAQS_DATA = {
       "links": [],
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v209-coco-patience-random",
+      "category": "monsters",
+      "question": "Is the “Patience” message from Coco the parrot random, or can I trigger it?",
+      "answer": "The “Patience” message from Coco is random. There is no known way to trigger it.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v209-fish-backpack-background",
+      "category": "fish-fishing",
+      "question": "Why do some fish in my backpack have a colored background?",
+      "answer": "A fish with a gray background in your backpack means either that the species is missing from your Aquarium or that the fish has a higher star rating than the one currently in your Aquarium.",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "secondaryCategories": [
+        "buildings"
+      ]
     }
   ],
   "resources": [
@@ -4695,7 +4716,8 @@ window.DEEPFAQS_DATA = {
       "v197-hard-trash-tip",
       "v146-04",
       "v158-06",
-      "v196-carbon-rod-epic"
+      "v196-carbon-rod-epic",
+      "v209-fish-backpack-background"
     ],
     "equipment": [
       "fish-fishing-20",
@@ -4788,7 +4810,8 @@ window.DEEPFAQS_DATA = {
       "v140-chest-blueprints",
       "v158-02",
       "v190-workbench-sets",
-      "v191-aquarium-shortcuts"
+      "v191-aquarium-shortcuts",
+      "v209-fish-backpack-background"
     ],
     "npcs": [
       "npcs-1",
@@ -4912,6 +4935,7 @@ window.DEEPFAQS_DATA = {
       "monster-11",
       "q75",
       "monster-7",
+      "v209-coco-patience-random",
       "monster-10",
       "v163-monster-food",
       "monster-8",
