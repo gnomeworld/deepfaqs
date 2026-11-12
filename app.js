@@ -34,6 +34,7 @@ function orderedFaqs(id){
  return D.faqs.filter(f=>(f.category===id||(f.secondaryCategories||[]).includes(id))).sort((a,b)=>(ranks.get(a.id)??10000)-(ranks.get(b.id)??10000));
 }
 function openCategory(id){
+ $("#categoryPanel").classList.remove("featured-mode");
  const c=catMap[id]; $("#categoryTitle").textContent=`${c.icon} ${c.name}`;
  $("#categoryQuestions").innerHTML=orderedFaqs(id).map(faqHTML).join("");
  $("#categoryPanel").classList.remove("hidden"); $("#categoryPanel").scrollIntoView({behavior:"smooth",block:"start"});
@@ -168,15 +169,15 @@ const featuredFaqs=selectFeatured(featuredPool,8);
 $("#popularGrid").innerHTML=featuredFaqs.map(f=>`<button type="button" class="popular-item" data-faq="${esc(f.id)}">${esc(f.question)} <span aria-hidden="true">›</span></button>`).join("");
 function openFaq(id){
  const f=D.faqs.find(item=>item.id===id);if(!f)return;
- openCategory(f.category);
- // Allow the category panel to become visible before positioning the target.
- requestAnimationFrame(()=>{
-   const target=document.getElementById("faq-"+id);
-   if(!target)return;
-   target.classList.add("faq-highlight");
-   target.scrollIntoView({behavior:"smooth",block:"center"});
-   window.setTimeout(()=>target.classList.remove("faq-highlight"),4000);
- });
+ const c=catMap[f.category];
+ const panel=$("#categoryPanel");
+ $("#categoryTitle").textContent=`${c.icon} ${c.name}`;
+ // Featured navigation is a focused accordion; normal category browsing stays fully expanded.
+ $("#categoryQuestions").innerHTML=orderedFaqs(f.category).map(searchFaqHTML).join("");
+ panel.classList.add("featured-mode");
+ panel.classList.remove("hidden");
+ const target=document.getElementById("faq-"+id);
+ if(target){target.open=true;requestAnimationFrame(()=>target.scrollIntoView({behavior:"smooth",block:"center"}));}
 }
 document.querySelectorAll("[data-faq]").forEach(b=>b.addEventListener("click",()=>openFaq(b.dataset.faq)));
 // Unique published questions, not duplicated for secondary categories.

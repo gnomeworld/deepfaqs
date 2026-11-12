@@ -278,3 +278,24 @@ body {
 }
 #searchPanel .search-faq[open] summary{color:#075f72}
 #searchPanel .search-faq[open] .search-faq-answer{border-top-color:#b4dce9}
+
+
+/* v0.2.16 — Featured Questions: focused accordion with a warm sand highlight.
+   Only the featured navigation mode is affected; normal categories stay fully open. */
+#categoryPanel.featured-mode .search-faq{padding:0;overflow:hidden}
+#categoryPanel.featured-mode .search-faq summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:12px;cursor:pointer;padding:13px 15px;font-size:15px;font-weight:750;color:var(--ink)}
+#categoryPanel.featured-mode .search-faq summary::-webkit-details-marker{display:none}
+#categoryPanel.featured-mode .search-faq summary::after{content:"⌄";font-size:20px;line-height:1;color:#a5824a;flex-shrink:0;transition:transform .15s}
+#categoryPanel.featured-mode .search-faq[open] summary::after{transform:rotate(180deg)}
+#categoryPanel.featured-mode .search-faq summary:focus-visible{outline:2px solid #bb9652;outline-offset:-3px;border-radius:12px}
+#categoryPanel.featured-mode .search-faq-answer{border-top:1px solid #ead9b3;padding:0 15px 14px}
+#categoryPanel.featured-mode .search-faq-answer p:first-child{margin-top:12px}
+#categoryPanel.featured-mode .search-faq[open],
+#categoryPanel.featured-mode .search-faq[open]:nth-child(even),
+#categoryPanel.featured-mode .search-faq[open]:nth-child(4n){background:#fff8e9;border-color:#d7ad57;box-shadow:0 2px 10px rgba(139,105,42,.12)}
+#categoryPanel.featured-mode .search-faq[open] summary{color:#76551d}
+
+/* v0.2.20 — richer blue outline, restrained soft glow; resting search bar unchanged. */
+.hero .search{transition:box-shadow .2s ease}
+.hero .search:focus-within{box-shadow:0 0 0 2px rgba(35,137,207,.86),0 0 16px rgba(31,133,206,.22),0 8px 24px #07576c35}
+@media (prefers-reduced-motion:reduce){.hero .search{transition:none}}
