@@ -954,8 +954,8 @@ window.DEEPFAQS_DATA = {
     {
       "id": "fish-fishing-14",
       "category": "fish-fishing",
-      "question": "Does OOS mean the fish is unavailable?",
-      "answer": "No. All fish are available and catchable all year. OOS means the size of the fish is limited to 1★.",
+      "question": "Does OOS (out of season) mean the fish is unavailable?",
+      "answer": "No. All fish are available and catchable all year. OOS (out of season) means the size of the fish is limited to 1★.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -1023,7 +1023,7 @@ window.DEEPFAQS_DATA = {
       "id": "seasons-2",
       "category": "seasons",
       "question": "Are fish only available when in season?",
-      "answer": "No. All fish are available and catchable all year. OOS means the size of the fish is limited to 1★.",
+      "answer": "No. All fish are available and catchable all year. OOS (out of season) means the size of the fish is limited to 1★.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -1103,8 +1103,8 @@ window.DEEPFAQS_DATA = {
     {
       "id": "seasons-11",
       "category": "seasons",
-      "question": "What are the point limits for OOS fish?",
-      "answer": "OOS fish are limited as follows: common 357, rare 476, and epic 595.",
+      "question": "What are the point limits for OOS (out of season) fish?",
+      "answer": "OOS (out of season) fish are limited as follows: common 357, rare 476, and epic 595.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -1112,7 +1112,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "seasons-12",
       "category": "seasons",
-      "question": "How do I find out which fish are IS/OOS?",
+      "question": "How do I find out which fish are IS (in season)/OOS (out of season)?",
       "answer": "Go to your in-game bestiary and select a fish. Below it, you will find highlighted months indicating when the fish is in season or out of season. You can also check fish seasonality on CloverSalad.",
       "links": [
         {

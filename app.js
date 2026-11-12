@@ -47,8 +47,8 @@ function renderResources(){
 $("#next").onclick=()=>{resourceOffset=(resourceOffset+1)%D.resources.length;renderResources()};
 $("#prev").onclick=()=>{resourceOffset=(resourceOffset-1+D.resources.length)%D.resources.length;renderResources()};
 
-// Season acronyms are case-insensitive search concepts, never ordinary substrings.
-// "is" and "IS" both mean In Season; "oos" and "OOS" mean Out of Season.
+// IS is a case-sensitive search acronym; lowercase "is" is ordinary grammar.
+// OOS and its written-out forms are interchangeable search concepts.
 const STOP_WORDS=new Set(["a","an","and","are","as","at","be","by","can","could","do","does","for","from","how","i","in","it","my","of","on","or","the","to","was","were","what","when","where","which","who","why","will","with","you","your"]);
 function searchWords(value){
  return (String(value||"").toLowerCase().match(/[\p{L}\p{N}]+/gu)||[]);
@@ -74,11 +74,13 @@ function search(rawQuery){
  const panel=$("#searchPanel");
  const raw=rawQuery.trim();
  if(!raw){panel.classList.add("hidden");return}
- const input=searchWords(raw);
- // In conversational questions, "is" acts as grammar ("what is OOS").
- // As a lone query, or with topical terms ("IS fish"), it means In Season.
+ // Normalize both written-out seasonality phrases to their acronyms.
+ // Only uppercase IS is recognized as the abbreviation in typed queries.
+ const normalizedRaw=raw.replace(/\bout[\s-]+of[\s-]+season\b/gi,"OOS")
+                        .replace(/\bin[\s-]+season\b/gi,"IS");
+ const input=searchWords(normalizedRaw);
  const wantsOOS=input.includes("oos");
- const wantsIS=input.includes("is")&&!(wantsOOS&&input.length>1);
+ const wantsIS=/\bIS\b/.test(normalizedRaw);
  const terms=input.filter(t=>t!=="is"&&t!=="oos"&&!STOP_WORDS.has(t));
  if(!terms.length&&!wantsIS&&!wantsOOS){
    $("#resultCount").textContent="Try a more specific search";
