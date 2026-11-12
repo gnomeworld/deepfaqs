@@ -85,7 +85,10 @@ function search(rawQuery){
    $("#results").innerHTML='<div class="faq"><b>Try a more specific search term 🎣</b><p>Search for a topic such as IS, OOS, monsters, lures, or clans.</p></div>';
    panel.classList.remove("hidden");return;
  }
- const scored=D.faqs.filter(f=>f.published!==false&&f.answer).map(f=>{
+ // Rank the same matching FAQs by how closely their questions match the query.
+ // Normalization ignores punctuation and case; it does not alter match eligibility.
+ const normalizedQuery=terms.join(" ");
+ const scored=D.faqs.filter(f=>f.published!==false&&f.answer).map((f,index)=>{
    if(wantsIS&&!seasonMatches(f,"is"))return null;
    if(wantsOOS&&!seasonMatches(f,"oos"))return null;
    const c=catMap[f.category]?.name||"";
@@ -96,8 +99,41 @@ function search(rawQuery){
    if(!terms.every(t=>[question,aliases,answer,category].some(words=>termMatches(t,words))))return null;
    const score=terms.reduce((sum,t)=>sum+(question.includes(t)?100:termMatches(t,question)?80:aliases.includes(t)?65:termMatches(t,aliases)?55:answer.includes(t)?30:termMatches(t,answer)?20:termMatches(t,category)?5:0),0)
      +(wantsIS?seasonQuestionScore(f,"is"):0)+(wantsOOS?seasonQuestionScore(f,"oos"):0);
-   return {f,score};
- }).filter(Boolean).sort((a,b)=>b.score-a.score);
+   // Search-only ranking. Category pages use orderedFaqs() independently.
+   // Prefer precise matches first; for broad topic queries, prioritize
+   // explanatory and gameplay-basics questions over narrow details.
+   const stem=w=>w.endsWith("ies")?w.slice(0,-3)+"y":w.endsWith("s")&&w.length>3?w.slice(0,-1):w;
+   const qWords=question.filter(w=>!STOP_WORDS.has(w));
+   const allInQuestion=terms.length>0&&terms.every(t=>termMatches(t,question));
+   const phraseInQuestion=terms.length>1&&question.some((_,i)=>
+     terms.every((t,j)=>question[i+j]&&stem(question[i+j])===stem(t)));
+   const normalizedTitle=qWords.map(stem).join(" ");
+   const normalizedTerms=terms.map(stem).join(" ");
+   const exactTitle=normalizedTitle===normalizedTerms;
+   const title=f.question.trim().toLowerCase();
+   const narrowDetail=/\b(rewards?|costs?|prices?|travel costs?|upgrades?|highest|badges?|rankings?|various|fish sets?|locked door|portal|teleporter|calculate|levels?|gold|separate)\b/i.test(title);
+   const introductory=/^(what (?:is|are|do|does)|how (?:do|does|can)|when (?:do|does|is|are)|where (?:is|are))\b/i.test(title);
+   const basics=/^(what (?:is|are|do|does)|when (?:do|does|is|are)|where (?:is|are))\b/i.test(title);
+   const topicFocus=allInQuestion ? (phraseInQuestion||terms.length===1?1:0.75) : 0;
+   // Exact titles and phrase coverage take precedence. Within comparable
+   // topical matches, favor basic questions; details follow.
+   // Currency query: distinguish the exact word "gold" from "golden".
+   // Keep the same matches; only prioritize questions explicitly about gold.
+   const goldCurrencyBoost=terms.length===1&&terms[0]==="gold"&&question.includes("gold")?320:0;
+   // For the ambiguous single-word query "gold", prioritize currency/economy
+   // FAQs over equipment named Gold and golden collectibles. Other queries
+   // retain their established ranking; matching and result counts are unchanged.
+   const goldEconomyBoost=terms.length===1&&terms[0]==="gold"&&
+     (f.category==="economy"||(f.secondaryCategories||[]).includes("economy"))?650:0;
+   const relevance=score+goldCurrencyBoost+goldEconomyBoost+(exactTitle?1200:0)
+     +(allInQuestion?300:0)+(phraseInQuestion?250:0)
+     +(topicFocus*100)
+     +(allInQuestion&&introductory?140:0)
+     +(allInQuestion&&basics?65:0)
+     -(allInQuestion&&narrowDetail?170:0)
+     +(allInQuestion?Math.max(0,80-qWords.length*10):0);
+   return {f,score:relevance,index};
+ }).filter(Boolean).sort((a,b)=>b.score-a.score||a.index-b.index);
  const matches=scored.map(x=>x.f);
  $("#resultCount").textContent=matches.length ? `${matches.length} result${matches.length===1?"":"s"} matching “${raw}”` : `No results matching “${raw}”`;
  $("#results").innerHTML=matches.length?matches.map(searchFaqHTML).join(""):`<div class="faq"><b>Nothing biting for that search 🎣</b><span class="pending">Try another phrase.</span></div>`;
