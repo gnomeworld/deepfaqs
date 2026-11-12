@@ -579,7 +579,7 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-19",
       "category": "getting-started",
       "question": "What is the difference between a potion and an elixir?",
-      "answer": "Elixirs last longer than potions. Level 1 potions last 15 minutes and Level 1 elixirs last 30 minutes. Level 2 potions last 20 minutes and Level 2 elixirs are reported to last 35 minutes, although 40 minutes is also possible and awaits confirmation.",
+      "answer": "Elixirs last longer than potions of the same blueprint level. Level 1 potions last 15 minutes and elixirs last 30 minutes. Level 2 potions last 20 minutes and elixirs are reported to last 35 minutes, although 40 minutes is also possible and awaits confirmation. Level 3 potions last 25 minutes; the Level 3 elixir duration is unknown.",
       "links": [],
       "published": true,
       "scope": "general",
@@ -599,6 +599,11 @@ window.DEEPFAQS_DATA = {
             "Level 2",
             "20 minutes",
             "35 minutes*"
+          ],
+          [
+            "Level 3",
+            "25 minutes",
+            "Unknown"
           ]
         ]
       },
@@ -606,7 +611,7 @@ window.DEEPFAQS_DATA = {
         "skills"
       ],
       "paragraphs": [
-        "Elixirs last longer than potions.",
+        "Elixirs last longer than potions of the same blueprint level.",
         "*The Level 2 elixir duration may be 40 minutes. This is awaiting confirmation."
       ]
     },
@@ -1479,7 +1484,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "xp-progression-2",
       "category": "xp",
-      "question": "What gives extra XP?",
+      "question": "How can I earn extra XP besides fishing?",
       "answer": "Being part of a clan in a higher league gives bonus XP per catch: Bronze +1, Silver +2, and Gold +3. Completing Infoboard, NPC, and Seasonal tasks gives extra XP. You can use an Intelligence potion from a clan totem or craft one at the Workbench to boost XP for a limited time. You can also buy an XP Booster for 35 gems, which gives +9 XP per catch for 20 hours. Achievements also give bonus XP.",
       "links": [],
       "published": true,
@@ -1637,7 +1642,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "clans-2",
       "category": "clans",
-      "question": "Must I join a clan?",
+      "question": "Is it necessary to join a clan?",
       "answer": "Joining a clan is not necessary for game progression, but clans add a community aspect. Members can earn bonus XP in Bronze League or higher, benefit from the Clan Island Monument, totems and Clover Stand, request items such as wood and bait from clanmates, and participate in clan battles for rewards.",
       "links": [],
       "published": true,
