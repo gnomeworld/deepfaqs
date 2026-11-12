@@ -579,7 +579,7 @@ window.DEEPFAQS_DATA = {
       "id": "getting-started-19",
       "category": "getting-started",
       "question": "What is the difference between a potion and an elixir?",
-      "answer": "Elixirs last longer than potions of the same blueprint level. Level 1 potions last 15 minutes and elixirs last 30 minutes. Level 2 potions last 20 minutes and elixirs are reported to last 35 minutes, although 40 minutes is also possible and awaits confirmation. Level 3 potions last 25 minutes; the Level 3 elixir duration is unknown.",
+      "answer": "Elixirs last longer than potions. Level 1 potions last 15 minutes and elixirs last 30 minutes. Level 2 potions last 20 minutes and elixirs are reported to last 35 minutes, although 40 minutes is also possible and awaits confirmation. Level 3 potions last 25 minutes; the Level 3 elixir duration is unknown.",
       "links": [],
       "published": true,
       "scope": "general",
@@ -611,7 +611,8 @@ window.DEEPFAQS_DATA = {
         "skills"
       ],
       "paragraphs": [
-        "Elixirs last longer than potions of the same blueprint level.",
+        "Elixirs last longer than potions.",
+        "The following durations apply to potions and elixirs crafted at the workbench:",
         "*The Level 2 elixir duration may be 40 minutes. This is awaiting confirmation."
       ]
     },
