@@ -1674,7 +1674,7 @@ window.DEEPFAQS_DATA = {
       "id": "clans-6",
       "category": "clans",
       "question": "What rewards do the Clan Island totems give?",
-      "answer": "There are eight totems on Clan Island. Each has three upgrade stages: Stage 1 is the base totem and gives no rewards; Stages 2 and 3 provide rewards. For the original four totems, see the CotD Wiki. The four newer totems give the following rewards:",
+      "answer": "There are eight totems on Clan Island, each with three upgrade stages. Stage 1 is the base totem and gives no rewards, while Stages 2 and 3 provide rewards. For the complete list of totems and their rewards, see the CotD Wiki.",
       "links": [
         {
           "label": "CotD Wiki — Totems",
@@ -1682,36 +1682,7 @@ window.DEEPFAQS_DATA = {
         }
       ],
       "published": true,
-      "scope": "general",
-      "table": {
-        "headers": [
-          "Totem",
-          "Stage 2",
-          "Stage 3"
-        ],
-        "rows": [
-          [
-            "Nessie",
-            "Charisma Potion",
-            "Charisma Elixir"
-          ],
-          [
-            "Bunyip",
-            "Agility Potion",
-            "Agility Elixir"
-          ],
-          [
-            "Naga",
-            "Pink Bait",
-            "Black Bait"
-          ],
-          [
-            "Boiuna",
-            "10 VIP Tickets",
-            "20 VIP Tickets"
-          ]
-        ]
-      }
+      "scope": "general"
     },
     {
       "id": "clans-7",
@@ -2012,8 +1983,8 @@ window.DEEPFAQS_DATA = {
     {
       "id": "dna-16",
       "category": "dna",
-      "question": "What does the teleporter or portal in the DNA Cave do?",
-      "answer": "The portal transports you, free of travel cost, to a random spot on a random map where you have species with incomplete DNA. It can be used once every hour.",
+      "question": "What does the teleporter, portal, or beamer in the DNA Cave do?",
+      "answer": "The portal transports you, free of travel cost, to a random spot on a random map (except Marina) where you have species with incomplete DNA. It can be used once every hour.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -4202,8 +4173,8 @@ window.DEEPFAQS_DATA = {
     {
       "id": "v169-arcade-monster-spots",
       "category": "arcade",
-      "question": "Are the daily monster locations the same as in the app version?",
-      "answer": "Yes, they are the same.",
+      "question": "Are the daily monster locations in CotD Arcade the same as in the mobile app?",
+      "answer": "Yes. The daily monster locations are the same in CotD Arcade and the mobile app.",
       "published": true,
       "scope": "general"
     },
@@ -4218,8 +4189,8 @@ window.DEEPFAQS_DATA = {
     {
       "id": "v170-arcade-totems",
       "category": "arcade",
-      "question": "Are the monster totems the same as in the app?",
-      "answer": "No, they offer no rewards.",
+      "question": "Are the monster totems in CotD Arcade the same as in the mobile app?",
+      "answer": "No. Unlike in the mobile app, monster totems in CotD Arcade do not offer rewards.",
       "published": true,
       "scope": "general"
     },
@@ -4581,6 +4552,18 @@ window.DEEPFAQS_DATA = {
       "secondaryCategories": [
         "buildings"
       ]
+    },
+    {
+      "id": "v02121-lifetime-fish-count",
+      "category": "fish-fishing",
+      "secondaryCategories": [
+        "lures"
+      ],
+      "question": "Can I see how many fish of a particular species I've caught in total?",
+      "answer": "The game doesn't directly display your lifetime catch count for each species, but you can calculate it using the lure details. The lure counter tracks how many fish you've caught. Each time you upgrade a lure, the number of catches required for that upgrade is deducted from the counter. The remaining count continues accumulating, even after the lure reaches its maximum level. To calculate your lifetime total, add the catch requirements of all completed lure upgrades to the current count shown in the lure details.",
+      "links": [],
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -4717,7 +4700,8 @@ window.DEEPFAQS_DATA = {
       "v146-04",
       "v158-06",
       "v196-carbon-rod-epic",
-      "v209-fish-backpack-background"
+      "v209-fish-backpack-background",
+      "v02121-lifetime-fish-count"
     ],
     "equipment": [
       "fish-fishing-20",
@@ -4856,7 +4840,8 @@ window.DEEPFAQS_DATA = {
       "lures-baits-3",
       "v156-05",
       "v158-07",
-      "v191-lure-vs-bait"
+      "v191-lure-vs-bait",
+      "v02121-lifetime-fish-count"
     ],
     "skills": [
       "skills-1",
