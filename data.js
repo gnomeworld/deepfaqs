@@ -3923,7 +3923,7 @@ window.DEEPFAQS_DATA = {
       "id": "v158-04",
       "category": "buildings",
       "question": "How do I find out where a trash item belongs in the Trash Museum?",
-      "answer": "You can use DeepSweep, a web app that provides a Trash Museum map showing where each item belongs.",
+      "answer": "If you have a trash item in your backpack that's missing from your collection, the corresponding area in the Trash Museum will display a flashing exclamation mark (!). You can also use DeepSweep, a web app that provides a Trash Museum map showing where each item belongs.",
       "links": [
         {
           "label": "DeepSweep",
@@ -4518,6 +4518,48 @@ window.DEEPFAQS_DATA = {
       "links": [],
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v208-trash-colors",
+      "category": "equipment",
+      "question": "Why do some trash items in my backpack have different colored backgrounds?",
+      "answer": "Trash items that can be used at the Workbench have a blue background and an anvil symbol in the item view. Trash items missing from your Trash Museum collection have a gray background and a museum shell symbol in the item view.",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "secondaryCategories": [
+        "buildings"
+      ]
+    },
+    {
+      "id": "v208-trash-use",
+      "category": "equipment",
+      "question": "How can I tell which items in my backpack can be used for something other than selling or recycling?",
+      "answer": "Trash items that can be used at the Workbench have a blue background and an anvil symbol in the item view. Trash items missing from your Trash Museum collection have a gray background and a museum shell symbol in the item view.",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "secondaryCategories": [
+        "buildings"
+      ]
+    },
+    {
+      "id": "v208-aquarium-alert",
+      "category": "buildings",
+      "question": "Why is there an exclamation mark in front of the Aquarium?",
+      "answer": "It means you have a fish or creature in your backpack that is missing from your Aquarium collection.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v208-museum-alert",
+      "category": "buildings",
+      "question": "Why is there an exclamation mark in front of the Trash Museum?",
+      "answer": "It means you have a trash item in your backpack that is missing from your Trash Museum collection.",
+      "links": [],
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -4666,6 +4708,8 @@ window.DEEPFAQS_DATA = {
       "v155-monster-rod",
       "v155-slowmo-rod",
       "v139-garbage",
+      "v208-trash-use",
+      "v208-trash-colors",
       "getting-started-22",
       "getting-started-7",
       "v139-durability",
@@ -4731,6 +4775,10 @@ window.DEEPFAQS_DATA = {
       "buildings-18",
       "buildings-19",
       "v158-13",
+      "v208-trash-colors",
+      "v208-trash-use",
+      "v208-aquarium-alert",
+      "v208-museum-alert",
       "v158-04",
       "v158-14",
       "buildings-recycling-1",
