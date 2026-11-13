@@ -304,3 +304,9 @@ body {
 footer .footer-center{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;min-width:0}
 footer .footer-meta{display:block;font-size:11px;font-weight:400;color:#a9d0d7;white-space:nowrap;line-height:1.3;text-align:center}
 @media(max-width:650px){footer .footer-center{gap:6px}}
+
+/* v0.2.29: progressive search results */
+.show-more-results{display:block;margin:18px auto 8px;padding:11px 24px;border:1px solid rgba(39,110,150,.35);border-radius:999px;background:rgba(235,249,253,.92);color:#175a79;font:inherit;font-weight:700;cursor:pointer;transition:background .15s,border-color .15s}
+.show-more-results:hover{background:#d9f2fa;border-color:#2789ac}
+.show-more-results:focus-visible{outline:3px solid #248db9;outline-offset:3px}
+.show-more-results[hidden]{display:none}

@@ -4251,6 +4251,7 @@ window.DEEPFAQS_DATA = {
       "links": [],
       "published": true,
       "scope": "general"
+      ,"searchAliases": ["wood"]
     },
     {
       "id": "v172-charisma-travel-discount",

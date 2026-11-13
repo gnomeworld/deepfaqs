@@ -74,7 +74,7 @@ function seasonQuestionScore(f,acronym){
 function search(rawQuery){
  const panel=$("#searchPanel");
  const raw=rawQuery.trim();
- if(!raw){panel.classList.add("hidden");return}
+ if(!raw){panel.classList.add("hidden");$("#showMoreResults").hidden=true;return}
  // Normalize both written-out seasonality phrases to their acronyms.
  // Only uppercase IS is recognized as the abbreviation in typed queries.
  const normalizedRaw=raw.replace(/\bout[\s-]+of[\s-]+season\b/gi,"OOS")
@@ -86,6 +86,7 @@ function search(rawQuery){
  if(!terms.length&&!wantsIS&&!wantsOOS){
    $("#resultCount").textContent="Try a more specific search";
    $("#results").innerHTML='<div class="faq"><b>Try a more specific search term 🎣</b><p>Search for a topic such as IS, OOS, monsters, lures, or clans.</p></div>';
+   $("#showMoreResults").hidden=true;
    panel.classList.remove("hidden");return;
  }
  // Rank the same matching FAQs by how closely their questions match the query.
@@ -137,9 +138,42 @@ function search(rawQuery){
      +(allInQuestion?Math.max(0,80-qWords.length*10):0);
    return {f,score:relevance,index};
  }).filter(Boolean).sort((a,b)=>b.score-a.score||a.index-b.index);
+ // Exact single-word search overrides: no effect on other queries.
+ // Curated fish FAQs are prioritized; all other matches keep their score order.
+ const fishPriority = ["getting-started-12", "getting-started-13", "v143-02", "v156-03", "getting-started-16", "v143-08", "seasons-2", "fish-fishing-14", "v191-lure-vs-bait", "v194-temporary-luck", "v139-fish-price", "v158-09", "economy-1", "seasons-11", "lures-baits-6", "getting-started-17", "v142-03", "buildings-7", "buildings-4", "buildings-5"];
+ if(terms.length===1 && !wantsIS && !wantsOOS && terms[0]==="fish"){
+   const priority=new Map(fishPriority.map((id,i)=>[id,i]));
+   scored.sort((a,b)=>(priority.get(a.f.id)??Infinity)-(priority.get(b.f.id)??Infinity)||b.score-a.score||a.index-b.index);
+ }
+ // Exact "season" search: approved first-page order; remaining matches stay in score order.
+ const seasonPriority = ["seasons-9", "seasons-1", "seasons-12", "seasons-2", "fish-fishing-14", "seasons-11", "quests-6", "seasons-3", "v158-05", "xp-progression-11"];
+ if(terms.length===1 && !wantsIS && !wantsOOS && terms[0]==="season"){
+   const priority=new Map(seasonPriority.map((id,i)=>[id,i]));
+   scored.sort((a,b)=>(priority.get(a.f.id)??Infinity)-(priority.get(b.f.id)??Infinity)||b.score-a.score||a.index-b.index);
+ }
+ // For "money", bring the practical gold-farming FAQ to the top.
+ if(terms.length===1 && !wantsIS && !wantsOOS && terms[0]==="money"){
+   scored.sort((a,b)=>(a.f.id==="economy-1"?-1:b.f.id==="economy-1"?1:0)||b.score-a.score||a.index-b.index);
+ }
  const matches=scored.map(x=>x.f);
  $("#resultCount").textContent=matches.length ? `${matches.length} result${matches.length===1?"":"s"} matching “${raw}”` : `No results matching “${raw}”`;
- $("#results").innerHTML=matches.length?matches.map(searchFaqHTML).join(""):`<div class="faq"><b>Nothing biting for that search 🎣</b><span class="pending">Try another phrase.</span></div>`;
+ // Reset pagination whenever the query changes. Keep previously shown FAQs
+ // in the DOM when expanding, preserving their open accordion state.
+ const results=$("#results");
+ const more=$("#showMoreResults");
+ results.innerHTML=matches.length?matches.slice(0,10).map(searchFaqHTML).join(""):`<div class="faq"><b>Nothing biting for that search 🎣</b><span class="pending">Try another phrase.</span></div>`;
+ let visible=Math.min(10,matches.length);
+ const updateMore=()=>{
+   more.hidden=visible>=matches.length;
+   if(!more.hidden) more.textContent=`Show 10 more (${matches.length-visible} remaining)`;
+ };
+ more.onclick=()=>{
+   const next=Math.min(visible+10,matches.length);
+   results.insertAdjacentHTML("beforeend",matches.slice(visible,next).map(searchFaqHTML).join(""));
+   visible=next;
+   updateMore();
+ };
+ updateMore();
  panel.classList.remove("hidden");
 }
 
