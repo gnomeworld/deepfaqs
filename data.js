@@ -388,11 +388,10 @@ window.DEEPFAQS_DATA = {
       "answer": "Karma follows the idea that doing good things brings good in return. In the game, you gain karma by selling trash at the shop, recycling, or donating wood at the clan monument. You lose karma by throwing trash into the sea, except for biodegradable trash, which can be thrown back into the water without losing karma. It is not known whether or how karma affects gameplay, but keeping a positive karma score is recommended. You will need at least 1,000 karma to unlock the DNA Cave later in the game.",
       "links": [],
       "published": true,
-      "scope": "general"
-   ,
+      "scope": "general",
       "paragraphs": [
-              "Karma follows the idea that doing good things brings good in return. In the game, you gain karma by selling trash at the shop, recycling, or donating wood at the clan monument. You lose karma by throwing trash into the sea, except for biodegradable trash, which can be thrown back into the water without losing karma.",
-              "It is not known whether or how karma affects gameplay, but keeping a positive karma score is recommended. You will need at least 1,000 karma to unlock the DNA Cave later in the game."
+        "Karma follows the idea that doing good things brings good in return. In the game, you gain karma by selling trash at the shop, recycling, or donating wood at the clan monument. You lose karma by throwing trash into the sea, except for biodegradable trash, which can be thrown back into the water without losing karma.",
+        "It is not known whether or how karma affects gameplay, but keeping a positive karma score is recommended. You will need at least 1,000 karma to unlock the DNA Cave later in the game."
       ]
     },
     {
@@ -666,11 +665,10 @@ window.DEEPFAQS_DATA = {
       "scope": "general",
       "secondaryCategories": [
         "xp"
-      ]
-   ,
+      ],
       "paragraphs": [
-              "The XP Booster is available at the Rod Shop for 35 gems. It lasts for 20 hours and gives an extra +9 XP for everything caught. XP Boosters can also be obtained from the Clan Island totem.",
-              "Intelligence potions and elixirs, which also provide XP boosts, can be crafted at the Workbench or obtained from the Clan Island totem."
+        "The XP Booster is available at the Rod Shop for 35 gems. It lasts for 20 hours and gives an extra +9 XP for everything caught. XP Boosters can also be obtained from the Clan Island totem.",
+        "Intelligence potions and elixirs, which also provide XP boosts, can be crafted at the Workbench or obtained from the Clan Island totem."
       ]
     },
     {
@@ -1296,7 +1294,7 @@ window.DEEPFAQS_DATA = {
       "id": "vip-maps-3",
       "category": "vip",
       "question": "What is the cost of travel to VIP locations?",
-      "answer": "Travel to VIP locations varies between 80 and 190 VIP tickets. These ticket prices change every 90 minutes.",
+      "answer": "Travel to VIP locations varies between 80 and 190 VIP tickets. These ticket prices change every 60–90 minutes.",
       "links": [],
       "published": true,
       "scope": "general",
@@ -1509,9 +1507,9 @@ window.DEEPFAQS_DATA = {
       "published": true,
       "scope": "general",
       "paragraphs": [
-              "Being part of a clan in a higher league gives bonus XP per catch: Bronze +1, Silver +2, and Gold +3. Completing Infoboard, NPC, and Seasonal tasks gives extra XP.",
-              "You can use an Intelligence potion or elixir obtained from the Clan Island totem or crafted at the Workbench to boost XP for a limited time. You can also buy an XP Booster for 35 gems, which gives +9 XP per catch for 20 hours.",
-              "Achievements also give bonus XP."
+        "Being part of a clan in a higher league gives bonus XP per catch: Bronze +1, Silver +2, and Gold +3. Completing Infoboard, NPC, and Seasonal tasks gives extra XP.",
+        "You can use an Intelligence potion or elixir obtained from the Clan Island totem or crafted at the Workbench to boost XP for a limited time. You can also buy an XP Booster for 35 gems, which gives +9 XP per catch for 20 hours.",
+        "Achievements also give bonus XP."
       ]
     },
     {
@@ -2667,7 +2665,11 @@ window.DEEPFAQS_DATA = {
       "id": "vip-bermuda-riddle-1",
       "category": "vip",
       "question": "What is the Bermuda Triangle riddle?",
-      "answer": "This is a riddle found on the fourth VIP map, Bermuda Triangle. It is also known as the Octopus Riddle."
+      "answer": "This is a riddle found on the fourth VIP map, Bermuda Triangle. It is also known as the Octopus Riddle. The reward for solving it is a diver suit, which is also needed to access the underwater secret cave in Paradise Island.",
+      "paragraphs": [
+        "This is a riddle found on the fourth VIP map, Bermuda Triangle. It is also known as the Octopus Riddle.",
+        "The reward for solving it is a diver suit, which is also needed to access the underwater secret cave in Paradise Island."
+      ]
     },
     {
       "links": [
@@ -3037,9 +3039,13 @@ window.DEEPFAQS_DATA = {
       "id": "v139-choose-rod",
       "category": "equipment",
       "question": "How do I choose the right rod for different purposes?",
-      "answer": "Visit the Rod Shop and select a rod to view its stats. Choose one based on what you're trying to catch. For example, for bigger fish, select a rod with higher weight luck.",
+      "answer": "Visit the Rod Shop and select a rod to view its stats. Choose one based on what you're trying to catch. For example, for bigger fish, select a rod with higher weight luck. Specialized rods are better suited for certain tasks. For example, the Garbage Rod is a better choice when targeting harder-to-find trash items.",
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "paragraphs": [
+        "Visit the Rod Shop and select a rod to view its stats. Choose one based on what you're trying to catch. For example, for bigger fish, select a rod with higher weight luck.",
+        "Specialized rods are better suited for certain tasks. For example, the Garbage Rod is a better choice when targeting harder-to-find trash items."
+      ]
     },
     {
       "id": "v139-garbage",
@@ -3809,7 +3815,7 @@ window.DEEPFAQS_DATA = {
       "id": "v156-04",
       "category": "lures",
       "question": "Which fish should I make lures for?",
-      "answer": "There is no single rule. Many players prioritize fish they catch frequently, particularly clan battle fish and Tournament fish.",
+      "answer": "There is no single rule. Many players prioritize fish they catch frequently, particularly clan battle fish and tournament fish.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -3964,7 +3970,7 @@ window.DEEPFAQS_DATA = {
       "links": [
         {
           "label": "FishMetrics",
-          "url": "https://fish-metrics.com/"
+          "url": "https://fish-metrics.com/app.html?planner=1"
         }
       ],
       "published": true,
@@ -3978,7 +3984,7 @@ window.DEEPFAQS_DATA = {
       "links": [
         {
           "label": "FishMetrics",
-          "url": "https://fish-metrics.com/"
+          "url": "https://fish-metrics.com/app.html?planner=1"
         }
       ],
       "published": true,
@@ -4260,8 +4266,10 @@ window.DEEPFAQS_DATA = {
       },
       "links": [],
       "published": true,
-      "scope": "general"
-      ,"searchAliases": ["wood"]
+      "scope": "general",
+      "searchAliases": [
+        "wood"
+      ]
     },
     {
       "id": "v172-charisma-travel-discount",
@@ -4589,6 +4597,23 @@ window.DEEPFAQS_DATA = {
       "links": [],
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v231-fish-price-tracker",
+      "category": "economy",
+      "question": "Is there a handy tracker to keep track of fish prices?",
+      "answer": "Yes! The FishMetrics web app has a Catch Value Tracker that lets you track fish prices.",
+      "links": [
+        {
+          "label": "FishMetrics — Catch Value Tracker",
+          "url": "https://fish-metrics.com/app.html?planner=1"
+        }
+      ],
+      "published": true,
+      "scope": "general",
+      "secondaryCategories": [
+        "fish-fishing"
+      ]
     }
   ],
   "resources": [
@@ -4726,7 +4751,8 @@ window.DEEPFAQS_DATA = {
       "v158-06",
       "v196-carbon-rod-epic",
       "v209-fish-backpack-background",
-      "v02121-lifetime-fish-count"
+      "v02121-lifetime-fish-count",
+      "v231-fish-price-tracker"
     ],
     "equipment": [
       "fish-fishing-20",
@@ -4904,7 +4930,8 @@ window.DEEPFAQS_DATA = {
       "v139-trader",
       "v139-greenbox",
       "v167-gold-lures-invest",
-      "v181-useful-npc-tasks"
+      "v181-useful-npc-tasks",
+      "v231-fish-price-tracker"
     ],
     "xp": [
       "xp-progression-1",
