@@ -4614,6 +4614,46 @@ window.DEEPFAQS_DATA = {
       "secondaryCategories": [
         "fish-fishing"
       ]
+    },
+    {
+      "id": "v032-vip-ticket-price-frequency",
+      "category": "vip",
+      "question": "How often do VIP ticket prices change?",
+      "answer": "VIP ticket prices change every 60–90 minutes.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v032-fishing-nets-howto",
+      "category": "fish-fishing",
+      "question": "How do I use fishing nets?",
+      "searchAliases": ["net"],
+      "answer": "Fishing nets can be purchased at the Rod Shop. For instructions on how to use them, see the CotD Wiki — Fishing Nets.",
+      "links": [
+        {
+          "label": "CotD Wiki — Fishing Nets",
+          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Fishing_Techniques#Fishing_net"
+        }
+      ],
+      "published": true,
+      "scope": "general",
+      "secondaryCategories": [
+        "equipment"
+      ]
+    },
+    {
+      "id": "v032-fishing-nets-worth",
+      "category": "fish-fishing",
+      "question": "Are fishing nets worth buying?",
+      "searchAliases": ["net"],
+      "answer": "According to most players, fishing nets are generally not considered a worthwhile investment.",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "secondaryCategories": [
+        "equipment"
+      ]
     }
   ],
   "resources": [
@@ -4752,7 +4792,9 @@ window.DEEPFAQS_DATA = {
       "v196-carbon-rod-epic",
       "v209-fish-backpack-background",
       "v02121-lifetime-fish-count",
-      "v231-fish-price-tracker"
+      "v231-fish-price-tracker",
+      "v032-fishing-nets-howto",
+      "v032-fishing-nets-worth"
     ],
     "equipment": [
       "fish-fishing-20",
@@ -4792,7 +4834,9 @@ window.DEEPFAQS_DATA = {
       "v139-map-2",
       "v139-map-3",
       "v139-map-4",
-      "v142-05"
+      "v142-05",
+      "v032-fishing-nets-howto",
+      "v032-fishing-nets-worth"
     ],
     "maps": [
       "maps-travel-2",
@@ -5012,6 +5056,7 @@ window.DEEPFAQS_DATA = {
       "vip-maps-2",
       "vip-maps-5",
       "vip-maps-3",
+      "v032-vip-ticket-price-frequency",
       "vip-maps-4",
       "vip-maps-6",
       "vip-aquarium-income",
