@@ -4218,12 +4218,12 @@ window.DEEPFAQS_DATA = {
       "secondaryCategories": [
         "equipment"
       ],
-      "question": "How much wood can I get from chopping a tree?",
-      "answer": "The amount of wood collected from each tree depends on the axe you use.",
+      "question": "How many trees can I chop with each axe?",
+      "answer": "The number of trees you can chop depends on the axe you use.",
       "table": {
         "headers": [
           "Axe",
-          "Wood per tree"
+          "Trees chopped"
         ],
         "rows": [
           [
