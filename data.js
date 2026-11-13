@@ -1440,19 +1440,27 @@ window.DEEPFAQS_DATA = {
       "id": "economy-1",
       "category": "economy",
       "question": "How do I farm coins/gold?",
-      "answer": "With a wooden rod, catch common fish in Paradise Island and Great Lakes. With a fiberglass rod and Clover, catch White Tuna in Paradise Island, and Lake Sturgeon and Lake Trout in Great Lakes. Build the Aquarium because it generates passive income. Open slots in your bag as soon as possible. Do daily and seasonal tasks as much as possible. Optional: use the C2 perk to earn a sales bonus and the A3 perk to get extended rod life.",
+      "answer": "Some good ways to farm gold through fishing are: Wooden rod: Catch common fish in Paradise Island and Great Lakes. Fiberglass rod + clover: Catch White Tuna in Paradise Island, and Lake Sturgeon and Lake Trout in Great Lakes. Carbon rod + clover: Target Blue and Striped Marlin in Costa Rica. Build the Aquarium because it generates passive income. Open slots in your bag as soon as possible. Do daily and seasonal tasks as much as possible. Optional: use the C2 perk to earn a sales bonus and the A3 perk to get extended rod life.",
       "links": [],
       "published": true,
       "scope": "general",
       "paragraphs": [
-        "With a wooden rod, catch common fish in Paradise Island and Great Lakes. With a fiberglass rod and Clover, catch White Tuna in Paradise Island, and Lake Sturgeon and Lake Trout in Great Lakes.",
+        "Some good ways to farm gold through fishing are:",
         "Build the Aquarium because it generates passive income. Open slots in your bag as soon as possible. Do daily and seasonal tasks as much as possible.",
         "Optional: use the C2 perk to earn a sales bonus and the A3 perk to get extended rod life."
       ],
+      "bullets": [
+        "Wooden rod: Catch common fish in Paradise Island and Great Lakes.",
+        "Fiberglass rod + clover: Catch White Tuna in Paradise Island, and Lake Sturgeon and Lake Trout in Great Lakes.",
+        "Carbon rod + clover: Target Blue and Striped Marlin in Costa Rica."
+      ],
+      "bulletsAfterFirstParagraph": true,
+      "boldBulletPrefixes": true,
       "searchAliases": [
         "How do I make money?",
         "How do I earn gold?",
-        "How do I earn coins?"
+        "How do I earn coins?",
+        "expensive"
       ]
     },
     {

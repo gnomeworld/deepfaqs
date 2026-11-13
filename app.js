@@ -6,9 +6,9 @@ let resourceOffset=0; // Always begin with the first community resources.
 function esc(s){return s.replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
 function faqHTML(f){
  const table=f.table?`<table class="faq-data-table"><thead><tr>${f.table.headers.map(h=>`<th>${esc(String(h))}</th>`).join("")}</tr></thead><tbody>${f.table.rows.map(row=>`<tr>${row.map(cell=>`<td>${esc(String(cell))}</td>`).join("")}</tr>`).join("")}</tbody></table>`:"";
- const bullets=f.bullets?`<ul class="faq-bullets">${f.bullets.map(b=>`<li>${esc(b)}</li>`).join("")}</ul>`:"";
+ const bullets=f.bullets?`<ul class="faq-bullets">${f.bullets.map(b=>{const split=f.boldBulletPrefixes?b.indexOf(": "):-1;return `<li>${split>=0?`<strong>${esc(b.slice(0,split))}:</strong> ${esc(b.slice(split+2))}`:esc(b)}</li>`}).join("")}</ul>`:"";
  const links=(f.links||[]).map(l=>`<span class="faq-link-item">See the <a class="faq-link" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)} ↗</a></span>`).join("");
- return `<div class="faq" id="faq-${esc(f.id)}"><b>${esc(f.question)}</b>${f.answer?`${f.paragraphs?f.paragraphs.map(p=>`<p>${esc(p)}</p>`).join(""):`<p>${esc(f.answer)}</p>`}${bullets}${table}${links?`<div class="faq-links">${links}</div>`:""}`:`<span class="pending">${esc(catMap[f.category]?.name||"FAQ")} • Answer coming soon</span>`}</div>`
+ return `<div class="faq" id="faq-${esc(f.id)}"><b>${esc(f.question)}</b>${f.answer?`${f.paragraphs?(f.bulletsAfterFirstParagraph?f.paragraphs.map((p,i)=>`<p>${esc(p)}</p>${i===0?bullets:""}`).join(""):f.paragraphs.map(p=>`<p>${esc(p)}</p>`).join("")):`<p>${esc(f.answer)}</p>`}${f.bulletsAfterFirstParagraph?"":bullets}${table}${links?`<div class="faq-links">${links}</div>`:""}`:`<span class="pending">${esc(catMap[f.category]?.name||"FAQ")} • Answer coming soon</span>`}</div>`
 }
 
 // Search-only accordion: category pages continue using their existing full answers.
