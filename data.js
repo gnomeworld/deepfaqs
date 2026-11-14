@@ -801,7 +801,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "buildings-14",
       "category": "buildings",
-      "question": "Where do I buy a light?",
+      "question": "Where do I buy a boat light (Aqua Lamp)?",
       "answer": "You can buy a light at the Broken Rod Anglers Store.",
       "links": [],
       "published": true,
@@ -810,7 +810,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "buildings-15",
       "category": "buildings",
-      "question": "Why does my light turn off?",
+      "question": "Why does my boat light (Aqua Lamp) turn off?",
       "answer": "You need to buy a new battery at the Rod Shop or build a windmill to recharge it.",
       "links": [],
       "published": true,
@@ -819,7 +819,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "buildings-16",
       "category": "buildings",
-      "question": "How do I recharge my light?",
+      "question": "How do I recharge my boat light (Aqua Lamp)?",
       "answer": "Build the windmill on the northwest island in Marina, then recharge the battery there.",
       "links": [],
       "published": true,
@@ -4187,7 +4187,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "v167-gold-lures-invest",
       "category": "economy",
-      "question": "Should I spend my gold on lures or save it for other upgrades?",
+      "question": "Should I focus on upgrading lures or invest in maps and buildings first?",
       "answer": "Early in the game, it's generally better to save your gold for other upgrades, especially unlocking new fishing locations. Higher-level lures can be very expensive, so consider investing heavily in them later, once you've unlocked most locations.",
       "published": true,
       "scope": "general"
@@ -4628,8 +4628,10 @@ window.DEEPFAQS_DATA = {
       "id": "v032-fishing-nets-howto",
       "category": "fish-fishing",
       "question": "How do I use fishing nets?",
-      "searchAliases": ["net"],
-      "answer": "Fishing nets can be purchased at the Rod Shop. For instructions on how to use them, see the CotD Wiki — Fishing Nets.",
+      "searchAliases": [
+        "net"
+      ],
+      "answer": "Fishing nets can be purchased at the Rod Shop. Unlike regular fishing rods, nets allow you to catch fish without casting and reeling them in individually.\n\nFor detailed instructions on how to use fishing nets, see the guide below.",
       "links": [
         {
           "label": "CotD Wiki — Fishing Nets",
@@ -4646,7 +4648,9 @@ window.DEEPFAQS_DATA = {
       "id": "v032-fishing-nets-worth",
       "category": "fish-fishing",
       "question": "Are fishing nets worth buying?",
-      "searchAliases": ["net"],
+      "searchAliases": [
+        "net"
+      ],
       "answer": "According to most players, fishing nets are generally not considered a worthwhile investment.",
       "links": [],
       "published": true,
@@ -4654,6 +4658,38 @@ window.DEEPFAQS_DATA = {
       "secondaryCategories": [
         "equipment"
       ]
+    },
+    {
+      "id": "v033-boat-light-worth",
+      "category": "equipment",
+      "question": "Is the boat light (Aqua Lamp) worth buying?",
+      "answer": "It's a personal choice. The boat light makes fishing at night a little easier, but it's not essential.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v033-compass-worth",
+      "category": "equipment",
+      "question": "Should I buy a compass?",
+      "answer": "It's a personal choice. The compass makes navigation easier, but it's not essential.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v033-one-time",
+      "category": "equipment",
+      "question": "Are the Aqua Lamp and compass one-time purchases?",
+      "answer": "Yes, both are one-time purchases. However, the Aqua Lamp (boat light) needs to be recharged periodically.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v033-compass-direction",
+      "category": "equipment",
+      "question": "I bought the compass, but it doesn't show directions. What's wrong?",
+      "answer": "The compass only works in the \"behind the boat\" view. Make sure you're using this camera mode to see the directions.",
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -4836,7 +4872,11 @@ window.DEEPFAQS_DATA = {
       "v139-map-4",
       "v142-05",
       "v032-fishing-nets-howto",
-      "v032-fishing-nets-worth"
+      "v032-fishing-nets-worth",
+      "v033-boat-light-worth",
+      "v033-compass-worth",
+      "v033-one-time",
+      "v033-compass-direction"
     ],
     "maps": [
       "maps-travel-2",
