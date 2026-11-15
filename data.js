@@ -4690,6 +4690,50 @@ window.DEEPFAQS_DATA = {
       "answer": "The compass only works in the \"behind the boat\" view. Make sure you're using this camera mode to see the directions.",
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v034-lure-choice",
+      "category": "lures",
+      "secondaryCategories": [
+        "fish-fishing"
+      ],
+      "question": "What lure should I choose for a fish?",
+      "answer": "Always choose a lure that matches the fish species you're trying to catch. For example, if you want to catch a bigger Bluefish, equip a Bluefish lure. If you catch a fish while using a lure intended for a different species, that catch will be limited to 1★.",
+      "paragraphs": [
+        "Always choose a lure that matches the fish species you're trying to catch. For example, if you want to catch a bigger Bluefish, equip a Bluefish lure.",
+        "If you catch a fish while using a lure intended for a different species, that catch will be limited to 1★."
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v034-lure-function",
+      "category": "lures",
+      "secondaryCategories": [
+        "fish-fishing"
+      ],
+      "question": "What does a lure do?",
+      "answer": "A lure increases your chances of catching a bigger fish of the species it is designed for. For example, using a Lake Trout lure increases your chances of catching a larger Lake Trout.",
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v034-shadow-weight",
+      "category": "fish-fishing",
+      "question": "Does a bigger fish shadow mean a heavier fish?",
+      "answer": "No. Each fish species has its own characteristic shadow size, which you can check on CloverSalad. There may be slight variations in shadow size within the same species, but these do not necessarily indicate differences in the fish's actual weight. Some fish have no visible shadow.",
+      "paragraphs": [
+        "No. Each fish species has its own characteristic shadow size, which you can check on CloverSalad. There may be slight variations in shadow size within the same species, but these do not necessarily indicate differences in the fish's actual weight.",
+        "Some fish have no visible shadow."
+      ],
+      "links": [
+        {
+          "label": "CloverSalad",
+          "url": "https://cloversalad.com/"
+        }
+      ],
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -4809,6 +4853,7 @@ window.DEEPFAQS_DATA = {
       "v193-golden-fish-bestiary",
       "polish-035-3",
       "v143-10",
+      "v034-shadow-weight",
       "v143-07",
       "fish-fishing-2",
       "fish-fishing-3",
@@ -4830,7 +4875,9 @@ window.DEEPFAQS_DATA = {
       "v02121-lifetime-fish-count",
       "v231-fish-price-tracker",
       "v032-fishing-nets-howto",
-      "v032-fishing-nets-worth"
+      "v032-fishing-nets-worth",
+      "v034-lure-function",
+      "v034-lure-choice"
     ],
     "equipment": [
       "fish-fishing-20",
@@ -4960,6 +5007,8 @@ window.DEEPFAQS_DATA = {
       "quests-6"
     ],
     "lures": [
+      "v034-lure-function",
+      "v034-lure-choice",
       "lures-baits-6",
       "lures-baits-7",
       "v142-06",
