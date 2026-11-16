@@ -2518,7 +2518,7 @@ window.DEEPFAQS_DATA = {
       "id": "npcs-9",
       "category": "npcs",
       "question": "Which NPCs visit Marina?",
-      "answer": "Greta Green and Captain Silverfish visit to assign quests. Leonardo visits on weekends to take players to VIP maps. Seasonal event NPCs — Santa, Pumpkin Pete, Valentino, Skippy, and Arien — appear during their events. NOAH is the computer automaton in the DNA Lab.",
+      "answer": "Greta Green and Captain Silverfish visit to assign quests. Dejah Lou visits to host the Anomaly Caves puzzle game. Leonardo visits on weekends to take players to VIP maps. Seasonal event NPCs — Santa, Pumpkin Pete, Valentino, Skippy, and Arien — appear during their events. NOAH is the computer automaton in the DNA Lab.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -4196,7 +4196,7 @@ window.DEEPFAQS_DATA = {
       "id": "v169-side-games-intro",
       "category": "side-games",
       "question": "What are side games?",
-      "answer": "Side games are additional activities in Creatures of the Deep that offer a different experience from regular fishing. They include activities such as the Sailboat Championship and Great Descent, giving players other challenges to enjoy.",
+      "answer": "Side games are additional activities in Creatures of the Deep that offer a different experience from regular fishing. They include activities such as the Sailboat Championship, Great Descent, and Anomaly Caves, giving players other challenges to enjoy.",
       "published": true,
       "scope": "general"
     },
@@ -4734,6 +4734,33 @@ window.DEEPFAQS_DATA = {
       ],
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v035-anomaly-what",
+      "category": "side-games",
+      "question": "What is Anomaly Caves?",
+      "answer": "Anomaly Caves is a puzzle-based side game hosted by Dejah Lou. Players must observe their surroundings and choose which direction to travel to unlock rewards.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v035-anomaly-where",
+      "category": "side-games",
+      "question": "Where can I play Anomaly Caves?",
+      "answer": "You can access Anomaly Caves through Dejah Lou, an NPC who visits Home Island.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v035-anomaly-rewards",
+      "category": "side-games",
+      "question": "What rewards can I earn from Anomaly Caves?",
+      "answer": "Anomaly Caves offers rewards including gold coins, gems, VIP tickets, and character cosmetics.",
+      "links": [],
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -5249,7 +5276,10 @@ window.DEEPFAQS_DATA = {
       "v144-05",
       "v144-04",
       "v160-great-descent",
-      "v171-great-descent-rewards"
+      "v171-great-descent-rewards",
+      "v035-anomaly-what",
+      "v035-anomaly-where",
+      "v035-anomaly-rewards"
     ],
     "community-resources": [
       "v155-resource-1",
