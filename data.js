@@ -4761,6 +4761,75 @@ window.DEEPFAQS_DATA = {
       "links": [],
       "published": true,
       "scope": "general"
+    },
+    {
+      "id": "v036-quest-100",
+      "category": "quests",
+      "question": "What is the easiest fish to complete the \"catch fish over 100 kg\" task?",
+      "answer": "Queensland Grouper, if you have access to Australia. Otherwise, Blue Marlin or Striped Marlin from Costa Rica.",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "secondaryCategories": [
+        "fish-fishing"
+      ]
+    },
+    {
+      "id": "v036-quest-200",
+      "category": "quests",
+      "question": "What is the easiest fish to complete the \"catch fish over 200 kg\" task?",
+      "answer": "Queensland Grouper, if you have access to Australia. Otherwise, Blue Marlin or Striped Marlin from Costa Rica.",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "secondaryCategories": [
+        "fish-fishing"
+      ]
+    },
+    {
+      "id": "v036-vibration",
+      "category": "help",
+      "question": "Why doesn't my game vibrate even though vibration is enabled?",
+      "answer": "Vibration depends on your device's haptic capabilities and settings, not just the in-game option. Check your phone's haptic or vibration settings. Some Android devices have very weak or limited vibration support, while iPads do not support game vibration.",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "searchAliases": [
+        "vibration",
+        "haptic",
+        "vibrate"
+      ]
+    },
+    {
+      "id": "v036-day-night-bubbles",
+      "category": "fish-fishing",
+      "question": "Can I catch day-only or night-only fish outside their usual hours using bubbles or sparkles?",
+      "answer": "No. Bubbles and sparkles do not change when a fish is available. Day-only fish can only appear in bubbles or sparkles during the day, while night-only fish can only appear at night.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v036-sonar-intro",
+      "category": "equipment",
+      "question": "What is Sonar (also called EchoSounder or EchoSonar)?",
+      "answer": "Sonar is a tool you can purchase at the Rod Shop to locate fish, creatures, trash items, and monsters. It does not work in Marina. To use Sonar, you must first purchase the base module, then pay a fee each time you use it.",
+      "links": [
+        {
+          "label": "CotD Wiki — Permanent Upgrades",
+          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Home_Island#Permanent_upgrades"
+        }
+      ],
+      "published": true,
+      "scope": "general",
+      "secondaryCategories": [
+        "fish-fishing"
+      ],
+      "searchAliases": [
+        "echosounder",
+        "echosonar",
+        "sonar"
+      ]
     }
   ],
   "resources": [
@@ -4904,7 +4973,11 @@ window.DEEPFAQS_DATA = {
       "v032-fishing-nets-howto",
       "v032-fishing-nets-worth",
       "v034-lure-function",
-      "v034-lure-choice"
+      "v034-lure-choice",
+      "v036-quest-100",
+      "v036-quest-200",
+      "v036-day-night-bubbles",
+      "v036-sonar-intro"
     ],
     "equipment": [
       "fish-fishing-20",
@@ -4950,7 +5023,8 @@ window.DEEPFAQS_DATA = {
       "v033-boat-light-worth",
       "v033-compass-worth",
       "v033-one-time",
-      "v033-compass-direction"
+      "v033-compass-direction",
+      "v036-sonar-intro"
     ],
     "maps": [
       "maps-travel-2",
@@ -5031,7 +5105,9 @@ window.DEEPFAQS_DATA = {
       "quests-2",
       "quests-8",
       "quests-7",
-      "quests-6"
+      "quests-6",
+      "v036-quest-100",
+      "v036-quest-200"
     ],
     "lures": [
       "v034-lure-function",
@@ -5266,7 +5342,8 @@ window.DEEPFAQS_DATA = {
       "game-settings-5",
       "game-settings-4",
       "q82",
-      "game-settings-6"
+      "game-settings-6",
+      "v036-vibration"
     ],
     "side-games": [
       "v169-side-games-intro",

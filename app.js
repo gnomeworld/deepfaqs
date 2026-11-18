@@ -79,7 +79,9 @@ function search(rawQuery){
  // Only uppercase IS is recognized as the abbreviation in typed queries.
  const normalizedRaw=raw.replace(/\bout[\s-]+of[\s-]+season\b/gi,"OOS")
                         .replace(/\bin[\s-]+season\b/gi,"IS");
- const input=searchWords(normalizedRaw);
+ const originalInput=searchWords(normalizedRaw);
+ const sonarQuery=originalInput.length===1 && ["echosounder","echosonar","sonar"].includes(originalInput[0]);
+ const input=sonarQuery?["echosounder"]:originalInput;
  const wantsOOS=input.includes("oos");
  const wantsIS=/\bIS\b/.test(normalizedRaw);
  const terms=input.filter(t=>t!=="is"&&t!=="oos"&&!STOP_WORDS.has(t));
@@ -154,6 +156,19 @@ function search(rawQuery){
  // For "money", bring the practical gold-farming FAQ to the top.
  if(terms.length===1 && !wantsIS && !wantsOOS && terms[0]==="money"){
    scored.sort((a,b)=>(a.f.id==="economy-1"?-1:b.f.id==="economy-1"?1:0)||b.score-a.score||a.index-b.index);
+ }
+ // Exact EchoSounder/Sonar aliases: same curated 11 results in approved order.
+ // Does not change matching or ranking for longer queries containing these words.
+ if(sonarQuery){
+   const sonarPriority=[
+     "v036-sonar-intro","new-0133-06","new-0133-10","new-0133-07",
+     "new-0133-08","new-0133-05","v174-sonar-monster-cost",
+     "v175-sonar-daily-monster-location","new-0133-09",
+     "v174-sonar-unidentified-cost","v174-sonar-deactivation"
+   ];
+   const ranks=new Map(sonarPriority.map((id,i)=>[id,i]));
+   scored.splice(0,scored.length,...scored.filter(x=>ranks.has(x.f.id))
+     .sort((a,b)=>ranks.get(a.f.id)-ranks.get(b.f.id)));
  }
  const matches=scored.map(x=>x.f);
  $("#resultCount").textContent=matches.length ? `${matches.length} result${matches.length===1?"":"s"} matching “${raw}”` : `No results matching “${raw}”`;
