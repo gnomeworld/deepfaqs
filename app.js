@@ -80,6 +80,8 @@ function search(rawQuery){
  const normalizedRaw=raw.replace(/\bout[\s-]+of[\s-]+season\b/gi,"OOS")
                         .replace(/\bin[\s-]+season\b/gi,"IS");
  const originalInput=searchWords(normalizedRaw);
+ // Only explicit four-star queries get special matching. Bare "4" stays broad.
+ const fourStarQuery=/^4\s*(?:stars?\b|★)$/i.test(raw);
  const sonarQuery=originalInput.length===1 && ["echosounder","echosonar","sonar"].includes(originalInput[0]);
  const input=sonarQuery?["echosounder"]:originalInput;
  const wantsOOS=input.includes("oos");
@@ -102,7 +104,10 @@ function search(rawQuery){
    const aliases=searchWords((f.searchAliases||[]).join(" "));
    const answer=searchWords([f.answer,(f.paragraphs||[]).join(" "),(f.bullets||[]).join(" "),f.table?f.table.rows.flat().join(" "):""].join(" "));
    const category=searchWords(c+" "+(f.secondaryCategories||[]).map(id=>catMap[id]?.name||"").join(" "));
-   if(!terms.every(t=>[question,aliases,answer,category].some(words=>termMatches(t,words))))return null;
+   if(fourStarQuery){
+     // 4★, 4-star, and 4 star are equivalent; exclude unrelated 4 AM matches.
+     if(!/\b4\s*(?:★|[\- ]?stars?\b)/i.test(faqSearchText(f)))return null;
+   }else if(!terms.every(t=>[question,aliases,answer,category].some(words=>termMatches(t,words))))return null;
    const score=terms.reduce((sum,t)=>sum+(question.includes(t)?100:termMatches(t,question)?80:aliases.includes(t)?65:termMatches(t,aliases)?55:answer.includes(t)?30:termMatches(t,answer)?20:termMatches(t,category)?5:0),0)
      +(wantsIS?seasonQuestionScore(f,"is"):0)+(wantsOOS?seasonQuestionScore(f,"oos"):0);
    // Search-only ranking. Category pages use orderedFaqs() independently.
@@ -140,6 +145,10 @@ function search(rawQuery){
      +(allInQuestion?Math.max(0,80-qWords.length*10):0);
    return {f,score:relevance,index};
  }).filter(Boolean).sort((a,b)=>b.score-a.score||a.index-b.index);
+ // Explicit four-star searches: prioritize the practical new FAQ.
+ if(fourStarQuery){
+   scored.sort((a,b)=>(a.f.id==="v037-four-star-lures"?-1:b.f.id==="v037-four-star-lures"?1:0)||b.score-a.score||a.index-b.index);
+ }
  // Exact single-word search overrides: no effect on other queries.
  // Curated fish FAQs are prioritized; all other matches keep their score order.
  const fishPriority = ["getting-started-12", "getting-started-13", "v143-02", "v156-03", "getting-started-16", "v143-08", "seasons-2", "fish-fishing-14", "v191-lure-vs-bait", "v194-temporary-luck", "v139-fish-price", "v158-09", "economy-1", "seasons-11", "lures-baits-6", "getting-started-17", "v142-03", "buildings-7", "buildings-4", "buildings-5"];

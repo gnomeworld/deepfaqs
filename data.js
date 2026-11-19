@@ -4757,7 +4757,7 @@ window.DEEPFAQS_DATA = {
       "id": "v035-anomaly-rewards",
       "category": "side-games",
       "question": "What rewards can I earn from Anomaly Caves?",
-      "answer": "Anomaly Caves offers rewards including gold coins, gems, VIP tickets, and character cosmetics.",
+      "answer": "Anomaly Caves offers rewards including gold coins, gems, VIP tickets, and character cosmetics, such as pieces of the Wizard outfit (robe, scarf, and moustache).",
       "links": [],
       "published": true,
       "scope": "general"
@@ -4829,6 +4829,38 @@ window.DEEPFAQS_DATA = {
         "echosounder",
         "echosonar",
         "sonar"
+      ]
+    },
+    {
+      "id": "v037-coco-patience-no-cast",
+      "category": "monsters",
+      "question": "Can you get Coco’s “Patience” message without casting or fishing?",
+      "answer": "Yes. You can receive Coco’s “Patience” message without casting or fishing, as long as you’re at the correct monster location for that day.",
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
+      "id": "v037-four-star-lures",
+      "category": "fish-fishing",
+      "question": "I’m struggling to catch a 4★ fish. Should I invest in lures?",
+      "answer": "You can catch a 4★ fish even without lures! If you haven’t unlocked all the maps yet, avoid investing too heavily in lures. They’re expensive and don’t guarantee a 4★.",
+      "paragraphs": [
+        "You can catch a 4★ fish even without lures! If you haven’t unlocked all the maps yet, avoid investing too heavily in lures. They’re expensive and don’t guarantee a 4★.",
+        "Keep fishing! The more you fish, the better your chances to catch a 4★ fish. Always use a Carbon Rod and Clover for this.",
+        "You may also have better chances of catching a 4★ fish during PvP duels."
+      ],
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "secondaryCategories": [
+        "lures"
+      ],
+      "searchAliases": [
+        "4 star",
+        "4 stars",
+        "4-star",
+        "4★"
       ]
     }
   ],
