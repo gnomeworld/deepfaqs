@@ -459,7 +459,12 @@ window.DEEPFAQS_DATA = {
       "category": "getting-started",
       "question": "What are secondary NPC quests?",
       "answer": "Secondary NPC quests become available after the monster quests are complete. They are currently available in Paradise Island, Great Lakes, Alaska, Scotland, and Thailand. Rewards are usually XP, gems, and the NPC's hat.",
-      "links": [],
+      "links": [
+        {
+          "label": "Discord — Secondary Building Quests",
+          "url": "https://discord.com/channels/1038075942460993606/1040334094048972880/1552971981257838725"
+        }
+      ],
       "published": true,
       "scope": "general"
     },
@@ -2912,14 +2917,22 @@ window.DEEPFAQS_DATA = {
       "id": "v139-map-2",
       "category": "equipment",
       "question": "Are in-game maps worth buying?",
-      "answer": "Many players find in-game maps useful, but they aren't essential. Free community resources such as CloverSalad can also help you track fishing spots. In-game maps are convenient if you prefer tracking locations directly in the game.",
+      "answer": "The in-game maps show all fish shoal locations, but you need to discover them yourself to fill in the map. They’re useful, but not essential. You can do perfectly fine using free community resources instead.",
       "published": true,
       "scope": "general",
       "links": [
         {
+          "label": "CotD Wiki",
+          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Creatures_of_the_Deep_Wiki"
+        },
+        {
           "label": "CloverSalad",
           "url": "https://cloversalad.com/"
         }
+      ],
+      "paragraphs": [
+        "The in-game maps show all fish shoal locations, but you need to discover them yourself to fill in the map.",
+        "They’re useful, but not essential. You can do perfectly fine using free community resources instead."
       ]
     },
     {
@@ -4862,6 +4875,39 @@ window.DEEPFAQS_DATA = {
         "4-star",
         "4★"
       ]
+    },
+    {
+      "published": true,
+      "scope": "general",
+      "id": "v038-landmark-restoration",
+      "category": "quests",
+      "question": "How do I unlock landmark restoration/secondary building quests?",
+      "answer": "Landmark restoration/secondary building quests are given by the main NPC for each map, such as Captain Slappy on Paradise Island. Keep checking with the NPC as you progress through the game. They’ll let you know when the quest becomes available. These quests are currently available on Paradise Island, Great Lakes, Alaska, Scotland, and Thailand.",
+      "paragraphs": [
+        "Landmark restoration/secondary building quests are given by the main NPC for each map, such as Captain Slappy on Paradise Island.",
+        "Keep checking with the NPC as you progress through the game. They’ll let you know when the quest becomes available.",
+        "These quests are currently available on Paradise Island, Great Lakes, Alaska, Scotland, and Thailand."
+      ],
+      "links": [
+        {
+          "label": "Discord — Secondary Building Quests",
+          "url": "https://discord.com/channels/1038075942460993606/1040334094048972880/1552971981257838725"
+        }
+      ],
+      "secondaryCategories": [
+        "maps"
+      ],
+      "searchAliases": [
+        "landmark",
+        "landmarks",
+        "landlark",
+        "restoration",
+        "restore landmark",
+        "secondary building",
+        "secondary building quest",
+        "secondary building quests",
+        "building quests"
+      ]
     }
   ],
   "resources": [
@@ -5074,7 +5120,8 @@ window.DEEPFAQS_DATA = {
       "maps-travel-12",
       "v158-10",
       "v158-12",
-      "v190-cosmos-map"
+      "v190-cosmos-map",
+      "v038-landmark-restoration"
     ],
     "buildings": [
       "buildings-8",
@@ -5139,7 +5186,8 @@ window.DEEPFAQS_DATA = {
       "quests-7",
       "quests-6",
       "v036-quest-100",
-      "v036-quest-200"
+      "v036-quest-200",
+      "v038-landmark-restoration"
     ],
     "lures": [
       "v034-lure-function",

@@ -82,6 +82,7 @@ function search(rawQuery){
  const originalInput=searchWords(normalizedRaw);
  // Only explicit four-star queries get special matching. Bare "4" stays broad.
  const fourStarQuery=/^4\s*(?:stars?\b|★)$/i.test(raw);
+ const landmarkQuery=/^(?:landmarks?|landlark|restoration|restore\s+landmarks?|secondary\s+building(?:\s+quests?)?|building\s+quests?)$/i.test(raw.trim());
  const sonarQuery=originalInput.length===1 && ["echosounder","echosonar","sonar"].includes(originalInput[0]);
  const input=sonarQuery?["echosounder"]:originalInput;
  const wantsOOS=input.includes("oos");
@@ -148,6 +149,14 @@ function search(rawQuery){
  // Explicit four-star searches: prioritize the practical new FAQ.
  if(fourStarQuery){
    scored.sort((a,b)=>(a.f.id==="v037-four-star-lures"?-1:b.f.id==="v037-four-star-lures"?1:0)||b.score-a.score||a.index-b.index);
+ }
+ // Approved landmark/secondary-building queries: put the dedicated guide first,
+ // while preserving other relevant results and normal searches.
+ if(landmarkQuery){
+   const landmarkId="v038-landmark-restoration";
+   const main=scored.find(item=>item.f.id===landmarkId);
+   if(main){ scored.splice(scored.indexOf(main),1); scored.unshift(main); }
+   else { const faq=faqs.find(f=>f.id===landmarkId); if(faq)scored.unshift({f:faq,score:9999,index:faqs.indexOf(faq)}); }
  }
  // Exact single-word search overrides: no effect on other queries.
  // Curated fish FAQs are prioritized; all other matches keep their score order.
