@@ -267,7 +267,7 @@ window.DEEPFAQS_DATA = {
           "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Skills"
         },
         {
-          "label": "CloverSalad — Skill Tree",
+          "label": "Cloversalad — Skill Tree",
           "url": "https://cloversalad.com/guides/skill-tree/"
         }
       ],
@@ -303,7 +303,7 @@ window.DEEPFAQS_DATA = {
           "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Skills"
         },
         {
-          "label": "CloverSalad — Skill Tree",
+          "label": "Cloversalad — Skill Tree",
           "url": "https://cloversalad.com/guides/skill-tree/"
         }
       ],
@@ -321,7 +321,7 @@ window.DEEPFAQS_DATA = {
           "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Skills"
         },
         {
-          "label": "CloverSalad — Skill Tree",
+          "label": "Cloversalad — Skill Tree",
           "url": "https://cloversalad.com/guides/skill-tree/"
         }
       ],
@@ -1016,10 +1016,10 @@ window.DEEPFAQS_DATA = {
       "id": "fish-fishing-18",
       "category": "fish-fishing",
       "question": "How are stars calculated for fish?",
-      "answer": "Fish of each rarity classification have star ratings based on their weights and points. CloverSalad has more information on how the ranges are broken down.",
+      "answer": "Fish of each rarity classification have star ratings based on their weights and points. Cloversalad has more information on how the ranges are broken down.",
       "links": [
         {
-          "label": "CloverSalad",
+          "label": "Cloversalad",
           "url": "https://cloversalad.com/"
         }
       ],
@@ -1132,10 +1132,10 @@ window.DEEPFAQS_DATA = {
       "id": "seasons-12",
       "category": "seasons",
       "question": "How do I find out which fish are IS (in season)/OOS (out of season)?",
-      "answer": "Go to your in-game bestiary and select a fish. Below it, you will find highlighted months indicating when the fish is in season or out of season. You can also check fish seasonality on CloverSalad.",
+      "answer": "Go to your in-game bestiary and select a fish. Below it, you will find highlighted months indicating when the fish is in season or out of season. You can also check fish seasonality on Cloversalad.",
       "links": [
         {
-          "label": "CloverSalad",
+          "label": "Cloversalad",
           "url": "https://cloversalad.com/"
         }
       ],
@@ -2926,7 +2926,7 @@ window.DEEPFAQS_DATA = {
           "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Creatures_of_the_Deep_Wiki"
         },
         {
-          "label": "CloverSalad",
+          "label": "Cloversalad",
           "url": "https://cloversalad.com/"
         }
       ],
@@ -3333,7 +3333,7 @@ window.DEEPFAQS_DATA = {
       "answer": "There are several ways to find where fish are located:",
       "links": [
         {
-          "label": "CloverSalad",
+          "label": "Cloversalad",
           "url": "https://cloversalad.com/"
         },
         {
@@ -3348,7 +3348,7 @@ window.DEEPFAQS_DATA = {
       "published": true,
       "scope": "general",
       "bullets": [
-        "Check community resources such as CloverSalad and the CotD Wiki.",
+        "Check community resources such as Cloversalad and the CotD Wiki.",
         "Track fish shoals.",
         "Use the in-game maps.",
         "Purchase an Echosonar to help locate fish, although this is an extremely expensive option.",
@@ -3744,11 +3744,11 @@ window.DEEPFAQS_DATA = {
     {
       "id": "v155-resource-3",
       "category": "community-resources",
-      "question": "What is CloverSalad?",
-      "answer": "CloverSalad is a CotD guide and interactive reference that helps players look up fish information and locations.",
+      "question": "What is Cloversalad?",
+      "answer": "Cloversalad is a CotD guide and interactive reference that helps players look up fish information and locations.",
       "links": [
         {
-          "label": "Visit CloverSalad",
+          "label": "Visit Cloversalad",
           "url": "https://cloversalad.com/"
         }
       ],
@@ -4007,10 +4007,10 @@ window.DEEPFAQS_DATA = {
       "id": "v158-09",
       "category": "fish-fishing",
       "question": "How can I find where a particular fish spawns?",
-      "answer": "You can use CloverSalad to look up fish locations. Its interactive maps show where different species can be found, helping you narrow down which areas to fish.",
+      "answer": "You can use Cloversalad to look up fish locations. Its interactive maps show where different species can be found, helping you narrow down which areas to fish.",
       "links": [
         {
-          "label": "CloverSalad",
+          "label": "Cloversalad",
           "url": "https://cloversalad.com/"
         }
       ],
@@ -4021,10 +4021,10 @@ window.DEEPFAQS_DATA = {
       "id": "v158-10",
       "category": "maps",
       "question": "Where can I find detailed maps of fishing locations?",
-      "answer": "You can use CloverSalad to explore interactive maps of fishing locations. These maps provide information about fish, creatures, and useful spots to help you plan your fishing trips. The CotD Wiki provides maps and locations of fish, creatures, and other discoveries on each map. You can also check the in-game maps for fish locations.",
+      "answer": "You can use Cloversalad to explore interactive maps of fishing locations. These maps provide information about fish, creatures, and useful spots to help you plan your fishing trips. The CotD Wiki provides maps and locations of fish, creatures, and other discoveries on each map. You can also check the in-game maps for fish locations.",
       "links": [
         {
-          "label": "CloverSalad",
+          "label": "Cloversalad",
           "url": "https://cloversalad.com/"
         },
         {
@@ -4039,10 +4039,10 @@ window.DEEPFAQS_DATA = {
       "id": "v158-11",
       "category": "fish-fishing",
       "question": "How can I find information about a fish's rarity and spawning conditions?",
-      "answer": "You can use the CloverSalad fish database to look up a species and check its rarity, location, seasonality, and available spawning information, including time of day.",
+      "answer": "You can use the Cloversalad fish database to look up a species and check its rarity, location, seasonality, and available spawning information, including time of day.",
       "links": [
         {
-          "label": "CloverSalad fish database",
+          "label": "Cloversalad fish database",
           "url": "https://cloversalad.com/database/"
         }
       ],
@@ -4053,10 +4053,10 @@ window.DEEPFAQS_DATA = {
       "id": "v158-12",
       "category": "maps",
       "question": "Can I create my own fishing map with custom markers?",
-      "answer": "Yes! You can use the CloverSalad map editor to create your own fishing maps. You can place custom markers for fish, creatures, items, and monsters, then save your map or share it with other players.",
+      "answer": "Yes! You can use the Cloversalad map editor to create your own fishing maps. You can place custom markers for fish, creatures, items, and monsters, then save your map or share it with other players.",
       "links": [
         {
-          "label": "CloverSalad map editor",
+          "label": "Cloversalad map editor",
           "url": "https://cloversalad.com/user-map/"
         }
       ],
@@ -4734,14 +4734,14 @@ window.DEEPFAQS_DATA = {
       "id": "v034-shadow-weight",
       "category": "fish-fishing",
       "question": "Does a bigger fish shadow mean a heavier fish?",
-      "answer": "No. Each fish species has its own characteristic shadow size, which you can check on CloverSalad. There may be slight variations in shadow size within the same species, but these do not necessarily indicate differences in the fish's actual weight. Some fish have no visible shadow.",
+      "answer": "No. Each fish species has its own characteristic shadow size, which you can check on Cloversalad. There may be slight variations in shadow size within the same species, but these do not necessarily indicate differences in the fish's actual weight. Some fish have no visible shadow.",
       "paragraphs": [
-        "No. Each fish species has its own characteristic shadow size, which you can check on CloverSalad. There may be slight variations in shadow size within the same species, but these do not necessarily indicate differences in the fish's actual weight.",
+        "No. Each fish species has its own characteristic shadow size, which you can check on Cloversalad. There may be slight variations in shadow size within the same species, but these do not necessarily indicate differences in the fish's actual weight.",
         "Some fish have no visible shadow."
       ],
       "links": [
         {
-          "label": "CloverSalad",
+          "label": "Cloversalad",
           "url": "https://cloversalad.com/"
         }
       ],
@@ -4908,6 +4908,26 @@ window.DEEPFAQS_DATA = {
         "secondary building quests",
         "building quests"
       ]
+    },
+    {
+      "id": "v039-rod-durability-comparison",
+      "category": "equipment",
+      "question": "How many fish can I catch with each rod before it breaks?",
+      "answer": "Different fishing rods have different durability levels, so the number of catches before a rod breaks varies.",
+      "links": [
+        {
+          "label": "CotD Wiki — Rod Durability",
+          "url": "https://creatures-of-the-deep-app.fandom.com/wiki/Rods#Durability"
+        }
+      ],
+      "published": true,
+      "scope": "general",
+      "secondaryCategories": [
+        "fish-fishing"
+      ],
+      "paragraphs": [
+        "Different fishing rods have different durability levels, so the number of catches before a rod breaks varies."
+      ]
     }
   ],
   "resources": [
@@ -4918,7 +4938,7 @@ window.DEEPFAQS_DATA = {
       "icon": "💬"
     },
     {
-      "name": "CloverSalad",
+      "name": "Cloversalad",
       "description": "Guide & interactive wiki",
       "url": "https://cloversalad.com/",
       "icon": "🍀"
@@ -5055,7 +5075,8 @@ window.DEEPFAQS_DATA = {
       "v036-quest-100",
       "v036-quest-200",
       "v036-day-night-bubbles",
-      "v036-sonar-intro"
+      "v036-sonar-intro",
+      "v039-rod-durability-comparison"
     ],
     "equipment": [
       "fish-fishing-20",
@@ -5071,6 +5092,7 @@ window.DEEPFAQS_DATA = {
       "v208-trash-use",
       "v208-trash-colors",
       "getting-started-22",
+      "v039-rod-durability-comparison",
       "getting-started-7",
       "v139-durability",
       "v140-durability-loss",

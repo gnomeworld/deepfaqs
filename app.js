@@ -83,6 +83,15 @@ function search(rawQuery){
  // Only explicit four-star queries get special matching. Bare "4" stays broad.
  const fourStarQuery=/^4\s*(?:stars?\b|★)$/i.test(raw);
  const landmarkQuery=/^(?:landmarks?|landlark|restoration|restore\s+landmarks?|secondary\s+building(?:\s+quests?)?|building\s+quests?)$/i.test(raw.trim());
+ // Only combined rod + durability/breakage/catch-count intent gets this targeted result.
+ // Bare "carbon rod" and "how many fish" keep their normal broad matches.
+ const rodDurabilityQuery=/\b(?:rod|rods|carbon|fiberglass|fibreglass|wooden)\b/i.test(raw) &&
+   (/\b(?:break|breaks|breaking|broken|durability|durable|lifespan|lifetime|wear|last|lasting)\b/i.test(raw) ||
+    /\b(?:how many|number of)\s+(?:fish|catches)\b/i.test(raw) ||
+    /\b(?:fish|catches)\b.*\b(?:before|until)\b.*\bbreak/i.test(raw));
+ // Catch-count phrasing refers to rod lifespan, even when "rod" is omitted.
+ const catchCountQuery=/\b(?:number of catches|how many catches|how many fish (?:can i |can you |could i |could you )?catch|fish before (?:it |the rod )?breaks?|catches before (?:it |the rod )?breaks?|rod lifespan)\b/i.test(raw);
+ const durabilityTopicQuery=/^\s*(?:rod\s+)?durability\s*$/i.test(raw);
  const sonarQuery=originalInput.length===1 && ["echosounder","echosonar","sonar"].includes(originalInput[0]);
  const input=sonarQuery?["echosounder"]:originalInput;
  const wantsOOS=input.includes("oos");
@@ -149,6 +158,19 @@ function search(rawQuery){
  // Explicit four-star searches: prioritize the practical new FAQ.
  if(fourStarQuery){
    scored.sort((a,b)=>(a.f.id==="v037-four-star-lures"?-1:b.f.id==="v037-four-star-lures"?1:0)||b.score-a.score||a.index-b.index);
+ }
+ // Practical catch-count searches lead with the per-rod answer.
+ // General durability searches lead with the definition, followed by catch counts.
+ if(rodDurabilityQuery||catchCountQuery||durabilityTopicQuery){
+   const ids=durabilityTopicQuery
+     ?["getting-started-22","v039-rod-durability-comparison"]
+     :["v039-rod-durability-comparison"];
+   ids.slice().reverse().forEach(id=>{
+     const existing=scored.find(item=>item.f.id===id);
+     if(existing){scored.splice(scored.indexOf(existing),1);scored.unshift(existing);}
+     else {const faq=D.faqs.find(f=>f.id===id&&f.published!==false);
+       if(faq)scored.unshift({f:faq,score:9999,index:D.faqs.indexOf(faq)});}
+   });
  }
  // Approved landmark/secondary-building queries: put the dedicated guide first,
  // while preserving other relevant results and normal searches.

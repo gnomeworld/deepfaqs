@@ -25,7 +25,7 @@ Update v0.1.1:
 
 Update v0.1.2:
 - Completed Skills section with 8 answered FAQs.
-- Added clickable CotD Wiki and CloverSalad references where relevant.
+- Added clickable CotD Wiki and Cloversalad references where relevant.
 - Search now surfaces the completed Skills answers as part of normal FAQ search.
 
 Update v0.1.3:
