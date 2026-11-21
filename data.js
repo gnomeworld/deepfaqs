@@ -1520,7 +1520,7 @@ window.DEEPFAQS_DATA = {
     {
       "id": "xp-progression-3",
       "category": "xp",
-      "question": "How do I make XP quickly?",
+      "question": "What's the fastest way to make XP?",
       "answer": "The fastest way to make XP is to use the XP Booster from the shop. It costs 35 gems and gives +9 XP per catch for 20 hours.",
       "links": [],
       "published": true,
@@ -4758,6 +4758,20 @@ window.DEEPFAQS_DATA = {
       "scope": "general"
     },
     {
+      "id": "v040-anomaly-walkthrough",
+      "category": "side-games",
+      "question": "Is there a guide or walkthrough for Anomaly Caves?",
+      "answer": "Yes! You can watch this video walkthrough for help with the Anomaly Caves puzzle.",
+      "links": [
+        {
+          "label": "Anomaly Caves — Video Walkthrough",
+          "url": "https://youtu.be/Adbp9Il7OU8?si=3Hgmjc4r5CU6SiG-"
+        }
+      ],
+      "published": true,
+      "scope": "general"
+    },
+    {
       "id": "v035-anomaly-where",
       "category": "side-games",
       "question": "Where can I play Anomaly Caves?",
@@ -5457,6 +5471,7 @@ window.DEEPFAQS_DATA = {
       "v160-great-descent",
       "v171-great-descent-rewards",
       "v035-anomaly-what",
+      "v040-anomaly-walkthrough",
       "v035-anomaly-where",
       "v035-anomaly-rewards"
     ],

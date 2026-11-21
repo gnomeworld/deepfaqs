@@ -93,7 +93,10 @@ function search(rawQuery){
  const catchCountQuery=/\b(?:number of catches|how many catches|how many fish (?:can i |can you |could i |could you )?catch|fish before (?:it |the rod )?breaks?|catches before (?:it |the rod )?breaks?|rod lifespan)\b/i.test(raw);
  const durabilityTopicQuery=/^\s*(?:rod\s+)?durability\s*$/i.test(raw);
  const sonarQuery=originalInput.length===1 && ["echosounder","echosonar","sonar"].includes(originalInput[0]);
- const input=sonarQuery?["echosounder"]:originalInput;
+ // XP farming variants use the same matching set as the general XP topic.
+ const xpFarmQuery=/^\s*(?:farm\s+xp|xp\s+farm|farming\s+xp|xp\s+farming)\s*$/i.test(raw);
+ const xpPriorityQuery=xpFarmQuery||(originalInput.length===1&&originalInput[0]==="xp");
+ const input=sonarQuery?["echosounder"]:(xpFarmQuery?["xp"]:originalInput);
  const wantsOOS=input.includes("oos");
  const wantsIS=/\bIS\b/.test(normalizedRaw);
  const terms=input.filter(t=>t!=="is"&&t!=="oos"&&!STOP_WORDS.has(t));
@@ -179,6 +182,12 @@ function search(rawQuery){
    const main=scored.find(item=>item.f.id===landmarkId);
    if(main){ scored.splice(scored.indexOf(main),1); scored.unshift(main); }
    else { const faq=faqs.find(f=>f.id===landmarkId); if(faq)scored.unshift({f:faq,score:9999,index:faqs.indexOf(faq)}); }
+ }
+ // Approved XP searches: practical guides first, then XP Booster.
+ if(xpPriorityQuery){
+   const ids=["xp-progression-1","xp-progression-2","xp-progression-3","getting-started-23"];
+   const ranks=new Map(ids.map((id,i)=>[id,i]));
+   scored.sort((a,b)=>(ranks.get(a.f.id)??Infinity)-(ranks.get(b.f.id)??Infinity)||b.score-a.score||a.index-b.index);
  }
  // Exact single-word search overrides: no effect on other queries.
  // Curated fish FAQs are prioritized; all other matches keep their score order.
