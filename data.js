@@ -4993,6 +4993,22 @@ window.DEEPFAQS_DATA = {
       "secondaryCategories": [
         "fish-fishing"
       ]
+    },
+    {
+      "id": "v042-vip-aquarium-entrance",
+      "category": "vip",
+      "question": "How do I enter the VIP Aquarium area?",
+      "answer": "The VIP Aquarium area has three entrances. To open them, you'll need a Red Valve, a Pipe Wrench, and a Hacksaw, all of which can be found at the Chemical Plant location.",
+      "searchAliases": [
+        "vip aquarium",
+        "aquarium entrance",
+        "red valve",
+        "pipe wrench",
+        "hacksaw"
+      ],
+      "links": [],
+      "published": true,
+      "scope": "general"
     }
   ],
   "resources": [
@@ -5421,6 +5437,7 @@ window.DEEPFAQS_DATA = {
       "vip-maps-4",
       "vip-maps-6",
       "vip-aquarium-income",
+      "v042-vip-aquarium-entrance",
       "v155-vip-map-purchase",
       "vip-bermuda-riddle-1",
       "vip-bermuda-riddle-2",
