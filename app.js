@@ -219,6 +219,11 @@ function search(rawQuery){
    scored.splice(0,scored.length,...scored.filter(x=>ranks.has(x.f.id))
      .sort((a,b)=>ranks.get(a.f.id)-ranks.get(b.f.id)));
  }
+ // Trash Museum: preserve the leading result and move the income FAQ to second.
+ if(/^trash\s+museum$/i.test(raw)){
+   const i=scored.findIndex(x=>x.f.id==="buildings-19");
+   if(i>1){const [income]=scored.splice(i,1);scored.splice(1,0,income);}
+ }
  const matches=scored.map(x=>x.f);
  $("#resultCount").textContent=matches.length ? `${matches.length} result${matches.length===1?"":"s"} matching “${raw}”` : `No results matching “${raw}”`;
  // Reset pagination whenever the query changes. Keep previously shown FAQs

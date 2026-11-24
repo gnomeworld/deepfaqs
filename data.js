@@ -232,7 +232,7 @@ window.DEEPFAQS_DATA = {
       "id": "q82",
       "category": "help",
       "question": "Where can I get game support?",
-      "answer": "Contact Infinite Dreams at support@idreams.pl.",
+      "answer": "Contact Infinite Dreams at support@idreams.pl.\n\nInclude your Game ID when requesting help specific to your game or account.",
       "published": true,
       "scope": "general",
       "links": [
@@ -240,6 +240,10 @@ window.DEEPFAQS_DATA = {
           "label": "Email Infinite Dreams support",
           "url": "mailto:support@idreams.pl"
         }
+      ],
+      "paragraphs": [
+        "Contact Infinite Dreams at support@idreams.pl.",
+        "Include your Game ID when requesting help specific to your game or account."
       ]
     },
     {
@@ -2577,10 +2581,14 @@ window.DEEPFAQS_DATA = {
       "id": "game-settings-4",
       "category": "help",
       "question": "What is Game ID?",
-      "answer": "Game ID is the unique ID assigned to your game. You can find it in the bottom-left corner of the launch screen, or in the in-game phone menu under Settings (scroll to the bottom). Never share your Game ID publicly, as it is like a PIN.",
+      "answer": "Game ID is the unique ID assigned to your game. You can find it in the bottom-left corner of the launch screen, or in the in-game phone menu under Settings (scroll to the bottom). Never share your Game ID publicly, as it is like a PIN.\n\nMake a note of your Game ID and store it safely. If you need assistance from game support, they will ask for this ID. Having it handy will help them assist you more quickly.",
       "links": [],
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "paragraphs": [
+        "Game ID is the unique ID assigned to your game. You can find it in the bottom-left corner of the launch screen, or in the in-game phone menu under Settings (scroll to the bottom). Never share your Game ID publicly, as it is like a PIN.",
+        "Make a note of your Game ID and store it safely. If you need assistance from game support, they will ask for this ID. Having it handy will help them assist you more quickly."
+      ]
     },
     {
       "id": "game-settings-5",
@@ -4840,7 +4848,7 @@ window.DEEPFAQS_DATA = {
       "id": "v036-sonar-intro",
       "category": "equipment",
       "question": "What is Sonar (also called EchoSounder or EchoSonar)?",
-      "answer": "Sonar is a tool you can purchase at the Rod Shop to locate fish, creatures, trash items, and monsters. It does not work in Marina. To use Sonar, you must first purchase the base module, then pay a fee each time you use it.",
+      "answer": "Sonar is a tool you can purchase at the Rod Shop to locate fish, creatures, trash items, and monsters. It does not work in Marina or on the Cosmos map. To use Sonar, you must first purchase the base module, then pay a fee each time you use it.",
       "links": [
         {
           "label": "CotD Wiki — Permanent Upgrades",
@@ -4941,6 +4949,49 @@ window.DEEPFAQS_DATA = {
       ],
       "paragraphs": [
         "Different fishing rods have different durability levels, so the number of catches before a rod breaks varies."
+      ]
+    },
+    {
+      "id": "v041-monster-bubbles",
+      "category": "monsters",
+      "question": "What should I do if another player's boat blocks my monster bait bubbles?",
+      "answer": "If another player's boat is covering your bubbles, try closing and reopening the game without fully quitting the app. Boat positions may shift slightly when you return, revealing your bubbles again.\n\nImportant: Don't force-close or completely exit the app, as this may change your bubble location altogether.",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "searchAliases": [
+        "boat blocking bubbles",
+        "monster bait bubbles",
+        "bubbles blocked",
+        "boat on bubbles"
+      ],
+      "paragraphs": [
+        "If another player's boat is covering your bubbles, try closing and reopening the game without fully quitting the app. Boat positions may shift slightly when you return, revealing your bubbles again.",
+        "Important: Don't force-close or completely exit the app, as this may change your bubble location altogether."
+      ]
+    },
+    {
+      "id": "v041-camera-view",
+      "category": "help",
+      "question": "Is there an advantage to using the “behind the boat” view over the top-down view?",
+      "answer": "The “behind the boat” view offers an easier and more enjoyable sailing experience. The top-down view is generally better for fishing, as it allows you to spot fish shadows in all directions.\n\nHowever, some players report that the “behind the boat” view can be useful when targeting certain fish in specific locations.",
+      "links": [],
+      "published": true,
+      "scope": "general",
+      "searchAliases": [
+        "camera",
+        "camera view",
+        "boat view",
+        "behind the boat",
+        "top view",
+        "top-down view"
+      ],
+      "paragraphs": [
+        "The “behind the boat” view offers an easier and more enjoyable sailing experience. The top-down view is generally better for fishing, as it allows you to spot fish shadows in all directions.",
+        "However, some players report that the “behind the boat” view can be useful when targeting certain fish in specific locations."
+      ],
+      "secondaryCategories": [
+        "fish-fishing"
       ]
     }
   ],
@@ -5090,7 +5141,8 @@ window.DEEPFAQS_DATA = {
       "v036-quest-200",
       "v036-day-night-bubbles",
       "v036-sonar-intro",
-      "v039-rod-durability-comparison"
+      "v039-rod-durability-comparison",
+      "v041-camera-view"
     ],
     "equipment": [
       "fish-fishing-20",
@@ -5331,7 +5383,8 @@ window.DEEPFAQS_DATA = {
       "q77",
       "v143-01",
       "q76",
-      "monster-5"
+      "monster-5",
+      "v041-monster-bubbles"
     ],
     "dna": [
       "dna-01",
@@ -5459,7 +5512,8 @@ window.DEEPFAQS_DATA = {
       "game-settings-4",
       "q82",
       "game-settings-6",
-      "v036-vibration"
+      "v036-vibration",
+      "v041-camera-view"
     ],
     "side-games": [
       "v169-side-games-intro",
