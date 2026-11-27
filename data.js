@@ -1499,6 +1499,29 @@ window.DEEPFAQS_DATA = {
       "scope": "general"
     },
     {
+      "id": "v043-gem-upgrade-priority",
+      "category": "economy",
+      "secondaryCategories": [
+        "equipment"
+      ],
+      "question": "What upgrades should I spend gems on first?",
+      "answer": "Prioritize unlocking additional bag slots. Having more bag space saves you a lot of gold in the long run.\n\nAfter that, consider upgrading your Storage building or buying a motor for your boat.",
+      "paragraphs": [
+        "Prioritize unlocking additional bag slots. Having more bag space saves you a lot of gold in the long run.",
+        "After that, consider upgrading your Storage building or buying a motor for your boat."
+      ],
+      "searchAliases": [
+        "gems",
+        "spend gems",
+        "gem upgrades",
+        "best upgrades",
+        "gem priority"
+      ],
+      "links": [],
+      "published": true,
+      "scope": "general"
+    },
+    {
       "id": "xp-progression-1",
       "category": "xp",
       "question": "How do I make more XP?",
@@ -2527,7 +2550,7 @@ window.DEEPFAQS_DATA = {
       "id": "npcs-9",
       "category": "npcs",
       "question": "Which NPCs visit Marina?",
-      "answer": "Greta Green and Captain Silverfish visit to assign quests. Dejah Lou visits to host the Anomaly Caves puzzle game. Leonardo visits on weekends to take players to VIP maps. Seasonal event NPCs — Santa, Pumpkin Pete, Valentino, Skippy, and Arien — appear during their events. NOAH is the computer automaton in the DNA Lab.",
+      "answer": "Greta Green and Captain Silverfish visit to assign quests. Dejah Lou visits randomly to host the Anomaly Caves puzzle game. Leonardo visits on weekends to take players to VIP maps. Seasonal event NPCs — Santa, Pumpkin Pete, Valentino, Skippy, and Arien — appear during their events. NOAH is the computer automaton in the DNA Lab.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -3472,7 +3495,7 @@ window.DEEPFAQS_DATA = {
       "id": "v144-02",
       "category": "side-games",
       "question": "What is the Sailboat Championship?",
-      "answer": "Sailboat Championship is a boat-racing side game within CotD, introduced by an NPC named Skipper Ray. It is currently available only in the Great Lakes and Costa Rica.",
+      "answer": "Sailboat Championship is a boat-racing side game within CotD, introduced by an NPC named Skipper Ray. It is currently available only in the Great Lakes and Costa Rica. The Sailboat Racing NPC is unlocked only after you've caught the monster on that map.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -3863,7 +3886,7 @@ window.DEEPFAQS_DATA = {
       "id": "v156-07",
       "category": "side-games",
       "question": "Where do I start the Sailboat Championship?",
-      "answer": "The starting point depends on the location:",
+      "answer": "The starting point depends on the location: The Sailboat Racing NPC is unlocked only after you've caught the monster on that map.",
       "links": [],
       "published": true,
       "scope": "general",
@@ -4203,7 +4226,13 @@ window.DEEPFAQS_DATA = {
       "question": "What does Eye of Rarity Perk (P6) do?",
       "answer": "When Eye of Rarity (P6) is equipped, all rare and epic fish shadows show with fins, making them easy to distinguish from common fish in the same spot.",
       "published": true,
-      "scope": "general"
+      "scope": "general",
+      "links": [
+        {
+          "label": "Discord — Eye of Rarity (P6)",
+          "url": "https://discord.com/channels/1038075942460993606/1038096510660911184/1508650195444039840"
+        }
+      ]
     },
     {
       "id": "v167-gold-lures-invest",
@@ -4760,7 +4789,7 @@ window.DEEPFAQS_DATA = {
       "id": "v035-anomaly-what",
       "category": "side-games",
       "question": "What is Anomaly Caves?",
-      "answer": "Anomaly Caves is a puzzle-based side game hosted by Dejah Lou. Players must observe their surroundings and choose which direction to travel to unlock rewards.",
+      "answer": "Anomaly Caves is a puzzle-based side game hosted by Dejah Lou. Players must observe their surroundings and choose which direction to travel to unlock rewards. Dejah Lou visits Home Island randomly, so you'll need to wait for him to appear before you can play.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -4783,7 +4812,7 @@ window.DEEPFAQS_DATA = {
       "id": "v035-anomaly-where",
       "category": "side-games",
       "question": "Where can I play Anomaly Caves?",
-      "answer": "You can access Anomaly Caves through Dejah Lou, an NPC who visits Home Island.",
+      "answer": "You can access Anomaly Caves through Dejah Lou, an NPC who visits Home Island randomly. You'll need to wait for him to appear before you can play Anomaly Caves.",
       "links": [],
       "published": true,
       "scope": "general"
@@ -5162,6 +5191,7 @@ window.DEEPFAQS_DATA = {
     ],
     "equipment": [
       "fish-fishing-20",
+      "v043-gem-upgrade-priority",
       "v172-dna-backpack-stars",
       "polish-035-1",
       "v176-money-sign-boat-decoration",
@@ -5339,6 +5369,7 @@ window.DEEPFAQS_DATA = {
     "economy": [
       "economy-1",
       "economy-3",
+      "v043-gem-upgrade-priority",
       "buildings-3",
       "buildings-4",
       "buildings-5",
